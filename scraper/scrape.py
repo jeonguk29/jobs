@@ -49,7 +49,7 @@ def get(url: str, *, headers: dict | None = None, tries: int = 3, sleep: float =
             if r.status_code == 200:
                 time.sleep(sleep)
                 return r
-            last = f"HTTP {r.status_code}"
+            last = f"HTTP {r.status_code} {r.text[:160]!r}"
         except requests.RequestException as e:  # noqa: PERF203
             last = repr(e)
         time.sleep(1.5 * (i + 1))
