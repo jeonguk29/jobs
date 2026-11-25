@@ -1,4 +1,4 @@
-# iOS 채용공고 보드
+# 채용 레이더 (jobs)
 
 사람인 · 잡코리아 · 자소설닷컴 · 원티드의 **iOS / 프로덕트 엔지니어 / AI 빌더 / 개발 공채** 공고를 매일 아침 9시(KST)에 모아서 한 페이지로 보여준다.
 
@@ -30,12 +30,12 @@ python -m http.server -d docs 8000  # http://localhost:8000
 ## 배포 (처음 한 번)
 
 ```bash
-gh repo create ios-jobs-board --public --source=. --push
-gh api -X POST repos/{owner}/ios-jobs-board/pages -f 'source[branch]=main' -f 'source[path]=/docs'
+gh repo create jobs --public --source=. --push
+gh api -X POST repos/{owner}/jobs/pages -f 'source[branch]=main' -f 'source[path]=/docs'
 gh workflow run "채용공고 수집"
 ```
 
-이후엔 매일 자동으로 돌고, 페이지는 `https://<계정>.github.io/ios-jobs-board/` 에서 열린다.
+이후엔 매일 자동으로 돌고, 페이지는 `https://<계정>.github.io/jobs/` 에서 열린다.
 
 ## 메모
 
