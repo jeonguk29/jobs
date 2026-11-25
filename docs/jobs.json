@@ -1,50 +1,80 @@
 {
- "updated_at": "2026-11-25T13:11+09:00",
+ "updated_at": "2026-11-25T13:34+09:00",
  "today": "2026-11-25",
  "sources": {
   "wanted": {
    "label": "원티드",
-   "count": 314,
-   "ok": false,
-   "error": "0건",
-   "last_ok": "2026-11-25T13:07+09:00"
+   "count": 316,
+   "ok": true,
+   "error": null,
+   "note": "로컬 수집 2026-11-25T13:31+09:00",
+   "last_ok": "2026-11-25T13:31+09:00"
   },
   "saramin": {
    "label": "사람인",
-   "count": 103,
+   "count": 97,
    "ok": true,
    "error": null,
-   "last_ok": "2026-11-25T13:11+09:00"
+   "note": null,
+   "last_ok": "2026-11-25T13:34+09:00"
   },
   "jobkorea": {
    "label": "잡코리아",
-   "count": 63,
+   "count": 67,
    "ok": true,
    "error": null,
-   "last_ok": "2026-11-25T13:11+09:00"
+   "note": null,
+   "last_ok": "2026-11-25T13:34+09:00"
   },
   "jasoseol": {
    "label": "자소설닷컴",
    "count": 70,
    "ok": true,
    "error": null,
-   "last_ok": "2026-11-25T13:11+09:00"
+   "note": null,
+   "last_ok": "2026-11-25T13:34+09:00"
   }
  },
  "stats": {
-  "total": 532,
-  "new_today": 103,
-  "bigco": 98,
-  "public": 67,
+  "total": 534,
+  "new_today": 117,
+  "bigco": 101,
+  "public": 68,
   "cats": {
-   "ios": 53,
-   "product": 72,
-   "ai": 351,
-   "mobile": 29,
-   "dev": 47
+   "ios": 48,
+   "product": 74,
+   "ai": 356,
+   "mobile": 28,
+   "dev": 48
   }
  },
  "jobs": [
+  {
+   "id": "saramin:55553835",
+   "source": "saramin",
+   "title": "ASP및PHP개발자모집(ASP,PHP,앱개발,재택업무)",
+   "company": "(주)타이코콜렉션",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55553835",
+   "cats": [
+    "mobile"
+   ],
+   "level": "any",
+   "region": "경기 고양시 일산서구",
+   "region_key": "경기",
+   "deadline": "2026-12-12",
+   "deadline_text": null,
+   "posted": "2026-11-25",
+   "public": false,
+   "bigco": false,
+   "sector": "iOS, Android, 앱개발, 웹개발, 반응형웹",
+   "employment_type": "아르바이트·프리랜서",
+   "salary": null,
+   "group": null,
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "stale": false,
+   "logo": null
+  },
   {
    "id": "saramin:55642113",
    "source": "saramin",
@@ -62,7 +92,7 @@
    "posted": "2026-11-25",
    "public": false,
    "bigco": false,
-   "sector": "데이터라벨링, 빅데이터, 데이터마이닝, AI(인공지능), AI(인공지능)",
+   "sector": "데이터엔지니어, 데이터라벨링, 데이터마이닝, 빅데이터, AI(인공지능)",
    "employment_type": "정규직",
    "salary": null,
    "group": null,
@@ -218,7 +248,7 @@
    "posted": "2026-11-25",
    "public": false,
    "bigco": false,
-   "sector": "백엔드/서버개발, 웹개발, 오픈마켓",
+   "sector": "백엔드/서버개발, 웹개발, 전자상거래, 쇼핑몰, B2C",
    "employment_type": "정규직·계약직",
    "salary": null,
    "group": null,
@@ -276,7 +306,7 @@
    "posted": "2026-11-25",
    "public": false,
    "bigco": false,
-   "sector": "서비스기획, AI(인공지능), 웹기획, 앱기획, 소프트웨어개발",
+   "sector": "AI(인공지능), 서비스기획, 앱기획, 웹기획, DBMS",
    "employment_type": "정규직",
    "salary": null,
    "group": null,
@@ -328,7 +358,7 @@
    "posted": "2026-11-25",
    "public": false,
    "bigco": false,
-   "sector": "백엔드/서버개발, 웹개발, 소프트웨어개발",
+   "sector": "백엔드/서버개발, 웹개발, SI·시스템통합, DW, DataMining",
    "employment_type": "정규직",
    "salary": null,
    "group": null,
@@ -546,6 +576,32 @@
    "logo": "logos/c4436f427fc0.png"
   },
   {
+   "id": "saramin:55667386",
+   "source": "saramin",
+   "title": "[기간제 계약직-전산행정(청년인턴)] 2026년 제4차 채용",
+   "company": "대한장애인체육회",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55667386",
+   "cats": [
+    "dev"
+   ],
+   "level": "intern",
+   "region": "서울 송파구",
+   "region_key": "서울",
+   "deadline": "2026-12-08",
+   "deadline_text": null,
+   "posted": "2026-11-25",
+   "public": true,
+   "bigco": false,
+   "sector": "SE(시스템엔지니어), 문서작성, 경영지원, 사업기획, 사업개발",
+   "employment_type": "인턴",
+   "salary": "면접 후 협의",
+   "group": "문화체육관광부그룹",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "stale": false,
+   "logo": null
+  },
+  {
    "id": "saramin:55668035",
    "source": "saramin",
    "title": "미래를 여는 AI기업, AI 솔루션 사업개발 (SGT - 신입/경력)",
@@ -562,7 +618,7 @@
    "posted": "2026-11-25",
    "public": false,
    "bigco": false,
-   "sector": "서비스기획, 사업기획, 신사업기획, 사업개발, 스토리보드",
+   "sector": "마케팅기획, 사업기획, 서비스기획, 앱기획, 웹기획",
    "employment_type": "정규직·계약직",
    "salary": null,
    "group": null,
@@ -598,10 +654,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/b699aa20b204.png",
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/b699aa20b204.png"
+   "stale": false
   },
   {
    "id": "wanted:374303",
@@ -624,10 +680,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/8cbf9fb88ad9.png",
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/8cbf9fb88ad9.png"
+   "stale": false
   },
   {
    "id": "wanted:392199",
@@ -650,10 +706,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/0bc1a679fa5e.png",
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/0bc1a679fa5e.png"
+   "stale": false
   },
   {
    "id": "wanted:394732",
@@ -676,10 +732,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/0bc1a679fa5e.png",
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/0bc1a679fa5e.png"
+   "stale": false
   },
   {
    "id": "wanted:399287",
@@ -702,10 +758,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": null,
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": null
+   "stale": false
   },
   {
    "id": "wanted:399448",
@@ -728,10 +784,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/6f2e7d6308f7.png",
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/6f2e7d6308f7.png"
+   "stale": false
   },
   {
    "id": "wanted:399506",
@@ -754,10 +810,36 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/4bd2ed61b659.png",
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/4bd2ed61b659.png"
+   "stale": false
+  },
+  {
+   "id": "wanted:399511",
+   "source": "wanted",
+   "title": "SW | 로봇 머신러닝 엔지니어 (Physical AI) · 2년이상",
+   "company": "클레로보틱스",
+   "url": "https://www.wanted.co.kr/wd/399511",
+   "cats": [
+    "ai"
+   ],
+   "level": "senior",
+   "region": "서울 성동구",
+   "region_key": "서울",
+   "deadline": null,
+   "deadline_text": "상시",
+   "posted": "2026-11-25",
+   "public": false,
+   "bigco": false,
+   "sector": null,
+   "employment_type": null,
+   "salary": null,
+   "group": null,
+   "logo": "logos/0bc1a679fa5e.png",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "stale": false
   },
   {
    "id": "wanted:399577",
@@ -780,10 +862,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/d69030889561.png",
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/d69030889561.png"
+   "stale": false
   },
   {
    "id": "wanted:399610",
@@ -807,10 +889,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/1531b5e55b39.png",
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/1531b5e55b39.png"
+   "stale": false
   },
   {
    "id": "wanted:399678",
@@ -834,10 +916,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/38b4c24714c2.png",
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/38b4c24714c2.png"
+   "stale": false
   },
   {
    "id": "wanted:399718",
@@ -860,10 +942,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/9a36348f6db9.png",
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/9a36348f6db9.png"
+   "stale": false
   },
   {
    "id": "wanted:399750",
@@ -886,10 +968,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/d3feaadfb2c8.png",
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/d3feaadfb2c8.png"
+   "stale": false
   },
   {
    "id": "wanted:399785",
@@ -912,10 +994,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/83c52795d446.png",
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/83c52795d446.png"
+   "stale": false
   },
   {
    "id": "wanted:399810",
@@ -938,10 +1020,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/772ede12a1cb.png",
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/772ede12a1cb.png"
+   "stale": false
   },
   {
    "id": "wanted:399826",
@@ -964,10 +1046,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/19c8f6862024.png",
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/19c8f6862024.png"
+   "stale": false
   },
   {
    "id": "wanted:399855",
@@ -990,10 +1072,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/0060ec6e77e9.png",
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/0060ec6e77e9.png"
+   "stale": false
   },
   {
    "id": "wanted:399869",
@@ -1016,10 +1098,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/eda377c04a58.png",
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/eda377c04a58.png"
+   "stale": false
   },
   {
    "id": "wanted:399876",
@@ -1042,10 +1124,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/4b2a31e59b16.png",
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/4b2a31e59b16.png"
+   "stale": false
   },
   {
    "id": "wanted:399950",
@@ -1068,10 +1150,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/7eb78b45fc84.png",
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/7eb78b45fc84.png"
+   "stale": false
   },
   {
    "id": "wanted:399969",
@@ -1094,10 +1176,36 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/e3afff30fb20.png",
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/e3afff30fb20.png"
+   "stale": false
+  },
+  {
+   "id": "wanted:399991",
+   "source": "wanted",
+   "title": "AI 네이티브 풀스택 개발자",
+   "company": "카도",
+   "url": "https://www.wanted.co.kr/wd/399991",
+   "cats": [
+    "ai"
+   ],
+   "level": "senior",
+   "region": "서울 마포구",
+   "region_key": "서울",
+   "deadline": null,
+   "deadline_text": "상시",
+   "posted": "2026-11-25",
+   "public": false,
+   "bigco": false,
+   "sector": null,
+   "employment_type": null,
+   "salary": null,
+   "group": null,
+   "logo": "logos/565e20d7ed01.png",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "stale": false
   },
   {
    "id": "wanted:400007",
@@ -1120,10 +1228,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/299981d2cd16.png",
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/299981d2cd16.png"
+   "stale": false
   },
   {
    "id": "wanted:400008",
@@ -1146,10 +1254,36 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/299981d2cd16.png",
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/299981d2cd16.png"
+   "stale": false
+  },
+  {
+   "id": "wanted:400018",
+   "source": "wanted",
+   "title": "[아정당] AI Engineer (Data Science) (서울)",
+   "company": "아정네트웍스",
+   "url": "https://www.wanted.co.kr/wd/400018",
+   "cats": [
+    "ai"
+   ],
+   "level": "junior",
+   "region": "서울 강남구",
+   "region_key": "서울",
+   "deadline": null,
+   "deadline_text": "상시",
+   "posted": "2026-11-25",
+   "public": false,
+   "bigco": false,
+   "sector": null,
+   "employment_type": null,
+   "salary": null,
+   "group": null,
+   "logo": "logos/622c22a06f33.png",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "stale": false
   },
   {
    "id": "wanted:400024",
@@ -1172,10 +1306,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/299981d2cd16.png",
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/299981d2cd16.png"
+   "stale": false
   },
   {
    "id": "wanted:400025",
@@ -1198,10 +1332,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/299981d2cd16.png",
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/299981d2cd16.png"
+   "stale": false
   },
   {
    "id": "wanted:400065",
@@ -1224,10 +1358,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/e0d7b45b7253.png",
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/e0d7b45b7253.png"
+   "stale": false
   },
   {
    "id": "wanted:400079",
@@ -1250,10 +1384,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/9b4a15df1046.png",
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/9b4a15df1046.png"
+   "stale": false
   },
   {
    "id": "wanted:400086",
@@ -1276,10 +1410,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/10baef6d0a1a.png",
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/10baef6d0a1a.png"
+   "stale": false
   },
   {
    "id": "wanted:400100",
@@ -1302,10 +1436,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/f6bef503b51e.png",
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/f6bef503b51e.png"
+   "stale": false
   },
   {
    "id": "jasoseol:107369-435345",
@@ -1360,6 +1494,58 @@
    "logo": "logos/1da8a2ff485b.png"
   },
   {
+   "id": "jobkorea:50399750",
+   "source": "jobkorea",
+   "title": "AI Engineer (3년 이상)",
+   "company": "셀렉트스타 주식회사",
+   "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50399750",
+   "cats": [
+    "ai"
+   ],
+   "level": "senior",
+   "region": "서울 강남구",
+   "region_key": "서울",
+   "deadline": null,
+   "deadline_text": null,
+   "posted": "2026-11-25",
+   "public": false,
+   "bigco": false,
+   "sector": "솔루션·SI·CRM·ERP, AI/ML엔지니어",
+   "employment_type": null,
+   "salary": null,
+   "group": null,
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "stale": false,
+   "logo": "logos/9d885fd3062b.png"
+  },
+  {
+   "id": "jobkorea:50399756",
+   "source": "jobkorea",
+   "title": "Sr. AI Engineer (6년 이상)",
+   "company": "셀렉트스타 주식회사",
+   "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50399756",
+   "cats": [
+    "ai"
+   ],
+   "level": "senior",
+   "region": "서울 강남구",
+   "region_key": "서울",
+   "deadline": null,
+   "deadline_text": null,
+   "posted": "2026-11-25",
+   "public": false,
+   "bigco": false,
+   "sector": "솔루션·SI·CRM·ERP, AI/ML엔지니어",
+   "employment_type": null,
+   "salary": null,
+   "group": null,
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "stale": false,
+   "logo": "logos/9d885fd3062b.png"
+  },
+  {
    "id": "jobkorea:50415824",
    "source": "jobkorea",
    "title": "[나주] Android/Web과 iOS/Web 개발자(SI) 채용",
@@ -1410,6 +1596,32 @@
    "last_seen": "2026-11-25",
    "stale": false,
    "logo": "logos/7db9c8b623a9.png"
+  },
+  {
+   "id": "jobkorea:50416419",
+   "source": "jobkorea",
+   "title": "[인턴/신입] AI Native Engineer (AX·FDE)",
+   "company": "㈜바인드",
+   "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50416419",
+   "cats": [
+    "ai"
+   ],
+   "level": "intern",
+   "region": "서울 강남구",
+   "region_key": "서울",
+   "deadline": null,
+   "deadline_text": null,
+   "posted": "2026-11-25",
+   "public": false,
+   "bigco": false,
+   "sector": "쇼핑몰·오픈마켓·소셜커머스, 소프트웨어개발자, AI/ML엔지니어, AI서비스개발자",
+   "employment_type": "인턴",
+   "salary": null,
+   "group": null,
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "stale": false,
+   "logo": "logos/9081d9088d9a.png"
   },
   {
    "id": "jobkorea:50419138",
@@ -1487,7 +1699,7 @@
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-25",
    "stale": false,
-   "logo": null
+   "logo": "logos/d7166cb35a55.png"
   },
   {
    "id": "jobkorea:50422971",
@@ -1620,32 +1832,6 @@
    "last_seen": "2026-11-25",
    "stale": false,
    "logo": "logos/77a9711cc2c9.png"
-  },
-  {
-   "id": "jobkorea:50426780",
-   "source": "jobkorea",
-   "title": "[글로우서울/본사] 매칭 브릿지 AI 서비스 개발자 - 경력",
-   "company": "㈜글로우서울",
-   "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50426780",
-   "cats": [
-    "ai"
-   ],
-   "level": "senior",
-   "region": "서울 용산구",
-   "region_key": "서울",
-   "deadline": null,
-   "deadline_text": null,
-   "posted": "2026-11-25",
-   "public": false,
-   "bigco": false,
-   "sector": "웹에이전시, 백엔드개발자, 웹개발자, 데이터엔지니어",
-   "employment_type": null,
-   "salary": null,
-   "group": null,
-   "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
-   "stale": false,
-   "logo": "logos/9067b0451a6a.png"
   },
   {
    "id": "jobkorea:50427144",
@@ -1856,6 +2042,188 @@
    "logo": "logos/3539c1392e6c.png"
   },
   {
+   "id": "jobkorea:50430348",
+   "source": "jobkorea",
+   "title": "[휴넷] AI 엔지니어 [정규직/경력]",
+   "company": "(주)휴넷",
+   "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50430348",
+   "cats": [
+    "ai"
+   ],
+   "level": "senior",
+   "region": "서울 구로구",
+   "region_key": "서울",
+   "deadline": null,
+   "deadline_text": null,
+   "posted": "2026-11-25",
+   "public": false,
+   "bigco": false,
+   "sector": "포털·컨텐츠·커뮤니티, AI/ML엔지니어, AI/ML연구원, AI서비스개발자",
+   "employment_type": "정규직",
+   "salary": null,
+   "group": null,
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "stale": false,
+   "logo": "logos/27560bbb20b3.png"
+  },
+  {
+   "id": "jobkorea:50430349",
+   "source": "jobkorea",
+   "title": "[휴넷] iOS 앱 개발자 [1년 계약직/경력]",
+   "company": "(주)휴넷",
+   "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50430349",
+   "cats": [
+    "ios"
+   ],
+   "level": "senior",
+   "region": "서울 구로구",
+   "region_key": "서울",
+   "deadline": null,
+   "deadline_text": null,
+   "posted": "2026-11-25",
+   "public": false,
+   "bigco": false,
+   "sector": "포털·컨텐츠·커뮤니티, 앱개발자",
+   "employment_type": "계약직",
+   "salary": null,
+   "group": null,
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "stale": false,
+   "logo": "logos/27560bbb20b3.png"
+  },
+  {
+   "id": "jobkorea:50430429",
+   "source": "jobkorea",
+   "title": "AI Research Engineer (Search & Agent) (경력)",
+   "company": "㈜카카오",
+   "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50430429",
+   "cats": [
+    "ai"
+   ],
+   "level": "senior",
+   "region": "경기 성남시",
+   "region_key": "경기",
+   "deadline": null,
+   "deadline_text": null,
+   "posted": "2026-11-25",
+   "public": false,
+   "bigco": true,
+   "sector": "포털·컨텐츠·커뮤니티, AI/ML엔지니어, AI/ML연구원",
+   "employment_type": null,
+   "salary": null,
+   "group": null,
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "stale": false,
+   "logo": "logos/3539c1392e6c.png"
+  },
+  {
+   "id": "jobkorea:50430464",
+   "source": "jobkorea",
+   "title": "AI Research Engineer (Search & Agent) (경력) - Agentic Search LLM",
+   "company": "㈜카카오",
+   "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50430464",
+   "cats": [
+    "ai"
+   ],
+   "level": "senior",
+   "region": "경기 성남시",
+   "region_key": "경기",
+   "deadline": null,
+   "deadline_text": null,
+   "posted": "2026-11-25",
+   "public": false,
+   "bigco": true,
+   "sector": "포털·컨텐츠·커뮤니티, AI/ML엔지니어",
+   "employment_type": null,
+   "salary": null,
+   "group": null,
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "stale": false,
+   "logo": "logos/3539c1392e6c.png"
+  },
+  {
+   "id": "jobkorea:50430471",
+   "source": "jobkorea",
+   "title": "AI Research Engineer (Search & Agent) (경력) - Search Ranking Model",
+   "company": "㈜카카오",
+   "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50430471",
+   "cats": [
+    "ai"
+   ],
+   "level": "senior",
+   "region": "경기 성남시",
+   "region_key": "경기",
+   "deadline": null,
+   "deadline_text": null,
+   "posted": "2026-11-25",
+   "public": false,
+   "bigco": true,
+   "sector": "포털·컨텐츠·커뮤니티, AI/ML엔지니어, AI/ML연구원",
+   "employment_type": null,
+   "salary": null,
+   "group": null,
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "stale": false,
+   "logo": "logos/3539c1392e6c.png"
+  },
+  {
+   "id": "jobkorea:50430477",
+   "source": "jobkorea",
+   "title": "AI Research Engineer (Search & Agent) (경력) - Search Data Modeling",
+   "company": "㈜카카오",
+   "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50430477",
+   "cats": [
+    "ai"
+   ],
+   "level": "senior",
+   "region": "경기 성남시",
+   "region_key": "경기",
+   "deadline": null,
+   "deadline_text": null,
+   "posted": "2026-11-25",
+   "public": false,
+   "bigco": true,
+   "sector": "포털·컨텐츠·커뮤니티, AI/ML엔지니어",
+   "employment_type": null,
+   "salary": null,
+   "group": null,
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "stale": false,
+   "logo": "logos/3539c1392e6c.png"
+  },
+  {
+   "id": "saramin:55647832",
+   "source": "saramin",
+   "title": "[커머스 플랫폼 기업] Product Engineer",
+   "company": "리쿠르트퍼스트코리아",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55647832",
+   "cats": [
+    "product"
+   ],
+   "level": "senior",
+   "region": "서울 관악구",
+   "region_key": "서울",
+   "deadline": "2026-12-23",
+   "deadline_text": null,
+   "posted": "2026-11-24",
+   "public": false,
+   "bigco": false,
+   "sector": "정보보안, 인프라, 서비스기획, 사업기획, 앱개발",
+   "employment_type": "정규직",
+   "salary": null,
+   "group": null,
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "stale": false,
+   "logo": null
+  },
+  {
    "id": "saramin:55655451",
    "source": "saramin",
    "title": "AI Product Engineer (연차 무관)",
@@ -1873,13 +2241,19 @@
    "posted": "2026-11-24",
    "public": false,
    "bigco": false,
-   "sector": "웹개발, AI(인공지능), 풀스택, 소프트웨어개발",
+   "sector": "AI(인공지능), 웹개발, 풀스택, 소프트웨어개발",
    "employment_type": "정규직",
    "salary": null,
    "group": null,
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-25",
    "stale": false,
+   "also": [
+    {
+     "source": "wanted",
+     "url": "https://www.wanted.co.kr/wd/398968"
+    }
+   ],
    "logo": "logos/fe3ca79e75cd.png"
   },
   {
@@ -1899,7 +2273,7 @@
    "posted": "2026-11-24",
    "public": false,
    "bigco": true,
-   "sector": "AI(인공지능), 웹마스터, QA/테스터, NLP(자연어처리), PostgreSQL",
+   "sector": "AI(인공지능), 데이터엔지니어, 웹마스터, QA/테스터, 챗봇",
    "employment_type": "정규직·계약직",
    "salary": null,
    "group": null,
@@ -1925,7 +2299,7 @@
    "posted": "2026-11-24",
    "public": false,
    "bigco": false,
-   "sector": "AI(인공지능), IT컨설팅, 헤드헌팅",
+   "sector": "IT컨설팅, AI(인공지능), 서치펌, 헤드헌팅",
    "employment_type": "정규직",
    "salary": null,
    "group": null,
@@ -1958,7 +2332,7 @@
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-25",
    "stale": false,
-   "logo": null
+   "logo": "logos/d7166cb35a55.png"
   },
   {
    "id": "saramin:55656821",
@@ -2003,7 +2377,7 @@
    "posted": "2026-11-24",
    "public": false,
    "bigco": true,
-   "sector": "AI(인공지능), Python, 클라우드, 머신러닝, 모델링",
+   "sector": "AI(인공지능), Python, 클라우드, 머신러닝, 데이터엔지니어",
    "employment_type": "정규직",
    "salary": null,
    "group": null,
@@ -2029,7 +2403,33 @@
    "posted": "2026-11-24",
    "public": false,
    "bigco": true,
-   "sector": "백엔드/서버개발, AWS, NoSQL, 풀스택, 아키텍쳐",
+   "sector": "백엔드/서버개발, 데이터엔지니어, 아키텍쳐, AWS, Kafka",
+   "employment_type": "정규직",
+   "salary": null,
+   "group": null,
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "stale": false,
+   "logo": null
+  },
+  {
+   "id": "saramin:55657595",
+   "source": "saramin",
+   "title": "현업의 문제를 제품으로 구현하는 프로덕트 엔지니어",
+   "company": "코리아써치",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55657595",
+   "cats": [
+    "product"
+   ],
+   "level": "senior",
+   "region": "서울 서초구",
+   "region_key": "서울",
+   "deadline": "2026-12-09",
+   "deadline_text": null,
+   "posted": "2026-11-24",
+   "public": false,
+   "bigco": false,
+   "sector": "백엔드/서버개발, 스포츠·레저용품",
    "employment_type": "정규직",
    "salary": null,
    "group": null,
@@ -2055,7 +2455,7 @@
    "posted": "2026-11-24",
    "public": false,
    "bigco": false,
-   "sector": "백엔드/서버개발, 소프트웨어개발",
+   "sector": "백엔드/서버개발, 솔루션업체, 소프트웨어개발",
    "employment_type": "정규직·인턴직",
    "salary": null,
    "group": null,
@@ -2081,7 +2481,7 @@
    "posted": "2026-11-24",
    "public": false,
    "bigco": false,
-   "sector": "AI(인공지능), AI(인공지능), 로봇엔지니어, 로봇설계, 장비제어",
+   "sector": "AI(인공지능), AI(인공지능), 로봇엔지니어, 로봇설계, 자동제어",
    "employment_type": "정규직",
    "salary": null,
    "group": null,
@@ -2133,7 +2533,7 @@
    "posted": "2026-11-24",
    "public": false,
    "bigco": true,
-   "sector": "제약/바이오, AI신약개발, 바이오",
+   "sector": "제약/바이오, AI신약개발, 의약·제약, 바이오",
    "employment_type": "정규직",
    "salary": null,
    "group": null,
@@ -2185,7 +2585,7 @@
    "posted": "2026-11-24",
    "public": false,
    "bigco": false,
-   "sector": "기술지원, R&D, 데이터 사이언티스트, R&D기획, 데이터분석가",
+   "sector": "기술지원, R&D, 데이터분석가, 데이터엔지니어, R&D기획",
    "employment_type": "정규직",
    "salary": null,
    "group": null,
@@ -2211,7 +2611,7 @@
    "posted": "2026-11-24",
    "public": false,
    "bigco": false,
-   "sector": "컴퓨터비전, R&D, 딥러닝, 연구원, AI(인공지능)",
+   "sector": "딥러닝, 컴퓨터비전, AI(인공지능), Pytorch, 연구원",
    "employment_type": "정규직",
    "salary": null,
    "group": null,
@@ -2269,7 +2669,7 @@
    "posted": "2026-11-24",
    "public": false,
    "bigco": false,
-   "sector": "개발PM, 프론트엔드, 백엔드/서버개발, 솔루션업체",
+   "sector": "백엔드/서버개발, 프론트엔드, 개발PM, 솔루션업체",
    "employment_type": "정규직",
    "salary": null,
    "group": null,
@@ -2295,19 +2695,13 @@
    "posted": "2026-11-24",
    "public": false,
    "bigco": false,
-   "sector": "알고리즘, 이미지프로세싱, 빅데이터, 임베디드, 데이터시각화",
+   "sector": "데이터시각화, 딥러닝, 머신러닝, 빅데이터, 알고리즘",
    "employment_type": "정규직·계약직",
    "salary": null,
    "group": null,
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-25",
    "stale": false,
-   "also": [
-    {
-     "source": "jobkorea",
-     "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50426664"
-    }
-   ],
    "logo": null
   },
   {
@@ -2327,7 +2721,7 @@
    "posted": "2026-11-24",
    "public": false,
    "bigco": false,
-   "sector": "AI(인공지능), 제약/바이오, BI 엔지니어, 데이터엔지니어, 항체",
+   "sector": "AI(인공지능), 제약/바이오, 데이터엔지니어, BI 엔지니어, 항체",
    "employment_type": "정규직",
    "salary": null,
    "group": null,
@@ -2353,7 +2747,7 @@
    "posted": "2026-11-23",
    "public": false,
    "bigco": false,
-   "sector": "설계엔지니어, 클라우드, 기술설계, 아키텍쳐, AI(인공지능)",
+   "sector": "클라우드, API, 아키텍쳐, AI(인공지능), Python",
    "employment_type": "정규직",
    "salary": null,
    "group": null,
@@ -2441,32 +2835,6 @@
    "logo": null
   },
   {
-   "id": "saramin:55646836",
-   "source": "saramin",
-   "title": "[천안]AI로 개발 생산성 10배 뽑아볼 분 AX(AI Transformation)",
-   "company": "화랑",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55646836",
-   "cats": [
-    "ai"
-   ],
-   "level": "any",
-   "region": "충남 천안시 동남구",
-   "region_key": "충남",
-   "deadline": "2027-01-22",
-   "deadline_text": null,
-   "posted": "2026-11-23",
-   "public": false,
-   "bigco": false,
-   "sector": "파워빌더, MSSQL, C#, MySQL, 솔루션",
-   "employment_type": "정규직",
-   "salary": null,
-   "group": null,
-   "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
-   "stale": false,
-   "logo": null
-  },
-  {
    "id": "saramin:55648979",
    "source": "saramin",
    "title": "[AI 로보틱스 기술 강소기업] 프론트엔드 개발자",
@@ -2509,7 +2877,7 @@
    "posted": "2026-11-23",
    "public": false,
    "bigco": false,
-   "sector": "SE(시스템엔지니어), SI개발, 백엔드/서버개발, 아키텍쳐, AI(인공지능)",
+   "sector": "SE(시스템엔지니어), SI개발, 백엔드/서버개발, IT컨설팅, 챗봇",
    "employment_type": "정규직",
    "salary": null,
    "group": null,
@@ -2802,12 +3170,6 @@
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
    "stale": false,
-   "also": [
-    {
-     "source": "jobkorea",
-     "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50383594"
-    }
-   ],
    "logo": null
   },
   {
@@ -2857,10 +3219,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/774a4790c87d.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/774a4790c87d.png"
+   "stale": false
   },
   {
    "id": "wanted:262642",
@@ -2883,10 +3245,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/a391ae5afff6.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/a391ae5afff6.png"
+   "stale": false
   },
   {
    "id": "wanted:281136",
@@ -2909,10 +3271,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/24bb4beeec79.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/24bb4beeec79.png"
+   "stale": false
   },
   {
    "id": "wanted:309504",
@@ -2935,10 +3297,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/6129d85a4030.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/6129d85a4030.png"
+   "stale": false
   },
   {
    "id": "wanted:321830",
@@ -2961,10 +3323,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/77304bf4d087.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/77304bf4d087.png"
+   "stale": false
   },
   {
    "id": "wanted:331561",
@@ -2987,10 +3349,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/9669665998c2.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/9669665998c2.png"
+   "stale": false
   },
   {
    "id": "wanted:335808",
@@ -3014,10 +3376,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/722e15af40e4.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/722e15af40e4.png"
+   "stale": false
   },
   {
    "id": "wanted:347560",
@@ -3040,10 +3402,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/157a237abd10.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/157a237abd10.png"
+   "stale": false
   },
   {
    "id": "wanted:347683",
@@ -3066,10 +3428,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/bd99e51e4b04.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/bd99e51e4b04.png"
+   "stale": false
   },
   {
    "id": "wanted:351339",
@@ -3092,10 +3454,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/622c22a06f33.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/622c22a06f33.png"
+   "stale": false
   },
   {
    "id": "wanted:353235",
@@ -3118,10 +3480,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/e3943277a593.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/e3943277a593.png"
+   "stale": false
   },
   {
    "id": "wanted:358406",
@@ -3145,10 +3507,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/0383697cd5ca.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/0383697cd5ca.png"
+   "stale": false
   },
   {
    "id": "wanted:359514",
@@ -3171,10 +3533,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/570171d6a5c0.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/570171d6a5c0.png"
+   "stale": false
   },
   {
    "id": "wanted:360178",
@@ -3197,10 +3559,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/a64d4d7e5d15.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/a64d4d7e5d15.png"
+   "stale": false
   },
   {
    "id": "wanted:360964",
@@ -3223,10 +3585,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/f7911ff1aed8.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/f7911ff1aed8.png"
+   "stale": false
   },
   {
    "id": "wanted:360966",
@@ -3249,10 +3611,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/f7911ff1aed8.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/f7911ff1aed8.png"
+   "stale": false
   },
   {
    "id": "wanted:370479",
@@ -3275,10 +3637,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/157a237abd10.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/157a237abd10.png"
+   "stale": false
   },
   {
    "id": "wanted:372852",
@@ -3301,10 +3663,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/2a48211b99e7.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/2a48211b99e7.png"
+   "stale": false
   },
   {
    "id": "wanted:374916",
@@ -3327,10 +3689,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/f01485870b0b.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/f01485870b0b.png"
+   "stale": false
   },
   {
    "id": "wanted:377300",
@@ -3354,10 +3716,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/a64d4d7e5d15.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/a64d4d7e5d15.png"
+   "stale": false
   },
   {
    "id": "wanted:378510",
@@ -3380,10 +3742,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/622c22a06f33.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/622c22a06f33.png"
+   "stale": false
   },
   {
    "id": "wanted:379769",
@@ -3406,10 +3768,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/2dc0cd8dbf92.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/2dc0cd8dbf92.png"
+   "stale": false
   },
   {
    "id": "wanted:380140",
@@ -3432,10 +3794,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/411f40e81038.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/411f40e81038.png"
+   "stale": false
   },
   {
    "id": "wanted:382907",
@@ -3458,10 +3820,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/49dc00476c9e.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/49dc00476c9e.png"
+   "stale": false
   },
   {
    "id": "wanted:383399",
@@ -3484,10 +3846,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/bf4a3c0ccdcb.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/bf4a3c0ccdcb.png"
+   "stale": false
   },
   {
    "id": "wanted:383584",
@@ -3510,10 +3872,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/7afbf64ac991.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/7afbf64ac991.png"
+   "stale": false
   },
   {
    "id": "wanted:384525",
@@ -3537,10 +3899,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/ae658b6b7db2.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/ae658b6b7db2.png"
+   "stale": false
   },
   {
    "id": "wanted:385618",
@@ -3563,10 +3925,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": null
+   "stale": false
   },
   {
    "id": "wanted:386374",
@@ -3589,62 +3951,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/252234434274.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/252234434274.png"
-  },
-  {
-   "id": "wanted:386742",
-   "source": "wanted",
-   "title": "(Senior) Forward Deployed AI Engineer, South Korea - BCG X",
-   "company": "보스턴컨설팅그룹(BCG)",
-   "url": "https://www.wanted.co.kr/wd/386742",
-   "cats": [
-    "ai"
-   ],
-   "level": "senior",
-   "region": "서울 중구",
-   "region_key": "서울",
-   "deadline": null,
-   "deadline_text": "상시",
-   "posted": "2026-11-22",
-   "public": false,
-   "bigco": false,
-   "sector": null,
-   "employment_type": null,
-   "salary": null,
-   "group": null,
-   "first_seen": "2026-11-22",
-   "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/49ffebb97c29.png"
-  },
-  {
-   "id": "wanted:386743",
-   "source": "wanted",
-   "title": "Lead Forward Deployed AI Engineer, South Korea - BCG X",
-   "company": "보스턴컨설팅그룹(BCG)",
-   "url": "https://www.wanted.co.kr/wd/386743",
-   "cats": [
-    "ai"
-   ],
-   "level": "senior",
-   "region": "서울 중구",
-   "region_key": "서울",
-   "deadline": null,
-   "deadline_text": "상시",
-   "posted": "2026-11-22",
-   "public": false,
-   "bigco": false,
-   "sector": null,
-   "employment_type": null,
-   "salary": null,
-   "group": null,
-   "first_seen": "2026-11-22",
-   "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/49ffebb97c29.png"
+   "stale": false
   },
   {
    "id": "wanted:386745",
@@ -3667,10 +3977,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/49ffebb97c29.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/49ffebb97c29.png"
+   "stale": false
   },
   {
    "id": "wanted:387900",
@@ -3693,10 +4003,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/de48e4da9fe1.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/de48e4da9fe1.png"
+   "stale": false
   },
   {
    "id": "wanted:388137",
@@ -3719,10 +4029,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/157a237abd10.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/157a237abd10.png"
+   "stale": false
   },
   {
    "id": "wanted:388569",
@@ -3746,10 +4056,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/74d7de37e753.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/74d7de37e753.png"
+   "stale": false
   },
   {
    "id": "wanted:388715",
@@ -3772,10 +4082,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/a11aae4a5b54.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/a11aae4a5b54.png"
+   "stale": false
   },
   {
    "id": "wanted:388716",
@@ -3798,10 +4108,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/a11aae4a5b54.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/a11aae4a5b54.png"
+   "stale": false
   },
   {
    "id": "wanted:389686",
@@ -3824,10 +4134,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/73816cb891a4.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/73816cb891a4.png"
+   "stale": false
   },
   {
    "id": "wanted:390316",
@@ -3850,10 +4160,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/8fe1c339bd14.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/8fe1c339bd14.png"
+   "stale": false
   },
   {
    "id": "wanted:390388",
@@ -3876,10 +4186,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/8fe1c339bd14.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/8fe1c339bd14.png"
+   "stale": false
   },
   {
    "id": "wanted:390446",
@@ -3902,10 +4212,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/eda377c04a58.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/eda377c04a58.png"
+   "stale": false
   },
   {
    "id": "wanted:390447",
@@ -3928,10 +4238,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/eda377c04a58.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/eda377c04a58.png"
+   "stale": false
   },
   {
    "id": "wanted:390782",
@@ -3954,10 +4264,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/6f44d058936e.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/6f44d058936e.png"
+   "stale": false
   },
   {
    "id": "wanted:391547",
@@ -3980,10 +4290,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/a0fb143e615b.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/a0fb143e615b.png"
+   "stale": false
   },
   {
    "id": "wanted:391557",
@@ -4006,10 +4316,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/a0fb143e615b.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/a0fb143e615b.png"
+   "stale": false
   },
   {
    "id": "wanted:391617",
@@ -4032,10 +4342,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/33621fc670a4.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/33621fc670a4.png"
+   "stale": false
   },
   {
    "id": "wanted:391677",
@@ -4058,10 +4368,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/49ffebb97c29.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/49ffebb97c29.png"
+   "stale": false
   },
   {
    "id": "wanted:391712",
@@ -4084,10 +4394,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/ba0dcf0385bb.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/ba0dcf0385bb.png"
+   "stale": false
   },
   {
    "id": "wanted:391783",
@@ -4110,10 +4420,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/09f19c6a90dd.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/09f19c6a90dd.png"
+   "stale": false
   },
   {
    "id": "wanted:391785",
@@ -4136,10 +4446,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/09f19c6a90dd.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/09f19c6a90dd.png"
+   "stale": false
   },
   {
    "id": "wanted:391788",
@@ -4162,10 +4472,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/d1d406660548.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/d1d406660548.png"
+   "stale": false
   },
   {
    "id": "wanted:392216",
@@ -4189,10 +4499,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/28f755140dfe.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/28f755140dfe.png"
+   "stale": false
   },
   {
    "id": "wanted:392224",
@@ -4215,10 +4525,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/4b45e2d70e2d.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/4b45e2d70e2d.png"
+   "stale": false
   },
   {
    "id": "wanted:392268",
@@ -4241,10 +4551,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/ad583fbdba05.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/ad583fbdba05.png"
+   "stale": false
   },
   {
    "id": "wanted:392292",
@@ -4267,10 +4577,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/2d202341a458.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/2d202341a458.png"
+   "stale": false
   },
   {
    "id": "wanted:392371",
@@ -4293,10 +4603,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/b2759f366037.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/b2759f366037.png"
+   "stale": false
   },
   {
    "id": "wanted:392382",
@@ -4319,10 +4629,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/ae7491b86b57.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/ae7491b86b57.png"
+   "stale": false
   },
   {
    "id": "wanted:392425",
@@ -4345,10 +4655,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/a237bcb37901.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/a237bcb37901.png"
+   "stale": false
   },
   {
    "id": "wanted:392448",
@@ -4371,10 +4681,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/fea8ceb5e92a.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/fea8ceb5e92a.png"
+   "stale": false
   },
   {
    "id": "wanted:392591",
@@ -4397,10 +4707,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/a6fba5c348df.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/a6fba5c348df.png"
+   "stale": false
   },
   {
    "id": "wanted:392666",
@@ -4423,10 +4733,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/20eee1625080.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/20eee1625080.png"
+   "stale": false
   },
   {
    "id": "wanted:392726",
@@ -4449,10 +4759,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/513989e628ed.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/513989e628ed.png"
+   "stale": false
   },
   {
    "id": "wanted:392728",
@@ -4475,10 +4785,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/513989e628ed.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/513989e628ed.png"
+   "stale": false
   },
   {
    "id": "wanted:392765",
@@ -4501,10 +4811,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/6da5d655b4e3.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/6da5d655b4e3.png"
+   "stale": false
   },
   {
    "id": "wanted:392989",
@@ -4527,10 +4837,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/a5508d691d32.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/a5508d691d32.png"
+   "stale": false
   },
   {
    "id": "wanted:393009",
@@ -4553,10 +4863,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/df9aa7aa6a7d.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/df9aa7aa6a7d.png"
+   "stale": false
   },
   {
    "id": "wanted:393106",
@@ -4579,10 +4889,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/c4436f427fc0.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/c4436f427fc0.png"
+   "stale": false
   },
   {
    "id": "wanted:393123",
@@ -4605,10 +4915,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/0556f1069b85.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/0556f1069b85.png"
+   "stale": false
   },
   {
    "id": "wanted:393127",
@@ -4631,10 +4941,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/0556f1069b85.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/0556f1069b85.png"
+   "stale": false
   },
   {
    "id": "wanted:393130",
@@ -4657,10 +4967,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/0556f1069b85.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/0556f1069b85.png"
+   "stale": false
   },
   {
    "id": "wanted:393171",
@@ -4683,10 +4993,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/84b1f1b43d53.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/84b1f1b43d53.png"
+   "stale": false
   },
   {
    "id": "wanted:393180",
@@ -4709,10 +5019,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/cc1db784785a.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/cc1db784785a.png"
+   "stale": false
   },
   {
    "id": "wanted:393258",
@@ -4735,10 +5045,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/b41beb6886fe.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/b41beb6886fe.png"
+   "stale": false
   },
   {
    "id": "wanted:393321",
@@ -4761,10 +5071,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": null
+   "stale": false
   },
   {
    "id": "wanted:393453",
@@ -4787,10 +5097,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/0fb787f298ac.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/0fb787f298ac.png"
+   "stale": false
   },
   {
    "id": "wanted:393530",
@@ -4813,10 +5123,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/aad70ebe962f.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/aad70ebe962f.png"
+   "stale": false
   },
   {
    "id": "wanted:393602",
@@ -4839,10 +5149,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/795fe343b52a.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/795fe343b52a.png"
+   "stale": false
   },
   {
    "id": "wanted:393731",
@@ -4865,10 +5175,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/11190039668b.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/11190039668b.png"
+   "stale": false
   },
   {
    "id": "wanted:393806",
@@ -4891,10 +5201,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/a00bdca08b4e.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/a00bdca08b4e.png"
+   "stale": false
   },
   {
    "id": "wanted:393812",
@@ -4917,10 +5227,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/994b5ec4d78e.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/994b5ec4d78e.png"
+   "stale": false
   },
   {
    "id": "wanted:393889",
@@ -4943,10 +5253,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/4190ef127995.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/4190ef127995.png"
+   "stale": false
   },
   {
    "id": "wanted:393922",
@@ -4969,10 +5279,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/69d4fedd8607.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/69d4fedd8607.png"
+   "stale": false
   },
   {
    "id": "wanted:393983",
@@ -4995,10 +5305,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/c02a3b765ad5.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/c02a3b765ad5.png"
+   "stale": false
   },
   {
    "id": "wanted:393988",
@@ -5021,10 +5331,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/d4d729562313.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/d4d729562313.png"
+   "stale": false
   },
   {
    "id": "wanted:393995",
@@ -5047,10 +5357,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/032495c2eab2.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/032495c2eab2.png"
+   "stale": false
   },
   {
    "id": "wanted:394078",
@@ -5073,10 +5383,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/73816cb891a4.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/73816cb891a4.png"
+   "stale": false
   },
   {
    "id": "wanted:394090",
@@ -5099,10 +5409,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/c3d3a59b4f5d.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/c3d3a59b4f5d.png"
+   "stale": false
   },
   {
    "id": "wanted:394091",
@@ -5125,10 +5435,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/d9defc12e659.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/d9defc12e659.png"
+   "stale": false
   },
   {
    "id": "wanted:394101",
@@ -5151,10 +5461,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/c60eee9e9bcb.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/c60eee9e9bcb.png"
+   "stale": false
   },
   {
    "id": "wanted:394131",
@@ -5177,10 +5487,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/adbc569e5728.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/adbc569e5728.png"
+   "stale": false
   },
   {
    "id": "wanted:394250",
@@ -5203,10 +5513,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/73816cb891a4.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/73816cb891a4.png"
+   "stale": false
   },
   {
    "id": "wanted:394270",
@@ -5229,10 +5539,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/4b45e2d70e2d.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/4b45e2d70e2d.png"
+   "stale": false
   },
   {
    "id": "wanted:394283",
@@ -5255,10 +5565,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/ec951a44ddc7.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/ec951a44ddc7.png"
+   "stale": false
   },
   {
    "id": "wanted:394421",
@@ -5281,10 +5591,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/c60eee9e9bcb.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/c60eee9e9bcb.png"
+   "stale": false
   },
   {
    "id": "wanted:394471",
@@ -5307,10 +5617,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/6f44d058936e.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/6f44d058936e.png"
+   "stale": false
   },
   {
    "id": "wanted:394472",
@@ -5333,10 +5643,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/6f44d058936e.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/6f44d058936e.png"
+   "stale": false
   },
   {
    "id": "wanted:394549",
@@ -5360,10 +5670,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/d6f0fd4ca671.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/d6f0fd4ca671.png"
+   "stale": false
   },
   {
    "id": "wanted:394664",
@@ -5386,10 +5696,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": null
+   "stale": false
   },
   {
    "id": "wanted:394681",
@@ -5412,10 +5722,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/7f7b7da1deb6.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/7f7b7da1deb6.png"
+   "stale": false
   },
   {
    "id": "wanted:394698",
@@ -5438,10 +5748,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/d4d729562313.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/d4d729562313.png"
+   "stale": false
   },
   {
    "id": "wanted:394766",
@@ -5464,10 +5774,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/e68ac34f8626.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/e68ac34f8626.png"
+   "stale": false
   },
   {
    "id": "wanted:394773",
@@ -5490,10 +5800,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/a237bcb37901.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/a237bcb37901.png"
+   "stale": false
   },
   {
    "id": "wanted:394778",
@@ -5516,10 +5826,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/658027d9d54a.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/658027d9d54a.png"
+   "stale": false
   },
   {
    "id": "wanted:394881",
@@ -5542,10 +5852,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/77a9711cc2c9.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/77a9711cc2c9.png"
+   "stale": false
   },
   {
    "id": "wanted:394932",
@@ -5568,10 +5878,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": null
+   "stale": false
   },
   {
    "id": "wanted:394940",
@@ -5594,10 +5904,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/10baef6d0a1a.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/10baef6d0a1a.png"
+   "stale": false
   },
   {
    "id": "wanted:394979",
@@ -5621,10 +5931,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/7677e7d32129.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/7677e7d32129.png"
+   "stale": false
   },
   {
    "id": "wanted:395015",
@@ -5647,10 +5957,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/d709e6093965.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/d709e6093965.png"
+   "stale": false
   },
   {
    "id": "wanted:395043",
@@ -5673,10 +5983,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/b69ea8cf0a95.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/b69ea8cf0a95.png"
+   "stale": false
   },
   {
    "id": "wanted:395048",
@@ -5699,10 +6009,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/b69ea8cf0a95.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/b69ea8cf0a95.png"
+   "stale": false
   },
   {
    "id": "wanted:395059",
@@ -5725,10 +6035,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/b69ea8cf0a95.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/b69ea8cf0a95.png"
+   "stale": false
   },
   {
    "id": "wanted:395065",
@@ -5751,10 +6061,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/b69ea8cf0a95.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/b69ea8cf0a95.png"
+   "stale": false
   },
   {
    "id": "wanted:395082",
@@ -5777,10 +6087,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/fb225d21daf7.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/fb225d21daf7.png"
+   "stale": false
   },
   {
    "id": "wanted:395098",
@@ -5803,10 +6113,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/c7ef02c73a85.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/c7ef02c73a85.png"
+   "stale": false
   },
   {
    "id": "wanted:395198",
@@ -5829,10 +6139,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/109eb1e18274.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/109eb1e18274.png"
+   "stale": false
   },
   {
    "id": "wanted:395204",
@@ -5855,10 +6165,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/10fb048b0a58.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/10fb048b0a58.png"
+   "stale": false
   },
   {
    "id": "wanted:395221",
@@ -5881,10 +6191,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/5fe07ce8890e.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/5fe07ce8890e.png"
+   "stale": false
   },
   {
    "id": "wanted:395245",
@@ -5907,10 +6217,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/070e86809aa1.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/070e86809aa1.png"
+   "stale": false
   },
   {
    "id": "wanted:395372",
@@ -5933,10 +6243,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/83c296ebbfd0.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/83c296ebbfd0.png"
+   "stale": false
   },
   {
    "id": "wanted:395387",
@@ -5959,10 +6269,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": null
+   "stale": false
   },
   {
    "id": "wanted:395400",
@@ -5985,10 +6295,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/c6210258cdbd.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/c6210258cdbd.png"
+   "stale": false
   },
   {
    "id": "wanted:395451",
@@ -6011,10 +6321,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/e68ac34f8626.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/e68ac34f8626.png"
+   "stale": false
   },
   {
    "id": "wanted:395516",
@@ -6037,10 +6347,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/d76f3e6abeb5.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/d76f3e6abeb5.png"
+   "stale": false
   },
   {
    "id": "wanted:395517",
@@ -6063,10 +6373,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/a2714c68165e.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/a2714c68165e.png"
+   "stale": false
   },
   {
    "id": "wanted:395534",
@@ -6089,10 +6399,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/8a8a013af689.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/8a8a013af689.png"
+   "stale": false
   },
   {
    "id": "wanted:395549",
@@ -6115,10 +6425,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/9d885fd3062b.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/9d885fd3062b.png"
+   "stale": false
   },
   {
    "id": "wanted:395554",
@@ -6141,10 +6451,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/821e79b59410.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/821e79b59410.png"
+   "stale": false
   },
   {
    "id": "wanted:395555",
@@ -6167,10 +6477,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/821e79b59410.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/821e79b59410.png"
+   "stale": false
   },
   {
    "id": "wanted:395562",
@@ -6193,10 +6503,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/2dc0cd8dbf92.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/2dc0cd8dbf92.png"
+   "stale": false
   },
   {
    "id": "wanted:395717",
@@ -6219,10 +6529,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/c36b62b2274c.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/c36b62b2274c.png"
+   "stale": false
   },
   {
    "id": "wanted:395768",
@@ -6245,10 +6555,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/c98e9f1445fe.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/c98e9f1445fe.png"
+   "stale": false
   },
   {
    "id": "wanted:395782",
@@ -6271,10 +6581,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/1d685530b16c.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/1d685530b16c.png"
+   "stale": false
   },
   {
    "id": "wanted:395803",
@@ -6297,10 +6607,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/76a499f76fe4.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/76a499f76fe4.png"
+   "stale": false
   },
   {
    "id": "wanted:395806",
@@ -6323,10 +6633,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/c98e9f1445fe.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/c98e9f1445fe.png"
+   "stale": false
   },
   {
    "id": "wanted:395828",
@@ -6349,10 +6659,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": null
+   "stale": false
   },
   {
    "id": "wanted:395831",
@@ -6375,10 +6685,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": null
+   "stale": false
   },
   {
    "id": "wanted:395862",
@@ -6401,10 +6711,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/4b3a7726d72e.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/4b3a7726d72e.png"
+   "stale": false
   },
   {
    "id": "wanted:395871",
@@ -6427,10 +6737,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/c36b62b2274c.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/c36b62b2274c.png"
+   "stale": false
   },
   {
    "id": "wanted:395911",
@@ -6453,10 +6763,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/eeae799cef13.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/eeae799cef13.png"
+   "stale": false
   },
   {
    "id": "wanted:395912",
@@ -6479,10 +6789,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/eeae799cef13.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/eeae799cef13.png"
+   "stale": false
   },
   {
    "id": "wanted:395914",
@@ -6505,10 +6815,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/e7a42ffd600d.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/e7a42ffd600d.png"
+   "stale": false
   },
   {
    "id": "wanted:395915",
@@ -6531,10 +6841,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/eeae799cef13.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/eeae799cef13.png"
+   "stale": false
   },
   {
    "id": "wanted:395916",
@@ -6557,10 +6867,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/eeae799cef13.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/eeae799cef13.png"
+   "stale": false
   },
   {
    "id": "wanted:395919",
@@ -6583,10 +6893,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/eeae799cef13.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/eeae799cef13.png"
+   "stale": false
   },
   {
    "id": "wanted:395988",
@@ -6609,10 +6919,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/9cff1a4bf4e9.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/9cff1a4bf4e9.png"
+   "stale": false
   },
   {
    "id": "wanted:395989",
@@ -6635,10 +6945,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/e9e37137c321.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/e9e37137c321.png"
+   "stale": false
   },
   {
    "id": "wanted:395997",
@@ -6661,10 +6971,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/271b1a6116b2.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/271b1a6116b2.png"
+   "stale": false
   },
   {
    "id": "wanted:395998",
@@ -6687,10 +6997,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/271b1a6116b2.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/271b1a6116b2.png"
+   "stale": false
   },
   {
    "id": "wanted:396049",
@@ -6713,10 +7023,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/74fa237638d9.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/74fa237638d9.png"
+   "stale": false
   },
   {
    "id": "wanted:396077",
@@ -6739,10 +7049,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/e38a54f633dc.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/e38a54f633dc.png"
+   "stale": false
   },
   {
    "id": "wanted:396078",
@@ -6765,10 +7075,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/ec951a44ddc7.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/ec951a44ddc7.png"
+   "stale": false
   },
   {
    "id": "wanted:396093",
@@ -6791,10 +7101,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/727ba70de612.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/727ba70de612.png"
+   "stale": false
   },
   {
    "id": "wanted:396094",
@@ -6817,10 +7127,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/727ba70de612.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/727ba70de612.png"
+   "stale": false
   },
   {
    "id": "wanted:396096",
@@ -6843,10 +7153,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/727ba70de612.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/727ba70de612.png"
+   "stale": false
   },
   {
    "id": "wanted:396103",
@@ -6869,10 +7179,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/28d9ca02bfdc.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/28d9ca02bfdc.png"
+   "stale": false
   },
   {
    "id": "wanted:396156",
@@ -6895,10 +7205,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/91cfb68f7087.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/91cfb68f7087.png"
+   "stale": false
   },
   {
    "id": "wanted:396175",
@@ -6921,10 +7231,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/73816cb891a4.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/73816cb891a4.png"
+   "stale": false
   },
   {
    "id": "wanted:396250",
@@ -6947,10 +7257,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/3b171044a01b.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/3b171044a01b.png"
+   "stale": false
   },
   {
    "id": "wanted:396290",
@@ -6973,10 +7283,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/57e72bbcc5d7.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/57e72bbcc5d7.png"
+   "stale": false
   },
   {
    "id": "wanted:396300",
@@ -6999,10 +7309,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/c76b963030c2.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/c76b963030c2.png"
+   "stale": false
   },
   {
    "id": "wanted:396322",
@@ -7025,10 +7335,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/c76b963030c2.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/c76b963030c2.png"
+   "stale": false
   },
   {
    "id": "wanted:396348",
@@ -7051,10 +7361,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/49343e8cf27c.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/49343e8cf27c.png"
+   "stale": false
   },
   {
    "id": "wanted:396554",
@@ -7077,10 +7387,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/09f19c6a90dd.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/09f19c6a90dd.png"
+   "stale": false
   },
   {
    "id": "wanted:396562",
@@ -7103,10 +7413,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": null
+   "stale": false
   },
   {
    "id": "wanted:396565",
@@ -7129,10 +7439,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": null
+   "stale": false
   },
   {
    "id": "wanted:396609",
@@ -7155,10 +7465,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/f6bef503b51e.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/f6bef503b51e.png"
+   "stale": false
   },
   {
    "id": "wanted:396627",
@@ -7181,10 +7491,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/785d74d0b249.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/785d74d0b249.png"
+   "stale": false
   },
   {
    "id": "wanted:396698",
@@ -7207,10 +7517,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/e8326d6045ad.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/e8326d6045ad.png"
+   "stale": false
   },
   {
    "id": "wanted:396699",
@@ -7233,10 +7543,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/e8326d6045ad.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/e8326d6045ad.png"
+   "stale": false
   },
   {
    "id": "wanted:396703",
@@ -7259,10 +7569,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/455f4eb66c5c.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/455f4eb66c5c.png"
+   "stale": false
   },
   {
    "id": "wanted:396720",
@@ -7285,10 +7595,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/26fb3aad86a6.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/26fb3aad86a6.png"
+   "stale": false
   },
   {
    "id": "wanted:396742",
@@ -7311,10 +7621,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/8c969ae87caf.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/8c969ae87caf.png"
+   "stale": false
   },
   {
    "id": "wanted:396744",
@@ -7337,10 +7647,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/bb33733e1f8b.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/bb33733e1f8b.png"
+   "stale": false
   },
   {
    "id": "wanted:396769",
@@ -7363,10 +7673,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/baa0893e4f33.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/baa0893e4f33.png"
+   "stale": false
   },
   {
    "id": "wanted:396792",
@@ -7389,10 +7699,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/77a9711cc2c9.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/77a9711cc2c9.png"
+   "stale": false
   },
   {
    "id": "wanted:396807",
@@ -7415,10 +7725,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/857bcf56a8c3.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/857bcf56a8c3.png"
+   "stale": false
   },
   {
    "id": "wanted:396814",
@@ -7441,10 +7751,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/2fdf09112b48.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/2fdf09112b48.png"
+   "stale": false
   },
   {
    "id": "wanted:396834",
@@ -7467,10 +7777,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/f6bef503b51e.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/f6bef503b51e.png"
+   "stale": false
   },
   {
    "id": "wanted:396844",
@@ -7493,10 +7803,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/c4a4b9e27cff.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/c4a4b9e27cff.png"
+   "stale": false
   },
   {
    "id": "wanted:396871",
@@ -7519,10 +7829,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/785d74d0b249.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/785d74d0b249.png"
+   "stale": false
   },
   {
    "id": "wanted:396873",
@@ -7545,10 +7855,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/785d74d0b249.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/785d74d0b249.png"
+   "stale": false
   },
   {
    "id": "wanted:396874",
@@ -7571,10 +7881,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/785d74d0b249.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/785d74d0b249.png"
+   "stale": false
   },
   {
    "id": "wanted:396905",
@@ -7597,10 +7907,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/371b72d2053e.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/371b72d2053e.png"
+   "stale": false
   },
   {
    "id": "wanted:396959",
@@ -7623,10 +7933,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": null
+   "stale": false
   },
   {
    "id": "wanted:397009",
@@ -7649,10 +7959,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/8154c146d484.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/8154c146d484.png"
+   "stale": false
   },
   {
    "id": "wanted:397013",
@@ -7675,10 +7985,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/4b4420cb48d3.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/4b4420cb48d3.png"
+   "stale": false
   },
   {
    "id": "wanted:397062",
@@ -7701,10 +8011,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/d5de7ac2cfcc.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/d5de7ac2cfcc.png"
+   "stale": false
   },
   {
    "id": "wanted:397081",
@@ -7727,10 +8037,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/b2e307184809.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/b2e307184809.png"
+   "stale": false
   },
   {
    "id": "wanted:397132",
@@ -7753,10 +8063,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/eb46511b5523.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/eb46511b5523.png"
+   "stale": false
   },
   {
    "id": "wanted:397146",
@@ -7779,10 +8089,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/1531b5e55b39.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/1531b5e55b39.png"
+   "stale": false
   },
   {
    "id": "wanted:397147",
@@ -7805,10 +8115,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/a967251c629c.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/a967251c629c.png"
+   "stale": false
   },
   {
    "id": "wanted:397168",
@@ -7831,10 +8141,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/58ac0f0859b8.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/58ac0f0859b8.png"
+   "stale": false
   },
   {
    "id": "wanted:397220",
@@ -7857,10 +8167,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/a31b9ae46bda.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/a31b9ae46bda.png"
+   "stale": false
   },
   {
    "id": "wanted:397225",
@@ -7883,10 +8193,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/844be9076455.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/844be9076455.png"
+   "stale": false
   },
   {
    "id": "wanted:397325",
@@ -7909,10 +8219,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/77e868e9a346.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/77e868e9a346.png"
+   "stale": false
   },
   {
    "id": "wanted:397357",
@@ -7935,10 +8245,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/ffa6804e8b41.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/ffa6804e8b41.png"
+   "stale": false
   },
   {
    "id": "wanted:397389",
@@ -7961,10 +8271,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/e27ce1291582.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/e27ce1291582.png"
+   "stale": false
   },
   {
    "id": "wanted:397453",
@@ -7987,10 +8297,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/740ade4aa36f.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/740ade4aa36f.png"
+   "stale": false
   },
   {
    "id": "wanted:397466",
@@ -8014,10 +8324,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/f1fbcc387d7f.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/f1fbcc387d7f.png"
+   "stale": false
   },
   {
    "id": "wanted:397527",
@@ -8040,10 +8350,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/e27ce1291582.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/e27ce1291582.png"
+   "stale": false
   },
   {
    "id": "wanted:397543",
@@ -8066,10 +8376,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/72eab037d0d2.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/72eab037d0d2.png"
+   "stale": false
   },
   {
    "id": "wanted:397554",
@@ -8092,10 +8402,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/d5de7ac2cfcc.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/d5de7ac2cfcc.png"
+   "stale": false
   },
   {
    "id": "wanted:397587",
@@ -8118,10 +8428,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/f9f5fefb6ffd.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/f9f5fefb6ffd.png"
+   "stale": false
   },
   {
    "id": "wanted:397621",
@@ -8144,10 +8454,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/d76e839c0165.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/d76e839c0165.png"
+   "stale": false
   },
   {
    "id": "wanted:397688",
@@ -8170,10 +8480,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/f6bef503b51e.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/f6bef503b51e.png"
+   "stale": false
   },
   {
    "id": "wanted:397708",
@@ -8196,10 +8506,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/e873bf73adbd.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/e873bf73adbd.png"
+   "stale": false
   },
   {
    "id": "wanted:397719",
@@ -8222,10 +8532,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/3f63181179bf.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/3f63181179bf.png"
+   "stale": false
   },
   {
    "id": "wanted:397745",
@@ -8248,10 +8558,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/cc1a2f26d55b.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/cc1a2f26d55b.png"
+   "stale": false
   },
   {
    "id": "wanted:397756",
@@ -8274,10 +8584,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/8154c146d484.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/8154c146d484.png"
+   "stale": false
   },
   {
    "id": "wanted:397773",
@@ -8300,10 +8610,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/073955714bbf.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/073955714bbf.png"
+   "stale": false
   },
   {
    "id": "wanted:397790",
@@ -8326,10 +8636,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/e3afff30fb20.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/e3afff30fb20.png"
+   "stale": false
   },
   {
    "id": "wanted:397819",
@@ -8352,10 +8662,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/7f7ef1ad206c.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/7f7ef1ad206c.png"
+   "stale": false
   },
   {
    "id": "wanted:397823",
@@ -8378,10 +8688,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/39ccc378e8b7.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/39ccc378e8b7.png"
+   "stale": false
   },
   {
    "id": "wanted:397825",
@@ -8404,10 +8714,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/549960384399.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/549960384399.png"
+   "stale": false
   },
   {
    "id": "wanted:397855",
@@ -8430,10 +8740,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/073955714bbf.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/073955714bbf.png"
+   "stale": false
   },
   {
    "id": "wanted:397864",
@@ -8456,10 +8766,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/892fe428258a.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/892fe428258a.png"
+   "stale": false
   },
   {
    "id": "wanted:397897",
@@ -8482,10 +8792,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/480a6306d304.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/480a6306d304.png"
+   "stale": false
   },
   {
    "id": "wanted:397964",
@@ -8508,10 +8818,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/d1c4bf92dce3.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/d1c4bf92dce3.png"
+   "stale": false
   },
   {
    "id": "wanted:397968",
@@ -8534,10 +8844,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/ba0dcf0385bb.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/ba0dcf0385bb.png"
+   "stale": false
   },
   {
    "id": "wanted:397979",
@@ -8560,10 +8870,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": null
+   "stale": false
   },
   {
    "id": "wanted:397995",
@@ -8586,10 +8896,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/3a46bfc3a6cf.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/3a46bfc3a6cf.png"
+   "stale": false
   },
   {
    "id": "wanted:398040",
@@ -8612,10 +8922,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/39ccc378e8b7.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/39ccc378e8b7.png"
+   "stale": false
   },
   {
    "id": "wanted:398101",
@@ -8639,10 +8949,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/77e27d0bd689.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/77e27d0bd689.png"
+   "stale": false
   },
   {
    "id": "wanted:398107",
@@ -8665,10 +8975,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/ffa6804e8b41.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/ffa6804e8b41.png"
+   "stale": false
   },
   {
    "id": "wanted:398110",
@@ -8691,10 +9001,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/ffa6804e8b41.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/ffa6804e8b41.png"
+   "stale": false
   },
   {
    "id": "wanted:398113",
@@ -8717,10 +9027,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/7b89330c4f80.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/7b89330c4f80.png"
+   "stale": false
   },
   {
    "id": "wanted:398114",
@@ -8743,10 +9053,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/2ded3ba88197.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/2ded3ba88197.png"
+   "stale": false
   },
   {
    "id": "wanted:398116",
@@ -8769,10 +9079,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/7b89330c4f80.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/7b89330c4f80.png"
+   "stale": false
   },
   {
    "id": "wanted:398121",
@@ -8795,10 +9105,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/b6f841b78628.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/b6f841b78628.png"
+   "stale": false
   },
   {
    "id": "wanted:398194",
@@ -8821,10 +9131,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/11190039668b.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/11190039668b.png"
+   "stale": false
   },
   {
    "id": "wanted:398206",
@@ -8847,20 +9157,16 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/d9defc12e659.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
+   "stale": false,
    "also": [
     {
      "source": "jobkorea",
      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50416785"
-    },
-    {
-     "source": "jobkorea",
-     "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50416785"
     }
-   ],
-   "logo": "logos/d9defc12e659.png"
+   ]
   },
   {
    "id": "wanted:398207",
@@ -8883,10 +9189,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/ab0180be85e7.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/ab0180be85e7.png"
+   "stale": false
   },
   {
    "id": "wanted:398223",
@@ -8910,10 +9216,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/e873bf73adbd.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/e873bf73adbd.png"
+   "stale": false
   },
   {
    "id": "wanted:398266",
@@ -8936,10 +9242,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/4188bbacdf22.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/4188bbacdf22.png"
+   "stale": false
   },
   {
    "id": "wanted:398281",
@@ -8962,10 +9268,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/e68ac34f8626.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/e68ac34f8626.png"
+   "stale": false
   },
   {
    "id": "wanted:398339",
@@ -8988,10 +9294,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/a6b6a960c1bb.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/a6b6a960c1bb.png"
+   "stale": false
   },
   {
    "id": "wanted:398340",
@@ -9014,10 +9320,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/a6b6a960c1bb.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/a6b6a960c1bb.png"
+   "stale": false
   },
   {
    "id": "wanted:398435",
@@ -9040,10 +9346,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/73816cb891a4.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/73816cb891a4.png"
+   "stale": false
   },
   {
    "id": "wanted:398437",
@@ -9066,10 +9372,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/395f4718c27d.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/395f4718c27d.png"
+   "stale": false
   },
   {
    "id": "wanted:398439",
@@ -9092,10 +9398,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/395f4718c27d.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/395f4718c27d.png"
+   "stale": false
   },
   {
    "id": "wanted:398462",
@@ -9118,10 +9424,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/7ba0b8ec8d1a.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/7ba0b8ec8d1a.png"
+   "stale": false
   },
   {
    "id": "wanted:398466",
@@ -9144,10 +9450,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/d5de7ac2cfcc.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/d5de7ac2cfcc.png"
+   "stale": false
   },
   {
    "id": "wanted:398467",
@@ -9170,10 +9476,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/d5de7ac2cfcc.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/d5de7ac2cfcc.png"
+   "stale": false
   },
   {
    "id": "wanted:398494",
@@ -9196,10 +9502,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/f1fbcc387d7f.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/f1fbcc387d7f.png"
+   "stale": false
   },
   {
    "id": "wanted:398499",
@@ -9222,10 +9528,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/72eab037d0d2.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/72eab037d0d2.png"
+   "stale": false
   },
   {
    "id": "wanted:398504",
@@ -9248,10 +9554,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/ad127c7c9881.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/ad127c7c9881.png"
+   "stale": false
   },
   {
    "id": "wanted:398558",
@@ -9274,10 +9580,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/b02208dafc13.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/b02208dafc13.png"
+   "stale": false
   },
   {
    "id": "wanted:398576",
@@ -9300,10 +9606,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/eeae799cef13.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/eeae799cef13.png"
+   "stale": false
   },
   {
    "id": "wanted:398577",
@@ -9326,10 +9632,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/eeae799cef13.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/eeae799cef13.png"
+   "stale": false
   },
   {
    "id": "wanted:398584",
@@ -9352,10 +9658,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/095029cc4a70.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/095029cc4a70.png"
+   "stale": false
   },
   {
    "id": "wanted:398595",
@@ -9378,10 +9684,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/b2e307184809.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/b2e307184809.png"
+   "stale": false
   },
   {
    "id": "wanted:398616",
@@ -9404,10 +9710,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/d1d406660548.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/d1d406660548.png"
+   "stale": false
   },
   {
    "id": "wanted:398626",
@@ -9430,10 +9736,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/1a8a9aad308f.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/1a8a9aad308f.png"
+   "stale": false
   },
   {
    "id": "wanted:398635",
@@ -9456,10 +9762,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/157a237abd10.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/157a237abd10.png"
+   "stale": false
   },
   {
    "id": "wanted:398636",
@@ -9482,10 +9788,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/157a237abd10.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/157a237abd10.png"
+   "stale": false
   },
   {
    "id": "wanted:398715",
@@ -9508,10 +9814,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/727ba70de612.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/727ba70de612.png"
+   "stale": false
   },
   {
    "id": "wanted:398723",
@@ -9534,10 +9840,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/727ba70de612.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/727ba70de612.png"
+   "stale": false
   },
   {
    "id": "wanted:398737",
@@ -9560,10 +9866,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/4d88c7f4a5d6.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/4d88c7f4a5d6.png"
+   "stale": false
   },
   {
    "id": "wanted:398743",
@@ -9586,10 +9892,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/4d88c7f4a5d6.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/4d88c7f4a5d6.png"
+   "stale": false
   },
   {
    "id": "wanted:398750",
@@ -9612,10 +9918,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/4d88c7f4a5d6.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/4d88c7f4a5d6.png"
+   "stale": false
   },
   {
    "id": "wanted:398765",
@@ -9638,20 +9944,16 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/90d49dcf96c5.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
+   "stale": false,
    "also": [
     {
      "source": "jobkorea",
      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50387103"
-    },
-    {
-     "source": "jobkorea",
-     "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50387103"
     }
-   ],
-   "logo": "logos/90d49dcf96c5.png"
+   ]
   },
   {
    "id": "wanted:398793",
@@ -9674,10 +9976,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/e07832587961.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/e07832587961.png"
+   "stale": false
   },
   {
    "id": "wanted:398796",
@@ -9700,10 +10002,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/e07832587961.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/e07832587961.png"
+   "stale": false
   },
   {
    "id": "wanted:398798",
@@ -9726,10 +10028,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/e07832587961.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/e07832587961.png"
+   "stale": false
   },
   {
    "id": "wanted:398850",
@@ -9752,10 +10054,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/f6bef503b51e.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/f6bef503b51e.png"
+   "stale": false
   },
   {
    "id": "wanted:398879",
@@ -9778,10 +10080,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/5b5c6a7af97f.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/5b5c6a7af97f.png"
+   "stale": false
   },
   {
    "id": "wanted:398936",
@@ -9804,10 +10106,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/27560bbb20b3.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/27560bbb20b3.png"
+   "stale": false
   },
   {
    "id": "wanted:399064",
@@ -9830,10 +10132,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/fdd3a7dd549f.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/fdd3a7dd549f.png"
+   "stale": false
   },
   {
    "id": "wanted:399150",
@@ -9856,10 +10158,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/fea4f87964ca.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/fea4f87964ca.png"
+   "stale": false
   },
   {
    "id": "wanted:399156",
@@ -9882,10 +10184,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/9dcc70261195.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/9dcc70261195.png"
+   "stale": false
   },
   {
    "id": "wanted:399167",
@@ -9908,10 +10210,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/8e669721ac53.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/8e669721ac53.png"
+   "stale": false
   },
   {
    "id": "wanted:399238",
@@ -9934,10 +10236,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/d5de7ac2cfcc.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/d5de7ac2cfcc.png"
+   "stale": false
   },
   {
    "id": "wanted:399297",
@@ -9960,10 +10262,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/a64d4d7e5d15.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/a64d4d7e5d15.png"
+   "stale": false
   },
   {
    "id": "wanted:399298",
@@ -9986,10 +10288,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/132a83c14ed4.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/132a83c14ed4.png"
+   "stale": false
   },
   {
    "id": "wanted:399323",
@@ -10012,10 +10314,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/c81a48d87e3f.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/c81a48d87e3f.png"
+   "stale": false
   },
   {
    "id": "wanted:399399",
@@ -10038,10 +10340,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/e7ca07f75fcb.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/e7ca07f75fcb.png"
+   "stale": false
   },
   {
    "id": "wanted:399429",
@@ -10065,10 +10367,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/6f3691f52916.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/6f3691f52916.png"
+   "stale": false
   },
   {
    "id": "wanted:399431",
@@ -10091,10 +10393,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/7a7486bd6755.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/7a7486bd6755.png"
+   "stale": false
   },
   {
    "id": "wanted:399438",
@@ -10117,10 +10419,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/cbbd7012cec4.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/cbbd7012cec4.png"
+   "stale": false
   },
   {
    "id": "wanted:399449",
@@ -10143,10 +10445,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/6f2e7d6308f7.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/6f2e7d6308f7.png"
+   "stale": false
   },
   {
    "id": "wanted:399451",
@@ -10169,10 +10471,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/8f41dca99f75.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/8f41dca99f75.png"
+   "stale": false
   },
   {
    "id": "wanted:399460",
@@ -10195,10 +10497,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/de2e446ba552.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/de2e446ba552.png"
+   "stale": false
   },
   {
    "id": "wanted:399470",
@@ -10221,10 +10523,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/37b147e09390.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/37b147e09390.png"
+   "stale": false
   },
   {
    "id": "wanted:399472",
@@ -10247,10 +10549,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/a64d4d7e5d15.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/a64d4d7e5d15.png"
+   "stale": false
   },
   {
    "id": "wanted:399489",
@@ -10273,10 +10575,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/76cff6efff68.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/76cff6efff68.png"
+   "stale": false
   },
   {
    "id": "wanted:399505",
@@ -10299,10 +10601,10 @@
    "employment_type": null,
    "salary": null,
    "group": null,
+   "logo": "logos/d7567d9e8cb3.png",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": true,
-   "logo": "logos/d7567d9e8cb3.png"
+   "stale": false
   },
   {
    "id": "jobkorea:50148857",
@@ -10329,32 +10631,6 @@
    "last_seen": "2026-11-25",
    "stale": false,
    "logo": "logos/e43f9594c803.png"
-  },
-  {
-   "id": "jobkorea:50260965",
-   "source": "jobkorea",
-   "title": "[Search OS] FDE(Forward Deployed Engineer) 신입 채용",
-   "company": "㈜서치오에스에이아이",
-   "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50260965",
-   "cats": [
-    "ai"
-   ],
-   "level": "any",
-   "region": "서울 강남구",
-   "region_key": "서울",
-   "deadline": null,
-   "deadline_text": null,
-   "posted": "2026-11-22",
-   "public": false,
-   "bigco": false,
-   "sector": "솔루션·SI·CRM·ERP, 웹개발자",
-   "employment_type": null,
-   "salary": null,
-   "group": null,
-   "first_seen": "2026-11-22",
-   "last_seen": "2026-11-25",
-   "stale": false,
-   "logo": "logos/070e86809aa1.png"
   },
   {
    "id": "jobkorea:50274161",
@@ -11077,7 +11353,7 @@
    "posted": "2026-11-20",
    "public": false,
    "bigco": false,
-   "sector": "Java, 백엔드/서버개발, AI(인공지능), Python, 풀스택",
+   "sector": "Java, 백엔드/서버개발, AI(인공지능), Python, 데이터분석가",
    "employment_type": "정규직·계약직",
    "salary": null,
    "group": null,
@@ -11161,7 +11437,7 @@
    "posted": "2026-11-20",
    "public": false,
    "bigco": false,
-   "sector": "컴퓨터비전, AI(인공지능), Python, Pytorch, 소프트웨어개발",
+   "sector": "컴퓨터비전, AI(인공지능), Python, Pytorch, SI·시스템통합",
    "employment_type": "정규직",
    "salary": null,
    "group": null,
@@ -11169,32 +11445,6 @@
    "last_seen": "2026-11-25",
    "stale": false,
    "logo": "logos/7a7486bd6755.png"
-  },
-  {
-   "id": "saramin:55633608",
-   "source": "saramin",
-   "title": "의약품 유통 플랫폼·AI 서비스 개발자 채용",
-   "company": "(주)에스디파마",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55633608",
-   "cats": [
-    "ai"
-   ],
-   "level": "any",
-   "region": "경기 남양주시",
-   "region_key": "경기",
-   "deadline": "2026-12-20",
-   "deadline_text": null,
-   "posted": "2026-11-20",
-   "public": false,
-   "bigco": false,
-   "sector": "유지보수, 백엔드/서버개발, 웹개발, 퍼블리셔, 프론트엔드",
-   "employment_type": "정규직·계약직",
-   "salary": null,
-   "group": null,
-   "first_seen": "2026-11-22",
-   "last_seen": "2026-11-25",
-   "stale": false,
-   "logo": null
   },
   {
    "id": "saramin:55633835",
@@ -11421,7 +11671,7 @@
    "posted": "2026-11-19",
    "public": false,
    "bigco": false,
-   "sector": "솔루션, GCP, DevOps, Docker, AI(인공지능)",
+   "sector": "솔루션, 데이터엔지니어, DevOps, AI(인공지능), Docker",
    "employment_type": "정규직",
    "salary": null,
    "group": null,
@@ -11609,7 +11859,7 @@
    "posted": "2026-11-18",
    "public": false,
    "bigco": false,
-   "sector": "iOS, Android, Python, AI(인공지능), MariaDB",
+   "sector": "iOS, Android, Python, AI(인공지능), 딥러닝",
    "employment_type": "정규직·계약직",
    "salary": null,
    "group": null,
@@ -11635,7 +11885,7 @@
    "posted": "2026-11-18",
    "public": false,
    "bigco": false,
-   "sector": "컴퓨터비전, Tensorflow, 딥러닝, 머신러닝, BIM",
+   "sector": "딥러닝, 머신러닝, 컴퓨터비전, Pytorch, Tensorflow",
    "employment_type": "기간제·계약직",
    "salary": null,
    "group": null,
@@ -11661,7 +11911,7 @@
    "posted": "2026-11-18",
    "public": false,
    "bigco": false,
-   "sector": "Linux, IDC, Kubernetes, 클라우드, 소프트웨어개발",
+   "sector": "Linux, 클라우드, IDC, Kubernetes, 소프트웨어개발",
    "employment_type": "계약직",
    "salary": null,
    "group": null,
@@ -11693,7 +11943,7 @@
    "posted": "2026-11-18",
    "public": false,
    "bigco": true,
-   "sector": "Java, 백엔드/서버개발, 웹개발, MySQL, PHP",
+   "sector": "Java, 백엔드/서버개발, 웹개발, 네트워크, Windows",
    "employment_type": "정규직",
    "salary": null,
    "group": null,
@@ -11783,7 +12033,7 @@
    "posted": "2026-11-17",
    "public": false,
    "bigco": false,
-   "sector": "데이터엔지니어, FDE, 소프트웨어개발",
+   "sector": "데이터엔지니어, FDE, SCM, 솔루션업체, 소프트웨어개발",
    "employment_type": "정규직",
    "salary": null,
    "group": null,
@@ -11945,7 +12195,7 @@
    "posted": "2026-11-16",
    "public": false,
    "bigco": false,
-   "sector": "iOS, Android, Flutter, WEB, 소프트웨어개발",
+   "sector": "iOS, Android, Flutter, WEB, SI·시스템통합",
    "employment_type": "정규직",
    "salary": null,
    "group": null,
@@ -11971,7 +12221,7 @@
    "posted": "2026-11-16",
    "public": false,
    "bigco": false,
-   "sector": "iOS, Android, 앱개발, GCP, Swift",
+   "sector": "iOS, Android, 앱개발, SDK, AWS",
    "employment_type": "정규직",
    "salary": null,
    "group": null,
@@ -12023,7 +12273,7 @@
    "posted": "2026-11-16",
    "public": false,
    "bigco": false,
-   "sector": "기획, 개발PM, PM(프로젝트매니저), 소프트웨어개발",
+   "sector": "PM(프로젝트매니저), 기획, 개발PM, 소프트웨어개발",
    "employment_type": "인턴직",
    "salary": null,
    "group": null,
@@ -12102,7 +12352,7 @@
    "posted": "2026-11-15",
    "public": false,
    "bigco": false,
-   "sector": "iOS, Android, Python, AI(인공지능), MariaDB",
+   "sector": "iOS, Android, Python, AI(인공지능), 딥러닝",
    "employment_type": "정규직",
    "salary": null,
    "group": null,
@@ -12128,7 +12378,7 @@
    "posted": "2026-11-14",
    "public": false,
    "bigco": false,
-   "sector": "백엔드/서버개발, AI(인공지능), 알고리즘, 데이터 사이언티스트, 딥러닝",
+   "sector": "백엔드/서버개발, AI(인공지능), 딥러닝, 머신러닝, 알고리즘",
    "employment_type": "정규직",
    "salary": null,
    "group": null,
@@ -12154,34 +12404,8 @@
    "posted": "2026-11-13",
    "public": false,
    "bigco": false,
-   "sector": "백엔드/서버개발, 풀스택, PostgreSQL, Python, React",
+   "sector": "백엔드/서버개발, 데이터엔지니어, 앱개발, 웹개발, 프론트엔드",
    "employment_type": "정규직·계약직",
-   "salary": null,
-   "group": null,
-   "first_seen": "2026-11-22",
-   "last_seen": "2026-11-25",
-   "stale": false,
-   "logo": null
-  },
-  {
-   "id": "saramin:55285512",
-   "source": "saramin",
-   "title": "[플랫폼 팀] 크로스플랫폼 앱 개발자(Flutter) 채용",
-   "company": "(주)이노버스",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55285512",
-   "cats": [
-    "mobile"
-   ],
-   "level": "any",
-   "region": "서울 마포구",
-   "region_key": "서울",
-   "deadline": null,
-   "deadline_text": "상시채용",
-   "posted": "2026-11-13",
-   "public": false,
-   "bigco": false,
-   "sector": "Flutter, 앱개발, 제조업 회사본사",
-   "employment_type": "정규직",
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
@@ -12518,7 +12742,7 @@
    "posted": "2026-11-12",
    "public": false,
    "bigco": false,
-   "sector": "백엔드/서버개발, 데이터엔지니어, 소프트웨어개발",
+   "sector": "백엔드/서버개발, 데이터엔지니어, SI·시스템통합, ERP, CRM",
    "employment_type": "정규직",
    "salary": null,
    "group": null,
@@ -12582,7 +12806,7 @@
    "posted": "2026-11-12",
    "public": false,
    "bigco": false,
-   "sector": "크로스브라우징, 반응형웹, 웹표준·웹접근성, 프론트엔드, 인터페이스",
+   "sector": "프론트엔드, 반응형웹, 웹표준·웹접근성, 크로스브라우징, 인터페이스",
    "employment_type": "정규직·전문연구요원",
    "salary": null,
    "group": null,
@@ -12608,7 +12832,7 @@
    "posted": "2026-11-12",
    "public": false,
    "bigco": false,
-   "sector": "백엔드/서버개발, 개발PM, 프론트엔드, 소프트웨어개발",
+   "sector": "백엔드/서버개발, 프론트엔드, 개발PM, 솔루션업체, 소프트웨어개발",
    "employment_type": "정규직",
    "salary": null,
    "group": null,
@@ -12692,7 +12916,7 @@
    "posted": "2026-11-11",
    "public": false,
    "bigco": true,
-   "sector": "iOS, Android, 앱개발, IT컨설팅",
+   "sector": "iOS, 앱개발, Android, IT컨설팅",
    "employment_type": "정규직",
    "salary": null,
    "group": null,
@@ -12926,59 +13150,7 @@
    "posted": "2026-11-10",
    "public": false,
    "bigco": true,
-   "sector": "Python, Javascript, C#, 게임개발, 머신러닝",
-   "employment_type": "정규직",
-   "salary": null,
-   "group": null,
-   "first_seen": "2026-11-22",
-   "last_seen": "2026-11-25",
-   "stale": false,
-   "logo": null
-  },
-  {
-   "id": "saramin:55522140",
-   "source": "saramin",
-   "title": "[경력] 앱 유지 및 배포 엔지니어(iOS/Android/Flutter) 모집",
-   "company": "(주)인피아드",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55522140",
-   "cats": [
-    "ios"
-   ],
-   "level": "senior",
-   "region": "경기 과천시",
-   "region_key": "경기",
-   "deadline": null,
-   "deadline_text": "채용시",
-   "posted": "2026-11-09",
-   "public": false,
-   "bigco": false,
-   "sector": "유지보수, Spring, SpringBoot, SQL, Android",
-   "employment_type": "정규직",
-   "salary": null,
-   "group": null,
-   "first_seen": "2026-11-22",
-   "last_seen": "2026-11-25",
-   "stale": false,
-   "logo": null
-  },
-  {
-   "id": "saramin:55523339",
-   "source": "saramin",
-   "title": "[에스지랩 주식회사] iOS 신입/경력 개발자 채용",
-   "company": "에스지랩(주)",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55523339",
-   "cats": [
-    "ios"
-   ],
-   "level": "any",
-   "region": "경기 안산시 상록구",
-   "region_key": "경기",
-   "deadline": "2026-12-09",
-   "deadline_text": null,
-   "posted": "2026-11-09",
-   "public": false,
-   "bigco": false,
-   "sector": "iOS, 하드웨어",
+   "sector": "Python, Javascript, 게임개발, 머신러닝, C#",
    "employment_type": "정규직",
    "salary": null,
    "group": null,
@@ -13066,58 +13238,6 @@
    "logo": "logos/546ff94c91d6.png"
   },
   {
-   "id": "saramin:55505450",
-   "source": "saramin",
-   "title": "모바일개발자 채용공고",
-   "company": "(주)엔디소프트",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55505450",
-   "cats": [
-    "ios"
-   ],
-   "level": "any",
-   "region": "부산 해운대구",
-   "region_key": "부산",
-   "deadline": "2026-12-06",
-   "deadline_text": null,
-   "posted": "2026-11-06",
-   "public": false,
-   "bigco": false,
-   "sector": "Kotlin, Swift, iOS, React-Native, Android",
-   "employment_type": "정규직",
-   "salary": null,
-   "group": null,
-   "first_seen": "2026-11-22",
-   "last_seen": "2026-11-25",
-   "stale": false,
-   "logo": null
-  },
-  {
-   "id": "saramin:55505459",
-   "source": "saramin",
-   "title": "모바일개발자 채용",
-   "company": "(주)엔디소프트",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55505459",
-   "cats": [
-    "ios"
-   ],
-   "level": "any",
-   "region": "서울 강남구",
-   "region_key": "서울",
-   "deadline": "2026-12-06",
-   "deadline_text": null,
-   "posted": "2026-11-06",
-   "public": false,
-   "bigco": false,
-   "sector": "Kotlin, Swift, iOS, React-Native, Android",
-   "employment_type": "정규직",
-   "salary": null,
-   "group": null,
-   "first_seen": "2026-11-22",
-   "last_seen": "2026-11-25",
-   "stale": false,
-   "logo": null
-  },
-  {
    "id": "jasoseol:107085-434275",
    "source": "jasoseol",
    "title": "로봇(Physical AI) 테크스쿨 2기",
@@ -13142,32 +13262,6 @@
    "last_seen": "2026-11-25",
    "stale": false,
    "logo": "logos/43a47e8a4cbe.png"
-  },
-  {
-   "id": "saramin:55479936",
-   "source": "saramin",
-   "title": "[브릿지솔루션] 헬스케어 앱 개발자 AOS/IOS 채용",
-   "company": "(주)브릿지솔루션",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55479936",
-   "cats": [
-    "ios"
-   ],
-   "level": "any",
-   "region": "서울 금천구",
-   "region_key": "서울",
-   "deadline": "2027-01-03",
-   "deadline_text": null,
-   "posted": "2026-11-04",
-   "public": false,
-   "bigco": false,
-   "sector": "백엔드/서버개발, 앱개발, 웹개발, 소프트웨어개발",
-   "employment_type": "정규직",
-   "salary": null,
-   "group": null,
-   "first_seen": "2026-11-22",
-   "last_seen": "2026-11-25",
-   "stale": false,
-   "logo": null
   },
   {
    "id": "jasoseol:107053-434167",
@@ -13420,7 +13514,7 @@
    "posted": "2026-11-01",
    "public": false,
    "bigco": false,
-   "sector": "SE(시스템엔지니어), 백엔드/서버개발, 서비스기획, 기획, BI 엔지니어",
+   "sector": "SE(시스템엔지니어), 백엔드/서버개발, 데이터엔지니어, 웹개발, 프론트엔드",
    "employment_type": "정규직·계약직",
    "salary": null,
    "group": null,
@@ -13472,7 +13566,7 @@
    "posted": "2026-10-28",
    "public": false,
    "bigco": false,
-   "sector": "SE(시스템엔지니어), S/W, 임베디드, 컴퓨터비전, 기술엔지니어",
+   "sector": "SE(시스템엔지니어), S/W, 임베디드, 컴퓨터비전, C++",
    "employment_type": "정규직",
    "salary": null,
    "group": null,
@@ -13498,7 +13592,7 @@
    "posted": "2026-10-28",
    "public": false,
    "bigco": false,
-   "sector": "SE(시스템엔지니어), S/W, 임베디드, 컴퓨터비전, 기술엔지니어",
+   "sector": "SE(시스템엔지니어), S/W, 임베디드, 컴퓨터비전, C++",
    "employment_type": "정규직",
    "salary": null,
    "group": null,
@@ -13524,19 +13618,13 @@
    "posted": "2026-10-28",
    "public": false,
    "bigco": false,
-   "sector": "백엔드/서버개발, 아키텍쳐, AI(인공지능), 챗봇, 알고리즘",
+   "sector": "백엔드/서버개발, 데이터분석가, 데이터엔지니어, 딥러닝, 머신러닝",
    "employment_type": "정규직",
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
    "stale": false,
-   "also": [
-    {
-     "source": "jobkorea",
-     "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50255932"
-    }
-   ],
    "logo": null
   },
   {
@@ -13592,32 +13680,6 @@
    "logo": "logos/9b1933dd2ca8.png"
   },
   {
-   "id": "saramin:55379835",
-   "source": "saramin",
-   "title": "[퍼플영] 앱 풀스택 개발자 (Flutter) 경력 9년 이상",
-   "company": "(주)우리의이야기",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55379835",
-   "cats": [
-    "mobile"
-   ],
-   "level": "any",
-   "region": "서울 강남구",
-   "region_key": "서울",
-   "deadline": null,
-   "deadline_text": "채용시",
-   "posted": "2026-10-26",
-   "public": false,
-   "bigco": true,
-   "sector": "Flutter, Java, 풀스택, SpringBoot, 백엔드/서버개발",
-   "employment_type": "정규직",
-   "salary": null,
-   "group": null,
-   "first_seen": "2026-11-22",
-   "last_seen": "2026-11-25",
-   "stale": false,
-   "logo": null
-  },
-  {
    "id": "saramin:55396549",
    "source": "saramin",
    "title": "[AI 마케팅 개발실] Forward Deployed Engineer(FDE) 채용",
@@ -13634,7 +13696,7 @@
    "posted": "2026-10-26",
    "public": false,
    "bigco": false,
-   "sector": "백엔드/서버개발, 아키텍쳐, 머신러닝, AI(인공지능), 데이터엔지니어",
+   "sector": "백엔드/서버개발, 데이터엔지니어, 머신러닝, 챗봇, API",
    "employment_type": "정규직",
    "salary": null,
    "group": null,
@@ -13800,32 +13862,6 @@
    "logo": "logos/570171d6a5c0.png"
   },
   {
-   "id": "saramin:55247056",
-   "source": "saramin",
-   "title": "[제로아이즈] Flutter App 개발자(경력 5년 이상)",
-   "company": "(주)오래",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55247056",
-   "cats": [
-    "ios"
-   ],
-   "level": "senior",
-   "region": "부산 해운대구",
-   "region_key": "부산",
-   "deadline": "2026-12-08",
-   "deadline_text": null,
-   "posted": "2026-10-09",
-   "public": false,
-   "bigco": false,
-   "sector": "Flutter, Kotlin, Swift, 앱개발, 소프트웨어개발",
-   "employment_type": "정규직",
-   "salary": null,
-   "group": null,
-   "first_seen": "2026-11-22",
-   "last_seen": "2026-11-25",
-   "stale": false,
-   "logo": null
-  },
-  {
    "id": "jasoseol:106580-432168",
    "source": "jasoseol",
    "title": "LLM 기술 개발 (LLM / Agent)",
@@ -13920,7 +13956,7 @@
    "posted": "2026-09-28",
    "public": false,
    "bigco": false,
-   "sector": "SE(시스템엔지니어), 기술지원, 유지보수, SI개발, 소프트웨어개발",
+   "sector": "SE(시스템엔지니어), 기술지원, 유지보수, SI개발, SI·시스템통합",
    "employment_type": "정규직",
    "salary": null,
    "group": null,
