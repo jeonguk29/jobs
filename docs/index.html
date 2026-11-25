@@ -1,0 +1,440 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<!-- PAGE:START -->
+<title>iOS 채용 레이더</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+/* 레이아웃: 상단 요약 띠 → 고정 필터 바 → 한 줄짜리 공고 행이 아래로 쌓이는 "리스트형 레이더" */
+:root {
+  --bg: #f4f5f7;          /* 살짝 푸른 기운이 도는 회백색 바탕 */
+  --panel: #ffffff;
+  --panel-2: #eceef2;
+  --fg: #161a22;
+  --fg-2: #4b5260;
+  --fg-3: #7c8390;
+  --line: #d9dde4;
+  --accent: #e8461f;      /* Swift 오렌지 */
+  --accent-soft: #fdebe4;
+  --new: #0e7c4a;
+  --new-soft: #dcf3e8;
+  --warn: #b26a00;
+  --warn-soft: #fff1d6;
+  --danger: #c12a2a;
+  --danger-soft: #fde3e3;
+  --cat-ios: #e8461f;
+  --cat-product: #0f766e;
+  --cat-ai: #6d3fc7;
+  --cat-mobile: #1d5fd1;
+  --cat-dev: #5b6472;
+  --font-body: "IBM Plex Sans KR", "Apple SD Gothic Neo", "Noto Sans KR", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", "SF Mono", Menlo, Consolas, monospace;
+  --radius: 8px;
+  --shadow: 0 1px 2px rgba(22, 26, 34, .06);
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #101216; --panel: #181b21; --panel-2: #22262e; --fg: #eceef2; --fg-2: #b4bac6; --fg-3: #7f8694; --line: #2d323c;
+    --accent: #ff6a3d; --accent-soft: #3a2117; --new: #4ade80; --new-soft: #14301f; --warn: #f5b84c; --warn-soft: #3a2b0d;
+    --danger: #ff7070; --danger-soft: #3a1717; --cat-ios: #ff6a3d; --cat-product: #2dd4bf; --cat-ai: #b794f6; --cat-mobile: #6ea8ff; --cat-dev: #a3acbb;
+    --shadow: 0 1px 2px rgba(0, 0, 0, .4); color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #101216; --panel: #181b21; --panel-2: #22262e; --fg: #eceef2; --fg-2: #b4bac6; --fg-3: #7f8694; --line: #2d323c;
+  --accent: #ff6a3d; --accent-soft: #3a2117; --new: #4ade80; --new-soft: #14301f; --warn: #f5b84c; --warn-soft: #3a2b0d;
+  --danger: #ff7070; --danger-soft: #3a1717; --cat-ios: #ff6a3d; --cat-product: #2dd4bf; --cat-ai: #b794f6; --cat-mobile: #6ea8ff; --cat-dev: #a3acbb;
+  --shadow: 0 1px 2px rgba(0, 0, 0, .4); color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body { background: var(--bg); color: var(--fg); font-family: var(--font-body); font-size: 14px; line-height: 1.5; -webkit-font-smoothing: antialiased; }
+a { color: inherit; }
+button, input, select { font: inherit; color: inherit; }
+button { cursor: pointer; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.wrap { max-width: 1080px; margin: 0 auto; padding-inline: 16px; padding-block: 0 48px; }
+.mono { font-family: var(--font-mono); font-variant-numeric: tabular-nums; }
+
+/* 헤더 */
+.head { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 12px 24px; padding-block: 28px 16px; }
+.head h1 { margin: 0; font-size: 22px; font-weight: 700; letter-spacing: -.01em; text-wrap: balance; }
+.head h1 .dot { color: var(--accent); }
+.head .sub { margin: 4px 0 0; color: var(--fg-2); font-size: 13px; }
+.sources { display: flex; flex-wrap: wrap; gap: 6px; }
+.src { display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px; border: 1px solid var(--line); border-radius: 999px; background: var(--panel); font-size: 12px; color: var(--fg-2); }
+.src i { width: 7px; height: 7px; border-radius: 50%; background: var(--new); }
+.src.bad i { background: var(--danger); }
+.src b { color: var(--fg); font-weight: 600; }
+button.src { cursor: pointer; }
+
+/* 요약 띠 */
+.stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; margin-bottom: 12px; }
+.stat { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 10px 14px; box-shadow: var(--shadow); min-width: 0; cursor: pointer; text-align: left; }
+.stat:hover { border-color: var(--fg-3); }
+.stat.on { border-color: var(--accent); box-shadow: inset 0 0 0 1px var(--accent); }
+.stat .k { display: block; font-size: 11px; color: var(--fg-3); letter-spacing: .04em; text-transform: uppercase; }
+.stat .v { display: block; font-size: 22px; font-weight: 600; line-height: 1.2; margin-top: 2px; }
+.stat .v.new { color: var(--new); }
+.stat .v.soon { color: var(--danger); }
+@media (max-width: 560px) { .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); } .stat .v { font-size: 19px; } }
+
+/* 필터 */
+.filters { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg); padding-block: 8px; display: grid; gap: 8px; }
+.tabs { display: flex; gap: 4px; overflow-x: auto; scrollbar-width: none; padding-bottom: 2px; }
+.tabs::-webkit-scrollbar { display: none; }
+.tab { flex: 0 0 auto; display: inline-flex; align-items: center; gap: 6px; padding: 7px 12px; border: 1px solid var(--line); border-radius: 999px; background: var(--panel); color: var(--fg-2); font-weight: 500; white-space: nowrap; }
+.tab .n { font-family: var(--font-mono); font-size: 12px; color: var(--fg-3); }
+.tab.on { background: var(--fg); color: var(--bg); border-color: var(--fg); }
+.tab.on .n { color: inherit; opacity: .7; }
+.tab .sw { width: 8px; height: 8px; border-radius: 2px; background: var(--c, var(--fg-3)); }
+.row { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.row .sp { flex: 1 1 auto; }
+.chip { display: inline-flex; align-items: center; gap: 5px; padding: 5px 10px; border: 1px solid var(--line); border-radius: 6px; background: var(--panel); color: var(--fg-2); font-size: 13px; }
+.chip.on { border-color: var(--accent); color: var(--accent); background: var(--accent-soft); }
+.chip.src-on { border-color: var(--fg); color: var(--fg); }
+.chip.off { opacity: .45; text-decoration: line-through; }
+.sel, .inp { padding: 6px 10px; border: 1px solid var(--line); border-radius: 6px; background: var(--panel); font-size: 13px; min-width: 0; }
+.inp { flex: 1 1 180px; }
+.cnt { color: var(--fg-2); font-size: 13px; white-space: nowrap; }
+.cnt b { color: var(--fg); font-family: var(--font-mono); }
+.reset { background: none; border: 0; color: var(--fg-3); font-size: 13px; text-decoration: underline; padding: 4px; }
+
+/* 리스트 */
+.list { display: grid; gap: 6px; margin-top: 8px; }
+.day { margin: 14px 0 2px; font-size: 12px; color: var(--fg-3); letter-spacing: .04em; display: flex; align-items: center; gap: 8px; }
+.day::after { content: ""; flex: 1; height: 1px; background: var(--line); }
+.job { display: grid; grid-template-columns: 40px minmax(0, 1fr) auto; gap: 4px 12px; background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 10px 14px; box-shadow: var(--shadow); min-width: 0; }
+.job.stale { opacity: .6; }
+.job .co { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; font-size: 12px; color: var(--fg-2); min-width: 0; }
+.job .co b { color: var(--fg); font-weight: 600; }
+.job .logo { grid-row: 1 / span 3; grid-column: 1; width: 40px; height: 40px; border-radius: 8px; border: 1px solid var(--line); background: var(--panel-2); object-fit: contain; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 15px; color: hsl(var(--h) 45% 38%); background: hsl(var(--h) 60% 92%); overflow: hidden; }
+.job img.logo { background: #fff; padding: 3px; }
+:root[data-theme="dark"] .job .logo.ini, :root:not([data-theme="light"]) .job .logo.ini { color: hsl(var(--h) 60% 75%); background: hsl(var(--h) 30% 20%); }
+@media (prefers-color-scheme: light) { :root:not([data-theme="dark"]) .job .logo.ini { color: hsl(var(--h) 45% 38%); background: hsl(var(--h) 60% 92%); } }
+.job .co { grid-column: 2; }
+.job .ttl { grid-column: 2; min-width: 0; font-size: 15px; font-weight: 600; line-height: 1.35; overflow-wrap: anywhere; }
+.job .ttl a { text-decoration: none; }
+.job .ttl a:hover { text-decoration: underline; text-decoration-color: var(--accent); }
+.job .meta { grid-column: 2; display: flex; flex-wrap: wrap; gap: 4px 10px; font-size: 12px; color: var(--fg-2); }
+.job .meta .sep { color: var(--line); }
+.job .side { grid-row: 1 / span 3; grid-column: 3; display: flex; flex-direction: column; align-items: flex-end; justify-content: space-between; gap: 6px; font-size: 12px; white-space: nowrap; }
+.pill { display: inline-flex; align-items: center; padding: 1px 7px; border-radius: 4px; font-size: 11px; font-weight: 600; line-height: 1.6; }
+.pill.cat { color: var(--c); background: color-mix(in srgb, var(--c) 12%, transparent); }
+.pill.big { color: var(--fg); background: var(--panel-2); }
+.pill.pub { color: var(--fg-2); border: 1px solid var(--line); font-weight: 500; }
+.pill.new { color: var(--new); background: var(--new-soft); }
+.pill.stale { color: var(--fg-3); border: 1px dashed var(--line); font-weight: 500; }
+.dl { font-family: var(--font-mono); font-size: 12px; color: var(--fg-2); }
+.dl.soon { color: var(--warn); font-weight: 600; }
+.dl.urgent { color: var(--danger); font-weight: 600; }
+.srcl { display: inline-flex; align-items: center; gap: 4px; color: var(--fg-3); text-decoration: none; }
+.srcl:hover { color: var(--fg); }
+.srcl .k { font-family: var(--font-mono); font-size: 11px; padding: 1px 5px; border: 1px solid var(--line); border-radius: 4px; }
+.also { display: flex; gap: 6px; }
+.empty { padding: 48px 16px; text-align: center; color: var(--fg-3); border: 1px dashed var(--line); border-radius: var(--radius); }
+.more { margin-top: 10px; padding: 10px; width: 100%; border: 1px solid var(--line); border-radius: var(--radius); background: var(--panel); color: var(--fg-2); }
+.foot { margin-top: 36px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--fg-3); font-size: 12px; line-height: 1.7; max-width: 68ch; }
+.foot b { color: var(--fg-2); font-weight: 600; }
+@media (max-width: 560px) {
+  .job { grid-template-columns: 40px minmax(0, 1fr); }
+  .job .side { grid-row: auto; grid-column: 2; flex-direction: row; align-items: center; justify-content: flex-start; flex-wrap: wrap; }
+}
+@media (prefers-reduced-motion: no-preference) { .job, .chip, .tab { transition: border-color .12s, background-color .12s; } }
+</style>
+
+<!-- PAGE:END -->
+</head>
+<body>
+<!-- BODY:START -->
+<div class="wrap">
+  <header class="head">
+    <div>
+      <h1>iOS 채용 레이더<span class="dot">.</span></h1>
+      <p class="sub" id="updated">공고를 불러오는 중…</p>
+    </div>
+    <div class="sources" id="sources"><button class="src" id="theme" type="button" title="밝게/어둡게">☀︎ / ☾</button></div>
+  </header>
+
+  <section class="stats" id="stats" aria-label="요약"></section>
+
+  <section class="filters" aria-label="필터">
+    <div class="tabs" id="tabs" role="tablist"></div>
+    <div class="row">
+      <span id="srcChips" class="row"></span>
+      <span class="sp"></span>
+      <button class="chip" id="fBig" type="button">대기업</button>
+      <button class="chip" id="fPub" type="button">공채</button>
+      <button class="chip" id="fNew" type="button">오늘 신규</button>
+    </div>
+    <div class="row">
+      <select class="sel" id="fLevel" aria-label="경력">
+        <option value="">경력 전체</option>
+        <option value="junior">신입</option>
+        <option value="any">신입·경력</option>
+        <option value="senior">경력</option>
+        <option value="intern">인턴</option>
+      </select>
+      <select class="sel" id="fRegion" aria-label="지역"><option value="">지역 전체</option></select>
+      <select class="sel" id="fSort" aria-label="정렬">
+        <option value="recent">최신순</option>
+        <option value="deadline">마감 임박순</option>
+        <option value="company">회사명순</option>
+      </select>
+      <input class="inp" id="fQ" type="search" placeholder="회사·제목·키워드 검색 (예: SwiftUI, 핀테크)" aria-label="검색">
+      <span class="cnt" id="count"></span>
+      <button class="reset" id="reset" type="button">초기화</button>
+    </div>
+  </section>
+
+  <section class="list" id="list" aria-live="polite"></section>
+  <button class="more" id="more" type="button" hidden>더 보기</button>
+
+  <footer class="foot">
+    <b>분류 기준.</b> iOS는 제목에 iOS·Swift·애플이 있거나 원티드 iOS 직군 태그가 달린 공고. 프로덕트 엔지니어는 Product Engineer 명시. AI 빌더는 AI 빌더·FDE(Forward Deployed Engineer)·AI Engineer·LLM·Agent 계열. 모바일은 React Native·Flutter 등 iOS를 명시하지 않은 앱 개발. 개발 공채는 자소설닷컴·사람인 공채속보의 IT 직군.
+    <b>대기업</b>은 그룹사·주요 IT 기업 목록과 사람인 대기업 배지 기준. 같은 회사의 같은 공고가 여러 사이트에 있으면 하나로 묶고 나머지 링크를 옆에 둔다. 잡코리아는 목록에 마감일이 없어 비어 있다.
+  </footer>
+</div>
+
+<script>
+(function () {
+  const CATS = [
+    ["all", "전체", null],
+    ["ios", "iOS", "var(--cat-ios)"],
+    ["product", "프로덕트 엔지니어", "var(--cat-product)"],
+    ["ai", "AI 빌더", "var(--cat-ai)"],
+    ["mobile", "모바일", "var(--cat-mobile)"],
+    ["dev", "개발 공채", "var(--cat-dev)"],
+  ];
+  const CAT_LABEL = Object.fromEntries(CATS.map(c => [c[0], c[1]]));
+  const CAT_COLOR = Object.fromEntries(CATS.map(c => [c[0], c[2]]));
+  const SRC = { wanted: "원티드", saramin: "사람인", jobkorea: "잡코리아", jasoseol: "자소설" };
+  const SRC_K = { wanted: "W", saramin: "S", jobkorea: "J", jasoseol: "자" };
+  const LEVEL = { junior: "신입", senior: "경력", any: "신입·경력", intern: "인턴", unknown: "" };
+  const PAGE = 60;
+
+  const $ = (id) => document.getElementById(id);
+  const esc = (s) => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+
+  let DATA = { jobs: [], sources: {}, stats: {}, today: new Date().toISOString().slice(0, 10) };
+  let state = { cat: "all", src: { wanted: true, saramin: true, jobkorea: true, jasoseol: true }, big: false, pub: false, fresh: false, level: "", region: "", sort: "recent", q: "" };
+  let shown = PAGE;
+
+  try { const s = JSON.parse(localStorage.getItem("radar.filters") || "null"); if (s && typeof s === "object") state = { ...state, ...s, src: { ...state.src, ...(s.src || {}) } }; } catch (e) {}
+  const save = () => { try { localStorage.setItem("radar.filters", JSON.stringify(state)); } catch (e) {} };
+
+  const today = () => DATA.today || new Date().toISOString().slice(0, 10);
+  const daysTo = (iso) => Math.round((new Date(iso + "T00:00:00") - new Date(today() + "T00:00:00")) / 864e5);
+  const fmtDate = (iso) => iso ? iso.slice(5).replace("-", "/") : "";
+  const dayLabel = (iso) => {
+    const d = daysTo(iso);
+    if (d === 0) return "오늘 등록";
+    if (d === -1) return "어제 등록";
+    const dt = new Date(iso + "T00:00:00");
+    return `${dt.getMonth() + 1}월 ${dt.getDate()}일 (${"일월화수목금토"[dt.getDay()]}) 등록`;
+  };
+
+  function deadlineHtml(j) {
+    if (j.deadline) {
+      const d = daysTo(j.deadline);
+      const cls = d <= 3 ? "urgent" : d <= 7 ? "soon" : "";
+      const txt = d === 0 ? "오늘 마감" : d < 0 ? "마감" : `D-${d}`;
+      return `<span class="dl ${cls}" title="~${j.deadline}">${txt} <span style="opacity:.7">${fmtDate(j.deadline)}</span></span>`;
+    }
+    return `<span class="dl">${esc(j.deadline_text || "마감 미표기")}</span>`;
+  }
+
+  function matches(j) {
+    if (state.cat !== "all" && !j.cats.includes(state.cat)) return false;
+    if (!state.src[j.source]) return false;
+    if (state.big && !j.bigco) return false;
+    if (state.pub && !j.public) return false;
+    if (state.fresh && j.first_seen !== today()) return false;
+    if (state.level && j.level !== state.level) return false;
+    if (state.region && (j.region_key || "미정") !== state.region) return false;
+    if (state.q) {
+      const q = state.q.toLowerCase();
+      const hay = `${j.company} ${j.title} ${j.sector || ""} ${j.region || ""} ${j.group || ""}`.toLowerCase();
+      if (!hay.includes(q)) return false;
+    }
+    return true;
+  }
+
+  function sorted(list) {
+    const by = state.sort;
+    return list.slice().sort((a, b) => {
+      if (by === "company") return a.company.localeCompare(b.company, "ko") || a.title.localeCompare(b.title, "ko");
+      if (by === "deadline") {
+        const da = a.deadline || "9999", db = b.deadline || "9999";
+        return da.localeCompare(db) || (b.posted || "").localeCompare(a.posted || "");
+      }
+      return (b.posted || b.first_seen).localeCompare(a.posted || a.first_seen) || (b.first_seen).localeCompare(a.first_seen) || (a.bigco === b.bigco ? 0 : a.bigco ? -1 : 1);
+    });
+  }
+
+  function jobHtml(j) {
+    const cats = j.cats.map(c => `<span class="pill cat" style="--c:${CAT_COLOR[c] || "var(--cat-dev)"}">${CAT_LABEL[c] || c}</span>`).join("");
+    const flags = [
+      j.first_seen === today() ? `<span class="pill new">NEW</span>` : "",
+      j.bigco ? `<span class="pill big">대기업</span>` : "",
+      j.public ? `<span class="pill pub">공채</span>` : "",
+      j.stale ? `<span class="pill stale" title="최근 수집에서 확인되지 않음">미확인</span>` : "",
+    ].join("");
+    const meta = [
+      j.region ? esc(j.region) : "",
+      LEVEL[j.level] || "",
+      j.employment_type && j.employment_type !== LEVEL[j.level] ? esc(j.employment_type) : "",
+      j.salary ? esc(j.salary) : "",
+      j.group ? esc(j.group) : "",
+    ].filter(Boolean).join(`<span class="sep">·</span>`);
+    const also = (j.also || []).map(a => `<a class="srcl" href="${esc(a.url)}" target="_blank" rel="noopener" title="${SRC[a.source]}에서 보기"><span class="k">${SRC_K[a.source]}</span></a>`).join("");
+    const ini = (j.company || "?").replace(/\(주\)|㈜|주식회사|\(유\)|\s/g, "").slice(0, 1).toUpperCase() || "?";
+    let hue = 0; for (const ch of j.company || "") hue = (hue * 31 + ch.charCodeAt(0)) % 360;
+    const logo = j.logo
+      ? `<img class="logo" src="${esc(j.logo)}" alt="" loading="lazy" style="--h:${hue}" onerror="this.outerHTML='<span class=&quot;logo ini&quot; style=&quot;--h:${hue}&quot;>${esc(ini)}</span>'">`
+      : `<span class="logo ini" style="--h:${hue}">${esc(ini)}</span>`;
+    return `<article class="job${j.stale ? " stale" : ""}">
+      ${logo}
+      <div class="co"><b>${esc(j.company)}</b>${flags}</div>
+      <h3 class="ttl"><a href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a></h3>
+      <div class="meta">${cats}${meta ? `<span class="sep">|</span>${meta}` : ""}</div>
+      <div class="side">
+        ${deadlineHtml(j)}
+        <span class="also"><a class="srcl" href="${esc(j.url)}" target="_blank" rel="noopener"><span class="k">${SRC_K[j.source]}</span>${SRC[j.source]}</a>${also}</span>
+      </div>
+    </article>`;
+  }
+
+  function render() {
+    const list = sorted(DATA.jobs.filter(matches));
+    $("count").innerHTML = `<b>${list.length}</b> / ${DATA.jobs.length}건`;
+    const el = $("list");
+    if (!list.length) {
+      el.innerHTML = `<div class="empty">조건에 맞는 공고가 없습니다. 필터를 풀거나 검색어를 바꿔 보세요.</div>`;
+      $("more").hidden = true;
+      return;
+    }
+    const slice = list.slice(0, shown);
+    let html = "", lastDay = null;
+    for (const j of slice) {
+      if (state.sort === "recent") {
+        const d = j.posted || j.first_seen;
+        if (d !== lastDay) { html += `<div class="day">${dayLabel(d)}</div>`; lastDay = d; }
+      }
+      html += jobHtml(j);
+    }
+    el.innerHTML = html;
+    $("more").hidden = list.length <= shown;
+    $("more").textContent = `더 보기 (${list.length - shown}건 남음)`;
+    // 탭/칩 상태
+    document.querySelectorAll(".tab").forEach(t => t.classList.toggle("on", t.dataset.cat === state.cat));
+    document.querySelectorAll("#srcChips .chip").forEach(c => c.classList.toggle("off", !state.src[c.dataset.src]));
+    $("fBig").classList.toggle("on", state.big); $("fPub").classList.toggle("on", state.pub); $("fNew").classList.toggle("on", state.fresh);
+    document.querySelectorAll(".stat").forEach(s => s.classList.toggle("on", s.dataset.toggle === "fresh" ? state.fresh : s.dataset.toggle === "big" ? state.big : s.dataset.toggle === "soon" ? state.sort === "deadline" : false));
+    save();
+  }
+
+  function set(patch) { Object.assign(state, patch); shown = PAGE; render(); }
+
+  function buildControls() {
+    const jobs = DATA.jobs;
+    const counts = Object.fromEntries(CATS.map(([k]) => [k, k === "all" ? jobs.length : jobs.filter(j => j.cats.includes(k)).length]));
+    $("tabs").innerHTML = CATS.map(([k, label, color]) =>
+      `<button class="tab" type="button" role="tab" data-cat="${k}" style="--c:${color || "var(--fg-3)"}">${color ? `<span class="sw"></span>` : ""}${label}<span class="n">${counts[k]}</span></button>`).join("");
+    $("tabs").onclick = (e) => { const t = e.target.closest(".tab"); if (t) set({ cat: t.dataset.cat }); };
+
+    $("srcChips").innerHTML = Object.keys(SRC).map(k => {
+      const m = DATA.sources[k] || {}; const n = jobs.filter(j => j.source === k).length;
+      return `<button class="chip" type="button" data-src="${k}" title="${m.ok === false ? "이번 수집 실패" : ""}">${SRC[k]} <span class="mono" style="opacity:.6">${n}</span></button>`;
+    }).join("");
+    $("srcChips").onclick = (e) => { const c = e.target.closest(".chip"); if (!c) return; state.src[c.dataset.src] = !state.src[c.dataset.src]; set({}); };
+
+    const regions = {};
+    jobs.forEach(j => { const k = j.region_key || "미정"; regions[k] = (regions[k] || 0) + 1; });
+    const order = ["서울", "경기", "인천", "부산", "대구", "대전", "광주", "울산", "세종", "강원", "충북", "충남", "전북", "전남", "경북", "경남", "제주", "해외/원격", "기타", "미정"];
+    $("fRegion").innerHTML = `<option value="">지역 전체</option>` + order.filter(r => regions[r]).map(r => `<option value="${r}">${r} (${regions[r]})</option>`).join("");
+
+    $("fBig").onclick = () => set({ big: !state.big });
+    $("fPub").onclick = () => set({ pub: !state.pub });
+    $("fNew").onclick = () => set({ fresh: !state.fresh });
+    $("fLevel").onchange = (e) => set({ level: e.target.value });
+    $("fRegion").onchange = (e) => set({ region: e.target.value });
+    $("fSort").onchange = (e) => set({ sort: e.target.value });
+    let t; $("fQ").oninput = (e) => { clearTimeout(t); t = setTimeout(() => set({ q: e.target.value.trim() }), 120); };
+    $("reset").onclick = () => { state = { cat: "all", src: { wanted: true, saramin: true, jobkorea: true, jasoseol: true }, big: false, pub: false, fresh: false, level: "", region: "", sort: "recent", q: "" }; syncInputs(); set({}); };
+    $("more").onclick = () => { shown += PAGE; render(); };
+    syncInputs();
+  }
+
+  (function theme() {
+    const root = document.documentElement;
+    let cur = null; try { cur = localStorage.getItem("radar.theme"); } catch (e) {}
+    if (cur === "light" || cur === "dark") root.dataset.theme = cur;
+    $("theme").onclick = () => {
+      const dark = root.dataset.theme ? root.dataset.theme === "dark" : matchMedia("(prefers-color-scheme: dark)").matches;
+      root.dataset.theme = dark ? "light" : "dark";
+      try { localStorage.setItem("radar.theme", root.dataset.theme); } catch (e) {}
+    };
+  })();
+
+  function syncInputs() { $("fLevel").value = state.level; $("fRegion").value = state.region; $("fSort").value = state.sort; $("fQ").value = state.q; }
+
+  function buildStats() {
+    const jobs = DATA.jobs;
+    const fresh = jobs.filter(j => j.first_seen === today()).length;
+    const soon = jobs.filter(j => j.deadline && daysTo(j.deadline) >= 0 && daysTo(j.deadline) <= 7).length;
+    const big = jobs.filter(j => j.bigco).length;
+    $("stats").innerHTML = [
+      ["all", "전체 공고", jobs.length, ""],
+      ["fresh", "오늘 새로 뜬", fresh, "new"],
+      ["soon", "7일 내 마감", soon, soon ? "soon" : ""],
+      ["big", "대기업", big, ""],
+    ].map(([k, label, v, cls]) => `<button class="stat" type="button" data-toggle="${k}"><span class="k">${label}</span><span class="v mono ${cls}">${v}</span></button>`).join("");
+    $("stats").onclick = (e) => {
+      const s = e.target.closest(".stat"); if (!s) return;
+      const k = s.dataset.toggle;
+      if (k === "all") $("reset").click();
+      else if (k === "fresh") set({ fresh: !state.fresh });
+      else if (k === "big") set({ big: !state.big });
+      else if (k === "soon") { $("fSort").value = state.sort === "deadline" ? "recent" : "deadline"; set({ sort: $("fSort").value }); }
+    };
+  }
+
+  function buildHeader() {
+    const u = DATA.updated_at ? DATA.updated_at.replace("T", " ").slice(0, 16) : "";
+    $("updated").textContent = u ? `${u} KST 기준 · 매일 아침 9시 사람인·잡코리아·자소설닷컴·원티드에서 갱신` : "매일 아침 9시 갱신";
+    $("sources").innerHTML = Object.entries(DATA.sources || {}).map(([k, m]) =>
+      `<span class="src${m.ok === false ? " bad" : ""}" title="${m.ok === false ? "수집 실패: " + esc(m.error || "") : "정상 (" + esc(m.last_ok || "") + ")"}"><i></i>${esc(m.label || SRC[k])} <b>${m.count}</b></span>`).join("");
+  }
+
+  async function load() {
+    const candidates = ["./jobs.json", "jobs.json"];
+    for (const url of candidates) {
+      try {
+        const r = await fetch(url, { cache: "no-store" });
+        if (!r.ok) continue;
+        const d = await r.json();
+        if (Array.isArray(d.jobs)) return d;
+      } catch (e) {}
+    }
+    if (window.__JOBS__) return window.__JOBS__;
+    throw new Error("jobs.json 을 불러오지 못했습니다");
+  }
+
+  load().then(d => {
+    DATA = d;
+    buildHeader(); buildStats(); buildControls(); render();
+  }).catch(err => {
+    $("updated").textContent = err.message + " — 수집기를 먼저 실행해 docs/jobs.json 을 만들어 주세요.";
+    $("list").innerHTML = `<div class="empty">아직 데이터가 없습니다. <code>python scraper/scrape.py</code> 를 실행하면 docs/jobs.json 이 생성됩니다.</div>`;
+  });
+})();
+</script>
+<!-- BODY:END -->
+</body>
+</html>
