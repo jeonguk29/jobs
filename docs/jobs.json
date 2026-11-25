@@ -1,12 +1,12 @@
 {
- "updated_at": "2026-11-25T13:07+09:00",
+ "updated_at": "2026-11-25T13:11+09:00",
  "today": "2026-11-25",
  "sources": {
   "wanted": {
    "label": "원티드",
-   "count": 315,
-   "ok": true,
-   "error": null,
+   "count": 314,
+   "ok": false,
+   "error": "0건",
    "last_ok": "2026-11-25T13:07+09:00"
   },
   "saramin": {
@@ -14,32 +14,32 @@
    "count": 103,
    "ok": true,
    "error": null,
-   "last_ok": "2026-11-25T13:07+09:00"
+   "last_ok": "2026-11-25T13:11+09:00"
   },
   "jobkorea": {
    "label": "잡코리아",
-   "count": 64,
+   "count": 63,
    "ok": true,
    "error": null,
-   "last_ok": "2026-11-25T13:07+09:00"
+   "last_ok": "2026-11-25T13:11+09:00"
   },
   "jasoseol": {
    "label": "자소설닷컴",
    "count": 70,
    "ok": true,
    "error": null,
-   "last_ok": "2026-11-25T13:07+09:00"
+   "last_ok": "2026-11-25T13:11+09:00"
   }
  },
  "stats": {
-  "total": 533,
-  "new_today": 104,
+  "total": 532,
+  "new_today": 103,
   "bigco": 98,
   "public": 67,
   "cats": {
    "ios": 53,
    "product": 72,
-   "ai": 352,
+   "ai": 351,
    "mobile": 29,
    "dev": 47
   }
@@ -600,7 +600,7 @@
    "group": null,
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/b699aa20b204.png"
   },
   {
@@ -626,7 +626,7 @@
    "group": null,
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/8cbf9fb88ad9.png"
   },
   {
@@ -652,7 +652,7 @@
    "group": null,
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/0bc1a679fa5e.png"
   },
   {
@@ -678,7 +678,7 @@
    "group": null,
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/0bc1a679fa5e.png"
   },
   {
@@ -704,7 +704,7 @@
    "group": null,
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": null
   },
   {
@@ -730,7 +730,7 @@
    "group": null,
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/6f2e7d6308f7.png"
   },
   {
@@ -756,7 +756,7 @@
    "group": null,
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/4bd2ed61b659.png"
   },
   {
@@ -782,7 +782,7 @@
    "group": null,
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/d69030889561.png"
   },
   {
@@ -809,7 +809,7 @@
    "group": null,
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/1531b5e55b39.png"
   },
   {
@@ -836,7 +836,7 @@
    "group": null,
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/38b4c24714c2.png"
   },
   {
@@ -862,7 +862,7 @@
    "group": null,
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/9a36348f6db9.png"
   },
   {
@@ -888,7 +888,7 @@
    "group": null,
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/d3feaadfb2c8.png"
   },
   {
@@ -914,7 +914,7 @@
    "group": null,
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/83c52795d446.png"
   },
   {
@@ -940,7 +940,7 @@
    "group": null,
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/772ede12a1cb.png"
   },
   {
@@ -966,7 +966,7 @@
    "group": null,
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/19c8f6862024.png"
   },
   {
@@ -992,7 +992,7 @@
    "group": null,
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/0060ec6e77e9.png"
   },
   {
@@ -1018,7 +1018,7 @@
    "group": null,
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/eda377c04a58.png"
   },
   {
@@ -1044,7 +1044,7 @@
    "group": null,
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/4b2a31e59b16.png"
   },
   {
@@ -1070,7 +1070,7 @@
    "group": null,
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/7eb78b45fc84.png"
   },
   {
@@ -1096,7 +1096,7 @@
    "group": null,
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/e3afff30fb20.png"
   },
   {
@@ -1122,7 +1122,7 @@
    "group": null,
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/299981d2cd16.png"
   },
   {
@@ -1148,7 +1148,7 @@
    "group": null,
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/299981d2cd16.png"
   },
   {
@@ -1174,7 +1174,7 @@
    "group": null,
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/299981d2cd16.png"
   },
   {
@@ -1200,7 +1200,7 @@
    "group": null,
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/299981d2cd16.png"
   },
   {
@@ -1226,7 +1226,7 @@
    "group": null,
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/e0d7b45b7253.png"
   },
   {
@@ -1252,7 +1252,7 @@
    "group": null,
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/9b4a15df1046.png"
   },
   {
@@ -1278,7 +1278,7 @@
    "group": null,
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/10baef6d0a1a.png"
   },
   {
@@ -1304,7 +1304,7 @@
    "group": null,
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/f6bef503b51e.png"
   },
   {
@@ -1383,7 +1383,7 @@
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-25",
    "stale": false,
-   "logo": null
+   "logo": "logos/03d82ddf0366.png"
   },
   {
    "id": "jobkorea:50416325",
@@ -1622,32 +1622,6 @@
    "logo": "logos/77a9711cc2c9.png"
   },
   {
-   "id": "jobkorea:50426188",
-   "source": "jobkorea",
-   "title": "[엠아이큐브솔루션] AI 엔지니어 채용",
-   "company": "엠아이큐브솔루션㈜",
-   "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50426188",
-   "cats": [
-    "ai"
-   ],
-   "level": "any",
-   "region": "서울 서초구",
-   "region_key": "서울",
-   "deadline": null,
-   "deadline_text": null,
-   "posted": "2026-11-25",
-   "public": false,
-   "bigco": false,
-   "sector": "솔루션·SI·CRM·ERP, 시스템엔지니어, AI/ML엔지니어, AI서비스개발자",
-   "employment_type": null,
-   "salary": null,
-   "group": null,
-   "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
-   "stale": false,
-   "logo": "logos/8d2c1976006e.png"
-  },
-  {
    "id": "jobkorea:50426780",
    "source": "jobkorea",
    "title": "[글로우서울/본사] 매칭 브릿지 AI 서비스 개발자 - 경력",
@@ -1697,7 +1671,7 @@
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-25",
    "stale": false,
-   "logo": null
+   "logo": "logos/fa223572d16a.png"
   },
   {
    "id": "jobkorea:50427329",
@@ -1906,12 +1880,6 @@
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-25",
    "stale": false,
-   "also": [
-    {
-     "source": "wanted",
-     "url": "https://www.wanted.co.kr/wd/398968"
-    }
-   ],
    "logo": "logos/fe3ca79e75cd.png"
   },
   {
@@ -2891,7 +2859,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/774a4790c87d.png"
   },
   {
@@ -2917,7 +2885,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/a391ae5afff6.png"
   },
   {
@@ -2943,7 +2911,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/24bb4beeec79.png"
   },
   {
@@ -2969,7 +2937,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/6129d85a4030.png"
   },
   {
@@ -2995,7 +2963,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/77304bf4d087.png"
   },
   {
@@ -3021,7 +2989,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/9669665998c2.png"
   },
   {
@@ -3048,7 +3016,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/722e15af40e4.png"
   },
   {
@@ -3074,7 +3042,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/157a237abd10.png"
   },
   {
@@ -3100,7 +3068,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/bd99e51e4b04.png"
   },
   {
@@ -3126,7 +3094,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/622c22a06f33.png"
   },
   {
@@ -3152,7 +3120,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/e3943277a593.png"
   },
   {
@@ -3179,7 +3147,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/0383697cd5ca.png"
   },
   {
@@ -3205,7 +3173,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/570171d6a5c0.png"
   },
   {
@@ -3231,7 +3199,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/a64d4d7e5d15.png"
   },
   {
@@ -3257,7 +3225,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/f7911ff1aed8.png"
   },
   {
@@ -3283,7 +3251,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/f7911ff1aed8.png"
   },
   {
@@ -3309,7 +3277,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/157a237abd10.png"
   },
   {
@@ -3335,7 +3303,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/2a48211b99e7.png"
   },
   {
@@ -3361,7 +3329,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/f01485870b0b.png"
   },
   {
@@ -3388,7 +3356,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/a64d4d7e5d15.png"
   },
   {
@@ -3414,7 +3382,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/622c22a06f33.png"
   },
   {
@@ -3440,7 +3408,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/2dc0cd8dbf92.png"
   },
   {
@@ -3466,7 +3434,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/411f40e81038.png"
   },
   {
@@ -3492,7 +3460,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/49dc00476c9e.png"
   },
   {
@@ -3518,7 +3486,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/bf4a3c0ccdcb.png"
   },
   {
@@ -3544,7 +3512,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/7afbf64ac991.png"
   },
   {
@@ -3571,7 +3539,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/ae658b6b7db2.png"
   },
   {
@@ -3597,7 +3565,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": null
   },
   {
@@ -3623,7 +3591,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/252234434274.png"
   },
   {
@@ -3649,7 +3617,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/49ffebb97c29.png"
   },
   {
@@ -3675,7 +3643,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/49ffebb97c29.png"
   },
   {
@@ -3701,7 +3669,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/49ffebb97c29.png"
   },
   {
@@ -3727,7 +3695,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/de48e4da9fe1.png"
   },
   {
@@ -3753,7 +3721,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/157a237abd10.png"
   },
   {
@@ -3780,7 +3748,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/74d7de37e753.png"
   },
   {
@@ -3806,7 +3774,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/a11aae4a5b54.png"
   },
   {
@@ -3832,7 +3800,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/a11aae4a5b54.png"
   },
   {
@@ -3858,7 +3826,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/73816cb891a4.png"
   },
   {
@@ -3884,7 +3852,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/8fe1c339bd14.png"
   },
   {
@@ -3910,7 +3878,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/8fe1c339bd14.png"
   },
   {
@@ -3936,7 +3904,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/eda377c04a58.png"
   },
   {
@@ -3962,7 +3930,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/eda377c04a58.png"
   },
   {
@@ -3988,7 +3956,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/6f44d058936e.png"
   },
   {
@@ -4014,7 +3982,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/a0fb143e615b.png"
   },
   {
@@ -4040,7 +4008,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/a0fb143e615b.png"
   },
   {
@@ -4066,7 +4034,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/33621fc670a4.png"
   },
   {
@@ -4092,7 +4060,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/49ffebb97c29.png"
   },
   {
@@ -4118,7 +4086,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/ba0dcf0385bb.png"
   },
   {
@@ -4144,7 +4112,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/09f19c6a90dd.png"
   },
   {
@@ -4170,7 +4138,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/09f19c6a90dd.png"
   },
   {
@@ -4196,7 +4164,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/d1d406660548.png"
   },
   {
@@ -4223,7 +4191,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/28f755140dfe.png"
   },
   {
@@ -4249,7 +4217,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/4b45e2d70e2d.png"
   },
   {
@@ -4275,7 +4243,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/ad583fbdba05.png"
   },
   {
@@ -4301,7 +4269,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/2d202341a458.png"
   },
   {
@@ -4327,7 +4295,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/b2759f366037.png"
   },
   {
@@ -4353,7 +4321,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/ae7491b86b57.png"
   },
   {
@@ -4379,7 +4347,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/a237bcb37901.png"
   },
   {
@@ -4405,7 +4373,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/fea8ceb5e92a.png"
   },
   {
@@ -4431,7 +4399,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/a6fba5c348df.png"
   },
   {
@@ -4457,7 +4425,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/20eee1625080.png"
   },
   {
@@ -4483,7 +4451,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/513989e628ed.png"
   },
   {
@@ -4509,7 +4477,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/513989e628ed.png"
   },
   {
@@ -4535,7 +4503,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/6da5d655b4e3.png"
   },
   {
@@ -4561,7 +4529,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/a5508d691d32.png"
   },
   {
@@ -4587,7 +4555,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/df9aa7aa6a7d.png"
   },
   {
@@ -4613,7 +4581,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/c4436f427fc0.png"
   },
   {
@@ -4639,7 +4607,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/0556f1069b85.png"
   },
   {
@@ -4665,7 +4633,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/0556f1069b85.png"
   },
   {
@@ -4691,7 +4659,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/0556f1069b85.png"
   },
   {
@@ -4717,7 +4685,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/84b1f1b43d53.png"
   },
   {
@@ -4743,7 +4711,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/cc1db784785a.png"
   },
   {
@@ -4769,7 +4737,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/b41beb6886fe.png"
   },
   {
@@ -4795,7 +4763,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": null
   },
   {
@@ -4821,7 +4789,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/0fb787f298ac.png"
   },
   {
@@ -4847,7 +4815,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/aad70ebe962f.png"
   },
   {
@@ -4873,7 +4841,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/795fe343b52a.png"
   },
   {
@@ -4899,7 +4867,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/11190039668b.png"
   },
   {
@@ -4925,7 +4893,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/a00bdca08b4e.png"
   },
   {
@@ -4951,7 +4919,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/994b5ec4d78e.png"
   },
   {
@@ -4977,7 +4945,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/4190ef127995.png"
   },
   {
@@ -5003,7 +4971,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/69d4fedd8607.png"
   },
   {
@@ -5029,7 +4997,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/c02a3b765ad5.png"
   },
   {
@@ -5055,7 +5023,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/d4d729562313.png"
   },
   {
@@ -5081,7 +5049,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/032495c2eab2.png"
   },
   {
@@ -5107,7 +5075,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/73816cb891a4.png"
   },
   {
@@ -5133,7 +5101,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/c3d3a59b4f5d.png"
   },
   {
@@ -5159,7 +5127,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/d9defc12e659.png"
   },
   {
@@ -5185,7 +5153,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/c60eee9e9bcb.png"
   },
   {
@@ -5211,7 +5179,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/adbc569e5728.png"
   },
   {
@@ -5237,7 +5205,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/73816cb891a4.png"
   },
   {
@@ -5263,7 +5231,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/4b45e2d70e2d.png"
   },
   {
@@ -5289,7 +5257,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/ec951a44ddc7.png"
   },
   {
@@ -5315,7 +5283,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/c60eee9e9bcb.png"
   },
   {
@@ -5341,7 +5309,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/6f44d058936e.png"
   },
   {
@@ -5367,7 +5335,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/6f44d058936e.png"
   },
   {
@@ -5394,7 +5362,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/d6f0fd4ca671.png"
   },
   {
@@ -5420,7 +5388,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": null
   },
   {
@@ -5446,7 +5414,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/7f7b7da1deb6.png"
   },
   {
@@ -5472,7 +5440,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/d4d729562313.png"
   },
   {
@@ -5498,7 +5466,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/e68ac34f8626.png"
   },
   {
@@ -5524,7 +5492,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/a237bcb37901.png"
   },
   {
@@ -5550,7 +5518,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/658027d9d54a.png"
   },
   {
@@ -5576,7 +5544,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/77a9711cc2c9.png"
   },
   {
@@ -5602,7 +5570,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": null
   },
   {
@@ -5628,7 +5596,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/10baef6d0a1a.png"
   },
   {
@@ -5655,7 +5623,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/7677e7d32129.png"
   },
   {
@@ -5681,7 +5649,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/d709e6093965.png"
   },
   {
@@ -5707,7 +5675,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/b69ea8cf0a95.png"
   },
   {
@@ -5733,7 +5701,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/b69ea8cf0a95.png"
   },
   {
@@ -5759,7 +5727,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/b69ea8cf0a95.png"
   },
   {
@@ -5785,7 +5753,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/b69ea8cf0a95.png"
   },
   {
@@ -5811,7 +5779,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/fb225d21daf7.png"
   },
   {
@@ -5837,7 +5805,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/c7ef02c73a85.png"
   },
   {
@@ -5863,7 +5831,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/109eb1e18274.png"
   },
   {
@@ -5889,7 +5857,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/10fb048b0a58.png"
   },
   {
@@ -5915,7 +5883,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/5fe07ce8890e.png"
   },
   {
@@ -5941,7 +5909,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/070e86809aa1.png"
   },
   {
@@ -5967,7 +5935,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/83c296ebbfd0.png"
   },
   {
@@ -5993,7 +5961,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": null
   },
   {
@@ -6019,7 +5987,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/c6210258cdbd.png"
   },
   {
@@ -6045,7 +6013,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/e68ac34f8626.png"
   },
   {
@@ -6071,7 +6039,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/d76f3e6abeb5.png"
   },
   {
@@ -6097,7 +6065,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/a2714c68165e.png"
   },
   {
@@ -6123,7 +6091,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/8a8a013af689.png"
   },
   {
@@ -6149,7 +6117,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/9d885fd3062b.png"
   },
   {
@@ -6175,7 +6143,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/821e79b59410.png"
   },
   {
@@ -6201,7 +6169,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/821e79b59410.png"
   },
   {
@@ -6227,7 +6195,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/2dc0cd8dbf92.png"
   },
   {
@@ -6253,7 +6221,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/c36b62b2274c.png"
   },
   {
@@ -6279,7 +6247,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/c98e9f1445fe.png"
   },
   {
@@ -6305,7 +6273,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/1d685530b16c.png"
   },
   {
@@ -6331,7 +6299,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/76a499f76fe4.png"
   },
   {
@@ -6357,7 +6325,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/c98e9f1445fe.png"
   },
   {
@@ -6383,7 +6351,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": null
   },
   {
@@ -6409,7 +6377,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": null
   },
   {
@@ -6435,7 +6403,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/4b3a7726d72e.png"
   },
   {
@@ -6461,7 +6429,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/c36b62b2274c.png"
   },
   {
@@ -6487,7 +6455,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/eeae799cef13.png"
   },
   {
@@ -6513,7 +6481,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/eeae799cef13.png"
   },
   {
@@ -6539,7 +6507,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/e7a42ffd600d.png"
   },
   {
@@ -6565,7 +6533,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/eeae799cef13.png"
   },
   {
@@ -6591,7 +6559,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/eeae799cef13.png"
   },
   {
@@ -6617,7 +6585,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/eeae799cef13.png"
   },
   {
@@ -6643,7 +6611,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/9cff1a4bf4e9.png"
   },
   {
@@ -6669,7 +6637,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/e9e37137c321.png"
   },
   {
@@ -6695,7 +6663,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/271b1a6116b2.png"
   },
   {
@@ -6721,7 +6689,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/271b1a6116b2.png"
   },
   {
@@ -6747,7 +6715,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/74fa237638d9.png"
   },
   {
@@ -6773,7 +6741,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/e38a54f633dc.png"
   },
   {
@@ -6799,7 +6767,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/ec951a44ddc7.png"
   },
   {
@@ -6825,7 +6793,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/727ba70de612.png"
   },
   {
@@ -6851,7 +6819,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/727ba70de612.png"
   },
   {
@@ -6877,7 +6845,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/727ba70de612.png"
   },
   {
@@ -6903,7 +6871,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/28d9ca02bfdc.png"
   },
   {
@@ -6929,7 +6897,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/91cfb68f7087.png"
   },
   {
@@ -6955,7 +6923,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/73816cb891a4.png"
   },
   {
@@ -6981,7 +6949,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/3b171044a01b.png"
   },
   {
@@ -7007,7 +6975,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/57e72bbcc5d7.png"
   },
   {
@@ -7033,7 +7001,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/c76b963030c2.png"
   },
   {
@@ -7059,7 +7027,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/c76b963030c2.png"
   },
   {
@@ -7085,7 +7053,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/49343e8cf27c.png"
   },
   {
@@ -7111,7 +7079,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/09f19c6a90dd.png"
   },
   {
@@ -7137,7 +7105,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": null
   },
   {
@@ -7163,7 +7131,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": null
   },
   {
@@ -7189,7 +7157,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/f6bef503b51e.png"
   },
   {
@@ -7215,7 +7183,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/785d74d0b249.png"
   },
   {
@@ -7241,7 +7209,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/e8326d6045ad.png"
   },
   {
@@ -7267,7 +7235,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/e8326d6045ad.png"
   },
   {
@@ -7293,7 +7261,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/455f4eb66c5c.png"
   },
   {
@@ -7319,7 +7287,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/26fb3aad86a6.png"
   },
   {
@@ -7345,7 +7313,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/8c969ae87caf.png"
   },
   {
@@ -7371,7 +7339,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/bb33733e1f8b.png"
   },
   {
@@ -7397,7 +7365,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/baa0893e4f33.png"
   },
   {
@@ -7423,7 +7391,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/77a9711cc2c9.png"
   },
   {
@@ -7449,7 +7417,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/857bcf56a8c3.png"
   },
   {
@@ -7475,7 +7443,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/2fdf09112b48.png"
   },
   {
@@ -7501,7 +7469,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/f6bef503b51e.png"
   },
   {
@@ -7527,7 +7495,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/c4a4b9e27cff.png"
   },
   {
@@ -7553,7 +7521,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/785d74d0b249.png"
   },
   {
@@ -7579,7 +7547,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/785d74d0b249.png"
   },
   {
@@ -7605,7 +7573,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/785d74d0b249.png"
   },
   {
@@ -7631,7 +7599,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/371b72d2053e.png"
   },
   {
@@ -7657,7 +7625,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": null
   },
   {
@@ -7683,7 +7651,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/8154c146d484.png"
   },
   {
@@ -7709,7 +7677,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/4b4420cb48d3.png"
   },
   {
@@ -7735,7 +7703,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/d5de7ac2cfcc.png"
   },
   {
@@ -7761,7 +7729,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/b2e307184809.png"
   },
   {
@@ -7787,7 +7755,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/eb46511b5523.png"
   },
   {
@@ -7813,7 +7781,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/1531b5e55b39.png"
   },
   {
@@ -7839,7 +7807,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/a967251c629c.png"
   },
   {
@@ -7865,7 +7833,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/58ac0f0859b8.png"
   },
   {
@@ -7891,7 +7859,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/a31b9ae46bda.png"
   },
   {
@@ -7917,7 +7885,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/844be9076455.png"
   },
   {
@@ -7943,7 +7911,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/77e868e9a346.png"
   },
   {
@@ -7969,7 +7937,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/ffa6804e8b41.png"
   },
   {
@@ -7995,7 +7963,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/e27ce1291582.png"
   },
   {
@@ -8021,7 +7989,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/740ade4aa36f.png"
   },
   {
@@ -8048,7 +8016,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/f1fbcc387d7f.png"
   },
   {
@@ -8074,7 +8042,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/e27ce1291582.png"
   },
   {
@@ -8100,7 +8068,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/72eab037d0d2.png"
   },
   {
@@ -8126,7 +8094,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/d5de7ac2cfcc.png"
   },
   {
@@ -8152,7 +8120,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/f9f5fefb6ffd.png"
   },
   {
@@ -8178,7 +8146,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/d76e839c0165.png"
   },
   {
@@ -8204,7 +8172,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/f6bef503b51e.png"
   },
   {
@@ -8230,7 +8198,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/e873bf73adbd.png"
   },
   {
@@ -8256,7 +8224,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/3f63181179bf.png"
   },
   {
@@ -8282,7 +8250,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/cc1a2f26d55b.png"
   },
   {
@@ -8308,7 +8276,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/8154c146d484.png"
   },
   {
@@ -8334,7 +8302,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/073955714bbf.png"
   },
   {
@@ -8360,7 +8328,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/e3afff30fb20.png"
   },
   {
@@ -8386,7 +8354,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/7f7ef1ad206c.png"
   },
   {
@@ -8412,7 +8380,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/39ccc378e8b7.png"
   },
   {
@@ -8438,7 +8406,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/549960384399.png"
   },
   {
@@ -8464,7 +8432,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/073955714bbf.png"
   },
   {
@@ -8490,7 +8458,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/892fe428258a.png"
   },
   {
@@ -8516,7 +8484,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/480a6306d304.png"
   },
   {
@@ -8542,7 +8510,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/d1c4bf92dce3.png"
   },
   {
@@ -8568,7 +8536,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/ba0dcf0385bb.png"
   },
   {
@@ -8594,7 +8562,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": null
   },
   {
@@ -8620,7 +8588,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/3a46bfc3a6cf.png"
   },
   {
@@ -8646,7 +8614,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/39ccc378e8b7.png"
   },
   {
@@ -8673,7 +8641,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/77e27d0bd689.png"
   },
   {
@@ -8699,7 +8667,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/ffa6804e8b41.png"
   },
   {
@@ -8725,7 +8693,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/ffa6804e8b41.png"
   },
   {
@@ -8751,7 +8719,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/7b89330c4f80.png"
   },
   {
@@ -8777,7 +8745,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/2ded3ba88197.png"
   },
   {
@@ -8803,7 +8771,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/7b89330c4f80.png"
   },
   {
@@ -8829,7 +8797,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/b6f841b78628.png"
   },
   {
@@ -8855,7 +8823,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/11190039668b.png"
   },
   {
@@ -8881,8 +8849,12 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "also": [
+    {
+     "source": "jobkorea",
+     "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50416785"
+    },
     {
      "source": "jobkorea",
      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50416785"
@@ -8913,7 +8885,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/ab0180be85e7.png"
   },
   {
@@ -8940,7 +8912,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/e873bf73adbd.png"
   },
   {
@@ -8966,7 +8938,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/4188bbacdf22.png"
   },
   {
@@ -8992,7 +8964,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/e68ac34f8626.png"
   },
   {
@@ -9018,7 +8990,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/a6b6a960c1bb.png"
   },
   {
@@ -9044,7 +9016,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/a6b6a960c1bb.png"
   },
   {
@@ -9070,7 +9042,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/73816cb891a4.png"
   },
   {
@@ -9096,7 +9068,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/395f4718c27d.png"
   },
   {
@@ -9122,7 +9094,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/395f4718c27d.png"
   },
   {
@@ -9148,7 +9120,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/7ba0b8ec8d1a.png"
   },
   {
@@ -9174,7 +9146,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/d5de7ac2cfcc.png"
   },
   {
@@ -9200,7 +9172,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/d5de7ac2cfcc.png"
   },
   {
@@ -9226,7 +9198,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/f1fbcc387d7f.png"
   },
   {
@@ -9252,7 +9224,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/72eab037d0d2.png"
   },
   {
@@ -9278,7 +9250,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/ad127c7c9881.png"
   },
   {
@@ -9304,7 +9276,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/b02208dafc13.png"
   },
   {
@@ -9330,7 +9302,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/eeae799cef13.png"
   },
   {
@@ -9356,7 +9328,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/eeae799cef13.png"
   },
   {
@@ -9382,7 +9354,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/095029cc4a70.png"
   },
   {
@@ -9408,7 +9380,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/b2e307184809.png"
   },
   {
@@ -9434,7 +9406,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/d1d406660548.png"
   },
   {
@@ -9460,7 +9432,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/1a8a9aad308f.png"
   },
   {
@@ -9486,7 +9458,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/157a237abd10.png"
   },
   {
@@ -9512,7 +9484,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/157a237abd10.png"
   },
   {
@@ -9538,7 +9510,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/727ba70de612.png"
   },
   {
@@ -9564,7 +9536,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/727ba70de612.png"
   },
   {
@@ -9590,7 +9562,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/4d88c7f4a5d6.png"
   },
   {
@@ -9616,7 +9588,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/4d88c7f4a5d6.png"
   },
   {
@@ -9642,7 +9614,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/4d88c7f4a5d6.png"
   },
   {
@@ -9668,8 +9640,12 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "also": [
+    {
+     "source": "jobkorea",
+     "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50387103"
+    },
     {
      "source": "jobkorea",
      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50387103"
@@ -9700,7 +9676,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/e07832587961.png"
   },
   {
@@ -9726,7 +9702,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/e07832587961.png"
   },
   {
@@ -9752,7 +9728,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/e07832587961.png"
   },
   {
@@ -9778,7 +9754,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/f6bef503b51e.png"
   },
   {
@@ -9804,7 +9780,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/5b5c6a7af97f.png"
   },
   {
@@ -9830,7 +9806,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/27560bbb20b3.png"
   },
   {
@@ -9856,7 +9832,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/fdd3a7dd549f.png"
   },
   {
@@ -9882,7 +9858,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/fea4f87964ca.png"
   },
   {
@@ -9908,7 +9884,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/9dcc70261195.png"
   },
   {
@@ -9934,7 +9910,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/8e669721ac53.png"
   },
   {
@@ -9960,7 +9936,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/d5de7ac2cfcc.png"
   },
   {
@@ -9986,7 +9962,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/a64d4d7e5d15.png"
   },
   {
@@ -10012,7 +9988,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/132a83c14ed4.png"
   },
   {
@@ -10038,7 +10014,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/c81a48d87e3f.png"
   },
   {
@@ -10064,7 +10040,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/e7ca07f75fcb.png"
   },
   {
@@ -10091,7 +10067,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/6f3691f52916.png"
   },
   {
@@ -10117,7 +10093,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/7a7486bd6755.png"
   },
   {
@@ -10143,7 +10119,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/cbbd7012cec4.png"
   },
   {
@@ -10169,7 +10145,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/6f2e7d6308f7.png"
   },
   {
@@ -10195,7 +10171,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/8f41dca99f75.png"
   },
   {
@@ -10221,7 +10197,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/de2e446ba552.png"
   },
   {
@@ -10247,7 +10223,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/37b147e09390.png"
   },
   {
@@ -10273,7 +10249,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/a64d4d7e5d15.png"
   },
   {
@@ -10299,7 +10275,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/76cff6efff68.png"
   },
   {
@@ -10325,7 +10301,7 @@
    "group": null,
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
-   "stale": false,
+   "stale": true,
    "logo": "logos/d7567d9e8cb3.png"
   },
   {
@@ -10821,7 +10797,7 @@
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-25",
    "stale": false,
-   "logo": null
+   "logo": "logos/69f0b01fb401.png"
   },
   {
    "id": "jobkorea:50399595",
