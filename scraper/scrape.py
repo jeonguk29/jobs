@@ -6,6 +6,7 @@
 """
 from __future__ import annotations
 
+import argparse
 import datetime as dt
 import hashlib
 import io
@@ -28,6 +29,8 @@ except ImportError:  # 로고 없이도 동작
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "docs" / "jobs.json"
 LOGO_DIR = ROOT / "docs" / "logos"
+SOURCES_DIR = ROOT / "docs" / "sources"  # 서버에서 막히는 출처(원티드)를 로컬에서 긁어 둔 파일
+LOCAL_MAX_AGE_DAYS = 3
 MAX_NEW_LOGOS = 400
 KST = dt.timezone(dt.timedelta(hours=9))
 NOW = dt.datetime.now(KST)
@@ -584,7 +587,39 @@ SOURCES = {
 }
 
 
+def load_local_source(key: str):
+    """로컬(한국 IP)에서 미리 수집해 둔 docs/sources/<key>.json 을 읽는다. 오래됐으면 None."""
+    path = SOURCES_DIR / f"{key}.json"
+    if not path.exists():
+        return None, None
+    try:
+        doc = json.loads(path.read_text(encoding="utf-8"))
+        fetched = dt.datetime.fromisoformat(doc["fetched_at"])
+        if (NOW - fetched).days > LOCAL_MAX_AGE_DAYS:
+            return None, doc["fetched_at"]
+        return doc["jobs"], doc["fetched_at"]
+    except Exception:  # noqa: BLE001
+        return None, None
+
+
 def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--only", help="쉼표로 구분한 출처만 수집해 docs/sources/<출처>.json 에 저장 (jobs.json 은 건드리지 않음)")
+    args = ap.parse_args()
+    if args.only:
+        for key in args.only.split(","):
+            label, fn = SOURCES[key]
+            found = fn()
+            if not found:
+                print(f"{label}: 0건, 파일 유지", file=sys.stderr)
+                continue
+            attach_logos(found)
+            SOURCES_DIR.mkdir(parents=True, exist_ok=True)
+            (SOURCES_DIR / f"{key}.json").write_text(
+                json.dumps({"fetched_at": NOW.isoformat(timespec="minutes"), "jobs": found}, ensure_ascii=False), encoding="utf-8")
+            print(f"{label}: {len(found)}건 → docs/sources/{key}.json")
+        return
+
     prev = {}
     prev_meta = {}
     if OUT.exists():
@@ -605,6 +640,12 @@ def main():
         except Exception:  # noqa: BLE001
             found, err = [], traceback.format_exc(limit=3)
             print(f"  ! {label} 실패\n{err}", file=sys.stderr)
+        local_note = None
+        if not found:
+            local_jobs, fetched_at = load_local_source(key)
+            if local_jobs:
+                found, err = local_jobs, None
+                local_note = f"로컬 수집 {fetched_at}"
         if not found:
             # 이번 런에서 실패/0건이면 직전 결과를 유지(stale)
             kept = [dict(j, stale=True) for j in prev.values() if j["source"] == key]
@@ -615,8 +656,8 @@ def main():
         else:
             for j in found:
                 jobs[j["id"]] = j
-            meta[key] = {"label": label, "count": len(found), "ok": True, "error": None,
-                         "last_ok": NOW.isoformat(timespec="minutes")}
+            meta[key] = {"label": label, "count": len(found), "ok": True, "error": None, "note": local_note,
+                         "last_ok": local_note.split(" ", 2)[-1] if local_note else NOW.isoformat(timespec="minutes")}
         print(f"{label}: {meta[key]['count']}건 ({time.time()-t0:.0f}s)")
 
     # 마감 지난 공고 제거, first_seen 이어받기

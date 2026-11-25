@@ -3,6 +3,8 @@ name: 채용공고 수집
 on:
   schedule:
     - cron: "0 0 * * *"   # 매일 09:00 KST
+  push:
+    paths: ["docs/sources/**"]   # 맥에서 원티드 수집본을 올리면 바로 합친다
   workflow_dispatch:
 
 permissions:
@@ -37,5 +39,5 @@ jobs:
             echo "변경 없음"
           else
             git commit -m "chore: 채용공고 업데이트 $(TZ=Asia/Seoul date +'%Y-%m-%d %H:%M')"
-            git push
+            git pull --rebase origin main && git push
           fi

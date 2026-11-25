@@ -49,3 +49,11 @@ gh workflow run "채용공고 수집"
 ## 관심 기업
 
 제목만으로는 분류가 안 되는 회사(예: 모두닥 "Problem Solver (Engineering Based)")는 `scraper/scrape.py`의 `WATCH_COMPANIES`에 넣으면 원티드에서 회사명으로 추가 검색하고, 개발 성격의 제목이면 프로덕트 엔지니어로 넣는다.
+
+## 원티드는 맥에서 수집 (하이브리드)
+
+원티드(CloudFront)는 GitHub Actions 러너 IP(미국)를 403으로 막는다. 그래서 원티드만 한국 IP인 맥에서 긁는다.
+
+- `scripts/wanted_local.sh` — `scrape.py --only wanted` 로 `docs/sources/wanted.json` + 로고를 만들어 푸시. launchd(`~/Library/LaunchAgents/com.jeonguk.jobs-wanted.plist`)가 매일 08:30 실행, 로그는 `~/Library/Logs/jobs-wanted.log`.
+- 그 푸시가 워크플로를 바로 트리거하고, 워크플로는 원티드가 막히면 `docs/sources/wanted.json`(3일 이내)을 대신 쓴다. 맥이 꺼져 있던 날은 원티드만 직전 데이터("갱신 대기")로 남는다.
+- 끄려면: `launchctl bootout gui/$(id -u) ~/Library/LaunchAgents/com.jeonguk.jobs-wanted.plist`

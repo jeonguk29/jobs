@@ -408,7 +408,7 @@ button.src { cursor: pointer; }
     const u = DATA.updated_at ? DATA.updated_at.replace("T", " ").slice(0, 16) : "";
     $("updated").textContent = u ? `${u} KST 기준 · 매일 아침 9시 사람인·잡코리아·자소설닷컴·원티드에서 갱신` : "매일 아침 9시 갱신";
     $("sources").innerHTML = Object.entries(DATA.sources || {}).map(([k, m]) =>
-      `<span class="src${m.ok === false ? " bad" : ""}" title="${m.ok === false ? "수집 실패: " + esc(m.error || "") : "정상 (" + esc(m.last_ok || "") + ")"}"><i></i>${esc(m.label || SRC[k])} <b>${m.count}</b></span>`).join("");
+      `<span class="src${m.ok === false ? " bad" : ""}" title="${m.ok === false ? "수집 실패: " + esc(m.error || "") : (m.note ? esc(m.note) : "정상 (" + esc(m.last_ok || "") + ")")}"><i></i>${esc(m.label || SRC[k])} <b>${m.count}</b></span>`).join("");
   }
 
   async function load() {
