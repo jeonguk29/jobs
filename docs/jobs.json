@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-11-26T15:53+09:00",
- "today": "2026-11-26",
+ "updated_at": "2026-11-27T15:46+09:00",
+ "today": "2026-11-27",
  "sources": {
   "wanted": {
    "label": "원티드",
@@ -12,509 +12,1215 @@
   },
   "saramin": {
    "label": "사람인",
-   "count": 116,
+   "count": 115,
    "ok": true,
    "error": null,
    "note": null,
-   "last_ok": "2026-11-26T15:53+09:00"
+   "last_ok": "2026-11-27T15:46+09:00"
   },
   "jobkorea": {
    "label": "잡코리아",
-   "count": 64,
+   "count": 67,
    "ok": true,
    "error": null,
    "note": null,
-   "last_ok": "2026-11-26T15:53+09:00"
+   "last_ok": "2026-11-27T15:46+09:00"
   },
   "jasoseol": {
    "label": "자소설닷컴",
-   "count": 73,
+   "count": 69,
    "ok": true,
    "error": null,
    "note": null,
-   "last_ok": "2026-11-26T15:53+09:00"
+   "last_ok": "2026-11-27T15:46+09:00"
   }
  },
  "stats": {
-  "total": 551,
-  "new_today": 78,
-  "bigco": 109,
-  "public": 92,
+  "total": 544,
+  "new_today": 44,
+  "bigco": 100,
+  "public": 83,
   "cats": {
-   "ios": 54,
+   "ios": 56,
    "product": 73,
-   "ai": 346,
-   "mobile": 28,
-   "dev": 68
+   "ai": 342,
+   "mobile": 29,
+   "dev": 62
   }
  },
  "jobs": [
   {
-   "id": "saramin:55667881",
+   "id": "saramin:55678113",
    "source": "saramin",
-   "title": "2026년 하반기 각 부문별 공개채용",
-   "company": "매니코어소프트(주)",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55667881",
+   "title": "SW팀 소프트웨어 개발 보조 채용",
+   "company": "(주)제이브이엠",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55678113",
    "cats": [
     "dev"
    ],
-   "level": "any",
-   "region": "서울 구로구 외",
-   "region_key": "서울",
-   "deadline": "2026-12-31",
+   "level": "junior",
+   "region": "대구전체 외",
+   "region_key": "대구",
+   "deadline": "2026-12-25",
    "deadline_text": null,
-   "posted": "2026-11-26",
+   "posted": "2026-11-27",
    "public": true,
    "bigco": false,
-   "sector": "기술지원, 데이터분석가, 데이터엔지니어, 백엔드/서버개발, 유지보수",
+   "sector": "S/W",
    "employment_type": "정규직",
    "salary": "면접 후 협의",
-   "group": null,
-   "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
+   "group": "한미약품그룹",
+   "first_seen": "2026-11-27",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": null
   },
   {
-   "id": "saramin:55669312",
+   "id": "saramin:55678327",
    "source": "saramin",
-   "title": "㈜큐로셀 각 부문 신입/경력 채용",
-   "company": "(주)큐로셀",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55669312",
+   "title": "[㈜테크웨이즈] 각 부문별 신입·경력사원 모집",
+   "company": "(주)테크웨이즈",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55678327",
    "cats": [
     "dev"
    ],
    "level": "any",
-   "region": "대전 유성구",
-   "region_key": "대전",
-   "deadline": "2026-12-13",
-   "deadline_text": null,
-   "posted": "2026-11-26",
-   "public": true,
-   "bigco": false,
-   "sector": "기술지원, 데이터분석가, 데이터엔지니어, 데이터마이닝, 데이터시각화",
-   "employment_type": "정규직",
-   "salary": "면접 후 협의",
-   "group": null,
-   "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
-   "stale": false,
-   "logo": null
-  },
-  {
-   "id": "saramin:55671306",
-   "source": "saramin",
-   "title": "[SK쉴더스] 경호보안 계약직 채용(경기도 이천 근무)",
-   "company": "에스케이쉴더스(주)",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55671306",
-   "cats": [
-    "dev"
-   ],
-   "level": "any",
-   "region": "경기 이천시",
+   "region": "경기 용인시 수지구 외",
    "region_key": "경기",
-   "deadline": "2026-12-09",
+   "deadline": "2026-12-16",
    "deadline_text": null,
-   "posted": "2026-11-26",
+   "posted": "2026-11-27",
    "public": true,
-   "bigco": true,
-   "sector": "경비원, 경비지도사, 경호원, 보안요원, 안전요원",
+   "bigco": false,
+   "sector": "기술지원, SE(시스템엔지니어), SI개발, 네트워크, 솔루션",
+   "employment_type": "정규직",
+   "salary": "면접 후 협의",
+   "group": null,
+   "first_seen": "2026-11-27",
+   "last_seen": "2026-11-27",
+   "stale": false,
+   "logo": null
+  },
+  {
+   "id": "saramin:55678359",
+   "source": "saramin",
+   "title": "[보전원] 국립공원야생생물보전원 기간제(환경관리) 직원 채용",
+   "company": "국립공원공단",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55678359",
+   "cats": [
+    "dev"
+   ],
+   "level": "any",
+   "region": "전남광주 구례군",
+   "region_key": "전남",
+   "deadline": "2026-12-10",
+   "deadline_text": null,
+   "posted": "2026-11-27",
+   "public": true,
+   "bigco": false,
+   "sector": "미화원, 보안요원, 환경관리자, 환경설계, 시설관리",
    "employment_type": "계약직",
    "salary": "면접 후 협의",
-   "group": null,
-   "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
+   "group": "기후에너지환경부그룹",
+   "first_seen": "2026-11-27",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": null
   },
   {
-   "id": "saramin:55671362",
+   "id": "saramin:55681156",
    "source": "saramin",
-   "title": "[SK쉴더스] 경호보안 계약직 채용",
-   "company": "에스케이쉴더스(주)",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55671362",
+   "title": "디에이치(주) 평택사업장 경력 인재 상시 채용",
+   "company": "디에이치(주)",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55681156",
    "cats": [
     "dev"
    ],
    "level": "any",
-   "region": "서울 강남구 외",
-   "region_key": "서울",
-   "deadline": "2026-12-09",
-   "deadline_text": null,
-   "posted": "2026-11-26",
-   "public": true,
-   "bigco": true,
-   "sector": "경비원, 경비지도사, 경호원, 보안요원, 안전요원",
-   "employment_type": "계약직",
-   "salary": "면접 후 협의",
-   "group": null,
-   "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
-   "stale": false,
-   "logo": null
-  },
-  {
-   "id": "saramin:55671543",
-   "source": "saramin",
-   "title": "'26년 하반기 각 부문 정규직 채용",
-   "company": "(주)로봇앤드디자인",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55671543",
-   "cats": [
-    "dev"
-   ],
-   "level": "any",
-   "region": "경기 용인시 처인구 외",
+   "region": "경기 평택시 외",
    "region_key": "경기",
-   "deadline": "2026-12-26",
+   "deadline": "2027-01-24",
    "deadline_text": null,
-   "posted": "2026-11-26",
+   "posted": "2026-11-27",
    "public": true,
    "bigco": false,
-   "sector": "백엔드/서버개발, 유지보수, 프론트엔드, SE(시스템엔지니어), 임베디드",
+   "sector": "정보보안, 경리, 법인결산, 부가세신고, 총무",
    "employment_type": "정규직",
    "salary": "면접 후 협의",
-   "group": "로봇앤드디자인그룹",
-   "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
+   "group": "호진개발그룹",
+   "first_seen": "2026-11-27",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": null
   },
   {
-   "id": "saramin:55671776",
+   "id": "saramin:55681666",
    "source": "saramin",
-   "title": "2027년 상반기 대졸 (신입/경력) 공채 (인천광역시/전남광주통합특별시)",
-   "company": "앰코테크놀로지코리아㈜",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55671776",
+   "title": "DY그룹 수시채용 신입·경력 사원 모집",
+   "company": "디와이(주)",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55681666",
    "cats": [
     "dev"
    ],
    "level": "any",
-   "region": "인천 연수구 외",
+   "region": "인천 남동구 외",
    "region_key": "인천",
-   "deadline": "2026-12-06",
+   "deadline": "2026-12-10",
    "deadline_text": null,
-   "posted": "2026-11-26",
+   "posted": "2026-11-27",
    "public": true,
    "bigco": true,
-   "sector": "데이터엔지니어, 앱개발, 정보보안, DBA, IT컨설팅",
+   "sector": "유지보수, SE(시스템엔지니어), API, S/W, .NET",
    "employment_type": "정규직",
    "salary": "면접 후 협의",
-   "group": null,
-   "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
+   "group": "디와이그룹",
+   "first_seen": "2026-11-27",
+   "last_seen": "2026-11-27",
    "stale": false,
-   "logo": "logos/03facf5995d5.png"
+   "logo": null
   },
   {
-   "id": "saramin:55675267",
+   "id": "saramin:55682880",
    "source": "saramin",
-   "title": "스포츠 데이터 AI 연구원 (전문연구요원, 석사 이상)",
-   "company": "(주)핏투게더",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55675267",
+   "title": "AI SPERA 사업실 채용 (기술영업, 엔지니어, 보안전문가)",
+   "company": "(주)에이아이스페라",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55682880",
    "cats": [
     "ai"
    ],
    "level": "any",
-   "region": "서울 강남구",
+   "region": "서울 성동구",
    "region_key": "서울",
-   "deadline": "2026-12-31",
+   "deadline": "2027-01-25",
    "deadline_text": null,
-   "posted": "2026-11-26",
+   "posted": "2026-11-27",
    "public": false,
    "bigco": false,
-   "sector": "AI(인공지능), 하드웨어",
-   "employment_type": "정규직·전문연구요원",
-   "salary": null,
-   "group": null,
-   "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
-   "stale": false,
-   "logo": null
-  },
-  {
-   "id": "saramin:55675283",
-   "source": "saramin",
-   "title": "[인턴십] 컴플라이언스(체험형)",
-   "company": "(주)카카오페이증권",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55675283",
-   "cats": [
-    "dev"
-   ],
-   "level": "intern",
-   "region": "서울 영등포구",
-   "region_key": "서울",
-   "deadline": "2026-12-01",
-   "deadline_text": null,
-   "posted": "2026-11-26",
-   "public": true,
-   "bigco": true,
-   "sector": "컴플라이언스, 문서작성, 서류관리, 데이터분석, 증권사",
-   "employment_type": "인턴",
-   "salary": "면접 후 협의",
-   "group": "카카오그룹",
-   "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
-   "stale": false,
-   "logo": null
-  },
-  {
-   "id": "saramin:55675310",
-   "source": "saramin",
-   "title": "[챌린저스] 백엔드 개발자(Web Scraping)",
-   "company": "(주)화이트큐브",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55675310",
-   "cats": [
-    "dev"
-   ],
-   "level": "any",
-   "region": "서울 강남구",
-   "region_key": "서울",
-   "deadline": "2026-12-15",
-   "deadline_text": null,
-   "posted": "2026-11-26",
-   "public": true,
-   "bigco": false,
-   "sector": "데이터분석가, 데이터엔지니어, 백엔드/서버개발, API, 데이터분석",
-   "employment_type": "정규직",
-   "salary": "면접 후 협의",
-   "group": null,
-   "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
-   "stale": false,
-   "logo": "logos/6129d85a4030.png"
-  },
-  {
-   "id": "saramin:55675572",
-   "source": "saramin",
-   "title": "[BotVector] AI Native 소프트웨어 엔지니어 Svelte · Rust",
-   "company": "(주)아이펠스",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55675572",
-   "cats": [
-    "ai"
-   ],
-   "level": "any",
-   "region": "서울 용산구",
-   "region_key": "서울",
-   "deadline": null,
-   "deadline_text": "채용시",
-   "posted": "2026-11-26",
-   "public": false,
-   "bigco": false,
-   "sector": "솔루션, 백엔드/서버개발, 웹개발, 임베디드, SI개발",
+   "sector": "매출관리, 거래처영업, IT영업, 영업, 시스템영업",
    "employment_type": "정규직",
    "salary": null,
    "group": null,
-   "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
+   "first_seen": "2026-11-27",
+   "last_seen": "2026-11-27",
    "stale": false,
-   "logo": null
+   "logo": "logos/485159603078.png"
   },
   {
-   "id": "saramin:55675869",
+   "id": "saramin:55685687",
    "source": "saramin",
-   "title": "AI 개발자 (팀원). AI 신규사업 (팀장) 채용합니다.",
-   "company": "(주)글로벌비전",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55675869",
-   "cats": [
-    "ai"
-   ],
-   "level": "any",
-   "region": "서울 강서구",
-   "region_key": "서울",
-   "deadline": "2026-12-26",
-   "deadline_text": null,
-   "posted": "2026-11-26",
-   "public": false,
-   "bigco": false,
-   "sector": "AIX, AI(인공지능), SE(시스템엔지니어), 백엔드/서버개발, 웹개발",
-   "employment_type": "정규직",
-   "salary": null,
-   "group": null,
-   "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
-   "stale": false,
-   "logo": null
-  },
-  {
-   "id": "saramin:55675955",
-   "source": "saramin",
-   "title": "[양재역] AI Agent 개발자(경력 5년이상)",
-   "company": "(주)시니어앤파트너즈",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55675955",
+   "title": "(주)제타큐브 AI 서버 구축 및 운영 하드웨어 시스템 엔지니어 경력 채용",
+   "company": "(주)제타큐브",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55685687",
    "cats": [
     "ai"
    ],
    "level": "senior",
    "region": "서울 서초구",
    "region_key": "서울",
-   "deadline": "2026-12-10",
+   "deadline": "2026-12-27",
    "deadline_text": null,
-   "posted": "2026-11-26",
+   "posted": "2026-11-27",
    "public": false,
    "bigco": false,
-   "sector": "GoLang, Java, Linux, C++, Windows",
+   "sector": "유지보수, SE(시스템엔지니어), 네트워크, 인프라, AI(인공지능)",
    "employment_type": "정규직",
    "salary": null,
    "group": null,
-   "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
+   "first_seen": "2026-11-27",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": null
   },
   {
-   "id": "saramin:55676512",
+   "id": "saramin:55686054",
    "source": "saramin",
-   "title": "48. AI 풀스택 엔지니어 [글로벌 Tech 대기업]",
-   "company": "베스트네트워크㈜",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55676512",
+   "title": "[중견 글로벌 의류기업] AI Engineer (대리~과장급)",
+   "company": "프로페셔날핸즈인핸즈코리아(주)",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55686054",
    "cats": [
     "ai"
    ],
    "level": "senior",
    "region": "서울 강남구",
    "region_key": "서울",
+   "deadline": "2026-12-21",
+   "deadline_text": null,
+   "posted": "2026-11-27",
+   "public": false,
+   "bigco": false,
+   "sector": "AI(인공지능), 여성의류",
+   "employment_type": "정규직",
+   "salary": null,
+   "group": null,
+   "first_seen": "2026-11-27",
+   "last_seen": "2026-11-27",
+   "stale": false,
+   "logo": null
+  },
+  {
+   "id": "saramin:55686372",
+   "source": "saramin",
+   "title": "정규직 기술직 채용공고",
+   "company": "국립암센터",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55686372",
+   "cats": [
+    "dev"
+   ],
+   "level": "junior",
+   "region": "경기 고양시 일산동구",
+   "region_key": "경기",
    "deadline": "2026-12-11",
    "deadline_text": null,
-   "posted": "2026-11-26",
+   "posted": "2026-11-27",
+   "public": true,
+   "bigco": false,
+   "sector": "보안컨설팅, 정보보안, SE(시스템엔지니어), 정보통신, 암센터",
+   "employment_type": "정규직",
+   "salary": "면접 후 협의",
+   "group": "보건복지부그룹",
+   "first_seen": "2026-11-27",
+   "last_seen": "2026-11-27",
+   "stale": false,
+   "logo": null
+  },
+  {
+   "id": "saramin:55686567",
+   "source": "saramin",
+   "title": "20년 이상된 AI 솔루션 전문회사 Back-end 개발 정규직(강남역)",
+   "company": "(주)하이스트컨설팅그룹",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55686567",
+   "cats": [
+    "ai"
+   ],
+   "level": "senior",
+   "region": "서울 강남구",
+   "region_key": "서울",
+   "deadline": "2026-12-03",
+   "deadline_text": null,
+   "posted": "2026-11-27",
+   "public": false,
+   "bigco": false,
+   "sector": "백엔드/서버개발, 소프트웨어개발",
+   "employment_type": "정규직",
+   "salary": null,
+   "group": null,
+   "first_seen": "2026-11-27",
+   "last_seen": "2026-11-27",
+   "stale": false,
+   "logo": null
+  },
+  {
+   "id": "saramin:55686797",
+   "source": "saramin",
+   "title": "[대기업 계열사] IT전문회사 / FDE(과장~차장급)",
+   "company": "(주)HR컨설팅그룹",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55686797",
+   "cats": [
+    "ai"
+   ],
+   "level": "senior",
+   "region": "경기 과천시",
+   "region_key": "경기",
+   "deadline": "2026-12-10",
+   "deadline_text": null,
+   "posted": "2026-11-27",
+   "public": false,
+   "bigco": false,
+   "sector": "SI개발, SI·시스템통합",
+   "employment_type": "정규직",
+   "salary": null,
+   "group": null,
+   "first_seen": "2026-11-27",
+   "last_seen": "2026-11-27",
+   "stale": false,
+   "logo": null
+  },
+  {
+   "id": "saramin:55686945",
+   "source": "saramin",
+   "title": "[부산지역본부] 공무직(시설경비원) 신규 채용",
+   "company": "근로복지공단",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55686945",
+   "cats": [
+    "dev"
+   ],
+   "level": "junior",
+   "region": "부산 금정구",
+   "region_key": "부산",
+   "deadline": "2026-12-03",
+   "deadline_text": null,
+   "posted": "2026-11-27",
+   "public": true,
+   "bigco": true,
+   "sector": "경비원, 경비지도사, 경호원, 보안요원, 시설관리",
+   "employment_type": "정규직",
+   "salary": "면접 후 협의",
+   "group": "고용노동부그룹",
+   "first_seen": "2026-11-27",
+   "last_seen": "2026-11-27",
+   "stale": false,
+   "logo": null
+  },
+  {
+   "id": "saramin:55687148",
+   "source": "saramin",
+   "title": "연구소 AI Engineer 경력직 채용",
+   "company": "이지케어텍(주)",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55687148",
+   "cats": [
+    "ai"
+   ],
+   "level": "senior",
+   "region": "서울 중구",
+   "region_key": "서울",
+   "deadline": "2026-12-26",
+   "deadline_text": null,
+   "posted": "2026-11-27",
+   "public": false,
+   "bigco": false,
+   "sector": "AI(인공지능), 머신러닝, 딥러닝, 음성인식, 이미지프로세싱",
+   "employment_type": "정규직",
+   "salary": null,
+   "group": null,
+   "first_seen": "2026-11-27",
+   "last_seen": "2026-11-27",
+   "stale": false,
+   "logo": "logos/10fb048b0a58.png"
+  },
+  {
+   "id": "saramin:55687194",
+   "source": "saramin",
+   "title": "글로벌 에스테틱 의료기 제조사 영상분석 AI 엔지니어",
+   "company": "(주)인코리아 프로페셔널(In Korea Professional)",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55687194",
+   "cats": [
+    "ai"
+   ],
+   "level": "senior",
+   "region": "서울 강남구",
+   "region_key": "서울",
+   "deadline": "2026-12-12",
+   "deadline_text": null,
+   "posted": "2026-11-27",
+   "public": false,
+   "bigco": false,
+   "sector": "AI(인공지능), AI(인공지능), 의료기기",
+   "employment_type": "정규직",
+   "salary": null,
+   "group": null,
+   "first_seen": "2026-11-27",
+   "last_seen": "2026-11-27",
+   "stale": false,
+   "logo": null
+  },
+  {
+   "id": "saramin:55687382",
+   "source": "saramin",
+   "title": "나노소프트(주) iOS 및 Android 앱개발 - 계룡 제2산업단지 근무",
+   "company": "나노소프트(주)",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55687382",
+   "cats": [
+    "ios"
+   ],
+   "level": "any",
+   "region": "대전 유성구",
+   "region_key": "대전",
+   "deadline": "2026-12-27",
+   "deadline_text": null,
+   "posted": "2026-11-27",
+   "public": false,
+   "bigco": false,
+   "sector": "앱개발, 웹개발, AI(인공지능), 헬스케어, 개발PM",
+   "employment_type": "정규직·계약직",
+   "salary": null,
+   "group": null,
+   "first_seen": "2026-11-27",
+   "last_seen": "2026-11-27",
+   "stale": false,
+   "logo": null
+  },
+  {
+   "id": "saramin:55687410",
+   "source": "saramin",
+   "title": "프로그램 엔지니어 및 AI 개발자 모집",
+   "company": "(주)브리지",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55687410",
+   "cats": [
+    "ai"
+   ],
+   "level": "any",
+   "region": "경기 성남시 중원구",
+   "region_key": "경기",
+   "deadline": "2026-12-27",
+   "deadline_text": null,
+   "posted": "2026-11-27",
+   "public": false,
+   "bigco": false,
+   "sector": "SE(시스템엔지니어), S/W, AI(인공지능), H/W, 임베디드",
+   "employment_type": "정규직",
+   "salary": null,
+   "group": null,
+   "first_seen": "2026-11-27",
+   "last_seen": "2026-11-27",
+   "stale": false,
+   "logo": null
+  },
+  {
+   "id": "saramin:55687600",
+   "source": "saramin",
+   "title": "인공위성기업 [루미르] AI 엔지니어 채용",
+   "company": "루미르(주)",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55687600",
+   "cats": [
+    "ai"
+   ],
+   "level": "senior",
+   "region": "경기 용인시 수지구",
+   "region_key": "경기",
+   "deadline": null,
+   "deadline_text": "상시채용",
+   "posted": "2026-11-27",
+   "public": false,
+   "bigco": false,
+   "sector": "AI(인공지능), AI(인공지능), 우주",
+   "employment_type": "정규직",
+   "salary": null,
+   "group": null,
+   "first_seen": "2026-11-27",
+   "last_seen": "2026-11-27",
+   "stale": false,
+   "also": [
+    {
+     "source": "jobkorea",
+     "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50442614"
+    }
+   ],
+   "logo": null
+  },
+  {
+   "id": "saramin:55687633",
+   "source": "saramin",
+   "title": "(전문연구요원) AI팀 금융 AI Agent 서비스 개발 담당자 모집",
+   "company": "(주)에프앤가이드",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55687633",
+   "cats": [
+    "ai"
+   ],
+   "level": "junior",
+   "region": "서울 강서구",
+   "region_key": "서울",
+   "deadline": "2026-12-31",
+   "deadline_text": null,
+   "posted": "2026-11-27",
+   "public": false,
+   "bigco": false,
+   "sector": "AI(인공지능), 소프트웨어개발",
+   "employment_type": null,
+   "salary": null,
+   "group": null,
+   "first_seen": "2026-11-27",
+   "last_seen": "2026-11-27",
+   "stale": false,
+   "also": [
+    {
+     "source": "jobkorea",
+     "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50445087"
+    }
+   ],
+   "logo": null
+  },
+  {
+   "id": "saramin:55687686",
+   "source": "saramin",
+   "title": "아티스트 SNS 계정 운영 및 메타데이터 관리 담당자 채용",
+   "company": "(주)에스엠엔터테인먼트",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55687686",
+   "cats": [
+    "dev"
+   ],
+   "level": "any",
+   "region": "서울 성동구",
+   "region_key": "서울",
+   "deadline": "2026-12-15",
+   "deadline_text": null,
+   "posted": "2026-11-27",
+   "public": true,
+   "bigco": false,
+   "sector": "데이터분석가, SNS, SNS마케팅, 콘텐츠기획, 콘텐츠마케팅",
+   "employment_type": "정규직",
+   "salary": "면접 후 협의",
+   "group": "카카오그룹",
+   "first_seen": "2026-11-27",
+   "last_seen": "2026-11-27",
+   "stale": false,
+   "logo": null
+  },
+  {
+   "id": "saramin:55687903",
+   "source": "saramin",
+   "title": "AI 머신러닝 엔지니어 경력 채용",
+   "company": "한솔PNS(주) 아이티서비스부문",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55687903",
+   "cats": [
+    "ai"
+   ],
+   "level": "senior",
+   "region": "서울 강서구",
+   "region_key": "서울",
+   "deadline": null,
+   "deadline_text": "채용시",
+   "posted": "2026-11-27",
+   "public": false,
+   "bigco": false,
+   "sector": "머신러닝, ERP",
+   "employment_type": "정규직",
+   "salary": null,
+   "group": null,
+   "first_seen": "2026-11-27",
+   "last_seen": "2026-11-27",
+   "stale": false,
+   "logo": null
+  },
+  {
+   "id": "saramin:55688157",
+   "source": "saramin",
+   "title": "K-디지털트레이닝, 이어드림스쿨 출신 백엔드/AI 서비스 개발자",
+   "company": "뉴럴체인엑스(주)",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55688157",
+   "cats": [
+    "ai"
+   ],
+   "level": "any",
+   "region": "서울 강남구",
+   "region_key": "서울",
+   "deadline": null,
+   "deadline_text": "상시채용",
+   "posted": "2026-11-27",
+   "public": false,
+   "bigco": false,
+   "sector": "백엔드/서버개발, Python, 데이터엔지니어, Kubernetes, 데이터 사이언티스트",
+   "employment_type": "정규직·계약직",
+   "salary": null,
+   "group": null,
+   "first_seen": "2026-11-27",
+   "last_seen": "2026-11-27",
+   "stale": false,
+   "logo": null
+  },
+  {
+   "id": "saramin:55688175",
+   "source": "saramin",
+   "title": "[퍼포먼스바이TBWA] AI 백엔드개발자 (경력, 6년이상)",
+   "company": "(주)퍼포먼스바이티비더블유에이",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55688175",
+   "cats": [
+    "ai"
+   ],
+   "level": "senior",
+   "region": "서울 용산구",
+   "region_key": "서울",
+   "deadline": "2026-12-06",
+   "deadline_text": null,
+   "posted": "2026-11-27",
+   "public": false,
+   "bigco": false,
+   "sector": "영상처리, AWS, 아키텍쳐, AI(인공지능), 백엔드/서버개발",
+   "employment_type": "정규직",
+   "salary": null,
+   "group": null,
+   "first_seen": "2026-11-27",
+   "last_seen": "2026-11-27",
+   "stale": false,
+   "logo": null
+  },
+  {
+   "id": "saramin:55688679",
+   "source": "saramin",
+   "title": "48. AI 풀스택 엔지니어 [글로벌 Tech 대기업]",
+   "company": "베스트네트워크㈜",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55688679",
+   "cats": [
+    "ai"
+   ],
+   "level": "senior",
+   "region": "서울 강남구",
+   "region_key": "서울",
+   "deadline": "2026-12-12",
+   "deadline_text": null,
+   "posted": "2026-11-27",
    "public": false,
    "bigco": false,
    "sector": "풀스택, 소프트웨어개발",
    "employment_type": "정규직",
    "salary": null,
    "group": null,
-   "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
+   "first_seen": "2026-11-27",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": null
   },
   {
-   "id": "saramin:55676652",
+   "id": "saramin:55688969",
    "source": "saramin",
-   "title": "2026년 하반기 AI 체험형 인턴 채용(AI)",
-   "company": "한국수자원공사",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55676652",
+   "title": "[코스닥 상장사] 영상분석 AI엔지니어",
+   "company": "(주)인코리아 프로페셔널(In Korea Professional)",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55688969",
    "cats": [
-    "dev"
+    "ai"
    ],
-   "level": "intern",
-   "region": "전국",
-   "region_key": "기타",
-   "deadline": "2026-12-04",
+   "level": "senior",
+   "region": "서울 강남구",
+   "region_key": "서울",
+   "deadline": "2026-12-12",
    "deadline_text": null,
-   "posted": "2026-11-26",
-   "public": true,
-   "bigco": true,
-   "sector": "AI(인공지능), 사무보조, 사무행정",
-   "employment_type": "인턴",
-   "salary": "면접 후 협의",
-   "group": "기후에너지환경부그룹",
-   "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
+   "posted": "2026-11-27",
+   "public": false,
+   "bigco": false,
+   "sector": "AI(인공지능), Python, 데이터엔지니어, SI개발, 머신러닝",
+   "employment_type": "정규직",
+   "salary": null,
+   "group": null,
+   "first_seen": "2026-11-27",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": null
   },
   {
-   "id": "saramin:55676932",
+   "id": "saramin:55689126",
    "source": "saramin",
-   "title": "2026년 하반기 AI 체험형 인턴 채용(행정)",
-   "company": "한국수자원공사",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55676932",
+   "title": "[경력] AI 서비스 개발자 채용",
+   "company": "근남정보기술(주)",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55689126",
    "cats": [
-    "dev"
+    "ai"
    ],
-   "level": "intern",
-   "region": "전국",
-   "region_key": "기타",
-   "deadline": "2026-12-04",
+   "level": "senior",
+   "region": "대전 서구",
+   "region_key": "대전",
+   "deadline": "2026-12-10",
    "deadline_text": null,
-   "posted": "2026-11-26",
-   "public": true,
-   "bigco": true,
-   "sector": "사무직, 사무보조, 사무행정",
-   "employment_type": "인턴",
-   "salary": "면접 후 협의",
-   "group": "기후에너지환경부그룹",
-   "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
+   "posted": "2026-11-27",
+   "public": false,
+   "bigco": false,
+   "sector": "Pandas, AI(인공지능), OpenCV, Python, Pytorch",
+   "employment_type": "정규직",
+   "salary": null,
+   "group": null,
+   "first_seen": "2026-11-27",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": null
   },
   {
-   "id": "saramin:55677091",
+   "id": "saramin:55689902",
    "source": "saramin",
-   "title": "2026년 하반기 AI 체험형 인턴 채용(환경)",
-   "company": "한국수자원공사",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55677091",
-   "cats": [
-    "dev"
-   ],
-   "level": "intern",
-   "region": "전국",
-   "region_key": "기타",
-   "deadline": "2026-12-04",
-   "deadline_text": null,
-   "posted": "2026-11-26",
-   "public": true,
-   "bigco": true,
-   "sector": "사무보조, 사무행정, 토양환경, 수질환경기사, 환경분석",
-   "employment_type": "인턴",
-   "salary": "면접 후 협의",
-   "group": "기후에너지환경부그룹",
-   "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
-   "stale": false,
-   "logo": null
-  },
-  {
-   "id": "saramin:55677265",
-   "source": "saramin",
-   "title": "2026년 하반기 AI 체험형 인턴 채용(토목)",
-   "company": "한국수자원공사",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55677265",
-   "cats": [
-    "dev"
-   ],
-   "level": "intern",
-   "region": "전국",
-   "region_key": "기타",
-   "deadline": "2026-12-04",
-   "deadline_text": null,
-   "posted": "2026-11-26",
-   "public": true,
-   "bigco": true,
-   "sector": "사무보조, 사무행정, 토목설계, 토목건축, 토목공사",
-   "employment_type": "인턴",
-   "salary": "면접 후 협의",
-   "group": "기후에너지환경부그룹",
-   "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
-   "stale": false,
-   "logo": null
-  },
-  {
-   "id": "saramin:55677364",
-   "source": "saramin",
-   "title": "[매드엔진] [AI 기술 센터] Senior Unreal Engineer",
-   "company": "(주)매드엔진",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55677364",
+   "title": "(주)어드바이저로렌 AI 백엔드 개발자 경력 채용",
+   "company": "(주)어드바이저로렌",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55689902",
    "cats": [
     "ai"
    ],
    "level": "any",
-   "region": "경기 성남시 분당구",
+   "region": "서울 서초구",
+   "region_key": "서울",
+   "deadline": null,
+   "deadline_text": "채용시",
+   "posted": "2026-11-27",
+   "public": false,
+   "bigco": false,
+   "sector": "백엔드/서버개발, 소프트웨어개발",
+   "employment_type": "정규직",
+   "salary": null,
+   "group": null,
+   "first_seen": "2026-11-27",
+   "last_seen": "2026-11-27",
+   "stale": false,
+   "logo": null
+  },
+  {
+   "id": "saramin:55689965",
+   "source": "saramin",
+   "title": "[iOS/Android SI 시청역] 글로벌 표준 구축 사업 (3)",
+   "company": "(주)제이투이",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55689965",
+   "cats": [
+    "ios"
+   ],
+   "level": "senior",
+   "region": "서울 중구",
+   "region_key": "서울",
+   "deadline": "2026-12-27",
+   "deadline_text": null,
+   "posted": "2026-11-27",
+   "public": false,
+   "bigco": false,
+   "sector": "iOS, Android, SI·시스템통합",
+   "employment_type": "프리랜서",
+   "salary": null,
+   "group": null,
+   "first_seen": "2026-11-27",
+   "last_seen": "2026-11-27",
+   "stale": false,
+   "also": [
+    {
+     "source": "jobkorea",
+     "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50444164"
+    }
+   ],
+   "logo": null
+  },
+  {
+   "id": "saramin:55690052",
+   "source": "saramin",
+   "title": "AI 개발 및 사내 업무 자동화 시스템 구축 담당경력자 모집",
+   "company": "주식회사 동하",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55690052",
+   "cats": [
+    "ai"
+   ],
+   "level": "any",
+   "region": "부산 사하구",
+   "region_key": "부산",
+   "deadline": "2026-12-27",
+   "deadline_text": null,
+   "posted": "2026-11-27",
+   "public": false,
+   "bigco": false,
+   "sector": "AI(인공지능), 무역업",
+   "employment_type": "정규직",
+   "salary": null,
+   "group": null,
+   "first_seen": "2026-11-27",
+   "last_seen": "2026-11-27",
+   "stale": false,
+   "logo": null
+  },
+  {
+   "id": "saramin:55690065",
+   "source": "saramin",
+   "title": "[오버맵스] Product Engineer (프론트엔드·백엔드 개발자)",
+   "company": "(주)오버맵스",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55690065",
+   "cats": [
+    "product"
+   ],
+   "level": "any",
+   "region": "서울 서초구",
+   "region_key": "서울",
+   "deadline": null,
+   "deadline_text": "상시채용",
+   "posted": "2026-11-27",
+   "public": false,
+   "bigco": false,
+   "sector": "백엔드/서버개발, 프론트엔드, 전자상거래",
+   "employment_type": "정규직",
+   "salary": null,
+   "group": null,
+   "first_seen": "2026-11-27",
+   "last_seen": "2026-11-27",
+   "stale": false,
+   "also": [
+    {
+     "source": "jobkorea",
+     "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50444200"
+    }
+   ],
+   "logo": null
+  },
+  {
+   "id": "saramin:55690715",
+   "source": "saramin",
+   "title": "AI 솔루션 운영 엔지니어 본사 경력직",
+   "company": "한국딥러닝(주)",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55690715",
+   "cats": [
+    "ai"
+   ],
+   "level": "senior",
+   "region": "서울 서초구",
+   "region_key": "서울",
+   "deadline": "2026-12-31",
+   "deadline_text": null,
+   "posted": "2026-11-27",
+   "public": false,
+   "bigco": false,
+   "sector": "SE(시스템엔지니어), 유지보수, SI개발, 웹개발, 소프트웨어개발",
+   "employment_type": "정규직",
+   "salary": null,
+   "group": null,
+   "first_seen": "2026-11-27",
+   "last_seen": "2026-11-27",
+   "stale": false,
+   "logo": "logos/d5de7ac2cfcc.png"
+  },
+  {
+   "id": "saramin:55690819",
+   "source": "saramin",
+   "title": "iOS Developer [산업기능요원]",
+   "company": "(주)페이타랩",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55690819",
+   "cats": [
+    "ios"
+   ],
+   "level": "junior",
+   "region": "서울 강남구",
+   "region_key": "서울",
+   "deadline": "2026-12-26",
+   "deadline_text": null,
+   "posted": "2026-11-27",
+   "public": false,
+   "bigco": false,
+   "sector": "iOS, 앱개발, Swift, TypeScript, SI·시스템통합",
+   "employment_type": "정규직",
+   "salary": null,
+   "group": null,
+   "first_seen": "2026-11-27",
+   "last_seen": "2026-11-27",
+   "stale": false,
+   "logo": null
+  },
+  {
+   "id": "jobkorea:50416785",
+   "source": "jobkorea",
+   "title": "[키링] Product Engineer (Security & Infra)",
+   "company": "㈜레브잇",
+   "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50416785",
+   "cats": [
+    "product"
+   ],
+   "level": "senior",
+   "region": "서울 관악구",
+   "region_key": "서울",
+   "deadline": null,
+   "deadline_text": null,
+   "posted": "2026-11-27",
+   "public": false,
+   "bigco": false,
+   "sector": "모바일·APP, 보안엔지니어",
+   "employment_type": null,
+   "salary": null,
+   "group": null,
+   "first_seen": "2026-11-27",
+   "last_seen": "2026-11-27",
+   "stale": false,
+   "logo": "logos/d9defc12e659.png"
+  },
+  {
+   "id": "jobkorea:50438270",
+   "source": "jobkorea",
+   "title": "AI SPERA 사업실 신입 및 경력사원 채용 (기술영업, 엔지니어, 보안전문가)",
+   "company": "㈜에이아이스페라",
+   "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50438270",
+   "cats": [
+    "ai"
+   ],
+   "level": "any",
+   "region": "서울 성동구",
+   "region_key": "서울",
+   "deadline": null,
+   "deadline_text": null,
+   "posted": "2026-11-27",
+   "public": false,
+   "bigco": false,
+   "sector": "정보보안, PL·PM·PO, 보안엔지니어, IT·기술영업",
+   "employment_type": null,
+   "salary": null,
+   "group": null,
+   "first_seen": "2026-11-27",
+   "last_seen": "2026-11-27",
+   "stale": false,
+   "logo": "logos/485159603078.png"
+  },
+  {
+   "id": "jobkorea:50440182",
+   "source": "jobkorea",
+   "title": "AI Research Engineer",
+   "company": "코드비전㈜",
+   "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50440182",
+   "cats": [
+    "ai"
+   ],
+   "level": "junior",
+   "region": "서울 마포구",
+   "region_key": "서울",
+   "deadline": null,
+   "deadline_text": null,
+   "posted": "2026-11-27",
+   "public": false,
+   "bigco": false,
+   "sector": "솔루션·SI·CRM·ERP, R&D·연구원",
+   "employment_type": null,
+   "salary": null,
+   "group": null,
+   "first_seen": "2026-11-27",
+   "last_seen": "2026-11-27",
+   "stale": false,
+   "logo": null
+  },
+  {
+   "id": "jobkorea:50441957",
+   "source": "jobkorea",
+   "title": "Data-Centric ML Engineer",
+   "company": "㈜모티프드라이브",
+   "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50441957",
+   "cats": [
+    "ai"
+   ],
+   "level": "senior",
+   "region": "서울 강남구",
+   "region_key": "서울",
+   "deadline": null,
+   "deadline_text": null,
+   "posted": "2026-11-27",
+   "public": false,
+   "bigco": false,
+   "sector": "솔루션·SI·CRM·ERP, AI/ML엔지니어",
+   "employment_type": null,
+   "salary": null,
+   "group": null,
+   "first_seen": "2026-11-27",
+   "last_seen": "2026-11-27",
+   "stale": false,
+   "logo": "logos/fb225d21daf7.png"
+  },
+  {
+   "id": "jobkorea:50442657",
+   "source": "jobkorea",
+   "title": "AI 머신러닝 엔지니어 경력 채용",
+   "company": "한솔PNS㈜ IT서비스 부문",
+   "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50442657",
+   "cats": [
+    "ai"
+   ],
+   "level": "senior",
+   "region": "서울 강서구",
+   "region_key": "서울",
+   "deadline": null,
+   "deadline_text": null,
+   "posted": "2026-11-27",
+   "public": false,
+   "bigco": false,
+   "sector": "솔루션·SI·CRM·ERP, AI/ML엔지니어",
+   "employment_type": null,
+   "salary": null,
+   "group": null,
+   "first_seen": "2026-11-27",
+   "last_seen": "2026-11-27",
+   "stale": false,
+   "logo": "logos/fa3bc78ecd54.png"
+  },
+  {
+   "id": "jobkorea:50442691",
+   "source": "jobkorea",
+   "title": "K-디지털트레이닝, 이어드림스쿨 출신 백엔드/AI 서비스 개발자를 모십니다",
+   "company": "뉴럴체인엑스㈜",
+   "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50442691",
+   "cats": [
+    "ai"
+   ],
+   "level": "any",
+   "region": "서울 강남구",
+   "region_key": "서울",
+   "deadline": null,
+   "deadline_text": null,
+   "posted": "2026-11-27",
+   "public": false,
+   "bigco": false,
+   "sector": "솔루션·SI·CRM·ERP, 데이터엔지니어, 소프트웨어개발자, AI서비스개발자",
+   "employment_type": null,
+   "salary": "연봉 3,000~4,000만원",
+   "group": null,
+   "first_seen": "2026-11-27",
+   "last_seen": "2026-11-27",
+   "stale": false,
+   "logo": null
+  },
+  {
+   "id": "jobkorea:50443086",
+   "source": "jobkorea",
+   "title": "[서울 용산 / 공공기관 상주] 웹·앱(Web/App) 개발자(SM) 경력직 모집",
+   "company": "㈜다원데이터",
+   "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50443086",
+   "cats": [
+    "mobile"
+   ],
+   "level": "senior",
+   "region": "서울 용산구",
+   "region_key": "서울",
+   "deadline": null,
+   "deadline_text": null,
+   "posted": "2026-11-27",
+   "public": false,
+   "bigco": false,
+   "sector": "솔루션·SI·CRM·ERP, 프론트엔드개발자, 웹개발자, UI·UX디자이너",
+   "employment_type": null,
+   "salary": null,
+   "group": null,
+   "first_seen": "2026-11-27",
+   "last_seen": "2026-11-27",
+   "stale": false,
+   "logo": "logos/c71bc2e8ec6a.png"
+  },
+  {
+   "id": "jobkorea:50443347",
+   "source": "jobkorea",
+   "title": "[올웨이즈] Sr. Product Engineer (Backend)",
+   "company": "㈜레브잇",
+   "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50443347",
+   "cats": [
+    "product"
+   ],
+   "level": "senior",
+   "region": "서울 관악구",
+   "region_key": "서울",
+   "deadline": null,
+   "deadline_text": null,
+   "posted": "2026-11-27",
+   "public": false,
+   "bigco": false,
+   "sector": "모바일·APP, 백엔드개발자",
+   "employment_type": null,
+   "salary": null,
+   "group": null,
+   "first_seen": "2026-11-27",
+   "last_seen": "2026-11-27",
+   "stale": false,
+   "logo": "logos/d9defc12e659.png"
+  },
+  {
+   "id": "jobkorea:50443690",
+   "source": "jobkorea",
+   "title": "[AI Frontier Div.] AI Inference Platform&Operations Engineer(5년이상)",
+   "company": "㈜크래프톤",
+   "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50443690",
+   "cats": [
+    "ai"
+   ],
+   "level": "senior",
+   "region": "서울 강남구",
+   "region_key": "서울",
+   "deadline": null,
+   "deadline_text": null,
+   "posted": "2026-11-27",
+   "public": false,
+   "bigco": true,
+   "sector": "게임·애니메이션, AI/ML엔지니어",
+   "employment_type": null,
+   "salary": null,
+   "group": null,
+   "first_seen": "2026-11-27",
+   "last_seen": "2026-11-27",
+   "stale": false,
+   "logo": null
+  },
+  {
+   "id": "jobkorea:50444261",
+   "source": "jobkorea",
+   "title": "OO은행 SOL 전담반 (IOS,AOS)",
+   "company": "㈜해오름인포텍",
+   "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50444261",
+   "cats": [
+    "ios"
+   ],
+   "level": "senior",
+   "region": "서울 중구",
+   "region_key": "서울",
+   "deadline": null,
+   "deadline_text": null,
+   "posted": "2026-11-27",
+   "public": false,
+   "bigco": false,
+   "sector": "솔루션·SI·CRM·ERP, 앱개발자",
+   "employment_type": null,
+   "salary": null,
+   "group": null,
+   "first_seen": "2026-11-27",
+   "last_seen": "2026-11-27",
+   "stale": false,
+   "logo": "logos/79c49fe410ac.png"
+  },
+  {
+   "id": "jobkorea:50445193",
+   "source": "jobkorea",
+   "title": "[공공 SI] 앱 개발자 모집",
+   "company": "㈜파란샘",
+   "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50445193",
+   "cats": [
+    "mobile"
+   ],
+   "level": "any",
+   "region": "서울 중구",
+   "region_key": "서울",
+   "deadline": null,
+   "deadline_text": null,
+   "posted": "2026-11-27",
+   "public": false,
+   "bigco": false,
+   "sector": "솔루션·SI·CRM·ERP, 앱개발자",
+   "employment_type": null,
+   "salary": null,
+   "group": null,
+   "first_seen": "2026-11-27",
+   "last_seen": "2026-11-27",
+   "stale": false,
+   "logo": "logos/420fe8d28ff5.png"
+  },
+  {
+   "id": "saramin:55675387",
+   "source": "saramin",
+   "title": "IT부문 - MTS/WTS 개발",
+   "company": "메리츠증권(주)",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55675387",
+   "cats": [
+    "ios"
+   ],
+   "level": "any",
+   "region": "서울 영등포구",
+   "region_key": "서울",
+   "deadline": "2026-12-31",
+   "deadline_text": null,
+   "posted": "2026-11-26",
+   "public": false,
+   "bigco": true,
+   "sector": "iOS, Java, 백엔드/서버개발, 프론트엔드, API",
+   "employment_type": "계약직",
+   "salary": null,
+   "group": null,
+   "first_seen": "2026-11-27",
+   "last_seen": "2026-11-27",
+   "stale": false,
+   "logo": null
+  },
+  {
+   "id": "saramin:55684497",
+   "source": "saramin",
+   "title": "농협은행  iOS 네이티브 고급 개발자",
+   "company": "주식회사이든웍스",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55684497",
+   "cats": [
+    "ios"
+   ],
+   "level": "any",
+   "region": "경기 의왕시",
    "region_key": "경기",
-   "deadline": "2026-12-15",
+   "deadline": "2026-12-26",
    "deadline_text": null,
    "posted": "2026-11-26",
    "public": false,
    "bigco": false,
-   "sector": "AI(인공지능), 게임기획, 게임개발, Unreal, 게임개발",
-   "employment_type": "정규직",
+   "sector": "앱개발, 소프트웨어개발",
+   "employment_type": "프리랜서",
    "salary": null,
    "group": null,
-   "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
+   "first_seen": "2026-11-27",
+   "last_seen": "2026-11-27",
    "stale": false,
+   "also": [
+    {
+     "source": "jobkorea",
+     "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50440770"
+    }
+   ],
    "logo": null
   },
   {
@@ -539,7 +1245,7 @@
    "salary": "면접 후 협의",
    "group": "기후에너지환경부그룹",
    "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": null
   },
@@ -565,7 +1271,7 @@
    "salary": "면접 후 협의",
    "group": "기후에너지환경부그룹",
    "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": null
   },
@@ -591,35 +1297,9 @@
    "salary": "면접 후 협의",
    "group": "기후에너지환경부그룹",
    "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": null
-  },
-  {
-   "id": "saramin:55677598",
-   "source": "saramin",
-   "title": "AI 채용솔루션 풀스택 개발자 (NestJS, React)",
-   "company": "(주)인딥에이아이",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55677598",
-   "cats": [
-    "ai"
-   ],
-   "level": "any",
-   "region": "서울 서초구",
-   "region_key": "서울",
-   "deadline": "2026-12-26",
-   "deadline_text": null,
-   "posted": "2026-11-26",
-   "public": false,
-   "bigco": false,
-   "sector": "MongoDB, Git, React, AWS, TypeScript",
-   "employment_type": "정규직",
-   "salary": null,
-   "group": null,
-   "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
-   "stale": false,
-   "logo": "logos/6da5d655b4e3.png"
   },
   {
    "id": "saramin:55677692",
@@ -643,7 +1323,7 @@
    "salary": "면접 후 협의",
    "group": "기후에너지환경부그룹",
    "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": null
   },
@@ -669,66 +1349,8 @@
    "salary": "면접 후 협의",
    "group": "네이버그룹",
    "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
-   "logo": null
-  },
-  {
-   "id": "saramin:55678739",
-   "source": "saramin",
-   "title": "[채용 공고] 의료 AI 플랫폼 기업 CAIO / AI 연구소장 (CTO급)",
-   "company": "피플앤피플",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55678739",
-   "cats": [
-    "ai"
-   ],
-   "level": "senior",
-   "region": "경기 성남시 분당구",
-   "region_key": "경기",
-   "deadline": "2026-12-11",
-   "deadline_text": null,
-   "posted": "2026-11-26",
-   "public": false,
-   "bigco": false,
-   "sector": "풀스택, 아키텍쳐, AIX, 취약점진단, CTO",
-   "employment_type": "정규직",
-   "salary": null,
-   "group": null,
-   "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
-   "stale": false,
-   "logo": null
-  },
-  {
-   "id": "saramin:55678777",
-   "source": "saramin",
-   "title": "[펫웰비] AI 엔지니어 (컴퓨터비전·개체식별) 정규직 채용",
-   "company": "펫웰비(주)",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55678777",
-   "cats": [
-    "ai"
-   ],
-   "level": "any",
-   "region": "서울 동대문구",
-   "region_key": "서울",
-   "deadline": "2027-01-25",
-   "deadline_text": null,
-   "posted": "2026-11-26",
-   "public": false,
-   "bigco": false,
-   "sector": "AI(인공지능), Python, 연구원, 머신러닝, 딥러닝",
-   "employment_type": "정규직",
-   "salary": null,
-   "group": null,
-   "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
-   "stale": false,
-   "also": [
-    {
-     "source": "jobkorea",
-     "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50436956"
-    }
-   ],
    "logo": null
   },
   {
@@ -753,33 +1375,7 @@
    "salary": "면접 후 협의",
    "group": "기후에너지환경부그룹",
    "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
-   "stale": false,
-   "logo": null
-  },
-  {
-   "id": "saramin:55679139",
-   "source": "saramin",
-   "title": "[스펠릭스] AI 플랫폼 구축·운영 개발자 모집",
-   "company": "(주)스펠릭스",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55679139",
-   "cats": [
-    "ai"
-   ],
-   "level": "any",
-   "region": "서울 영등포구",
-   "region_key": "서울",
-   "deadline": null,
-   "deadline_text": "채용시",
-   "posted": "2026-11-26",
-   "public": false,
-   "bigco": false,
-   "sector": "데이터분석가, AI(인공지능), Python, 빅데이터, Pytorch",
-   "employment_type": "정규직",
-   "salary": null,
-   "group": null,
-   "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": null
   },
@@ -805,33 +1401,7 @@
    "salary": "면접 후 협의",
    "group": "기후에너지환경부그룹",
    "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
-   "stale": false,
-   "logo": null
-  },
-  {
-   "id": "saramin:55679324",
-   "source": "saramin",
-   "title": "[코스닥상장 엔터프라이즈 AI 솔루션기업] 에이전틱 AI 엔지니어",
-   "company": "피플앤피플",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55679324",
-   "cats": [
-    "ai"
-   ],
-   "level": "senior",
-   "region": "서울 강남구",
-   "region_key": "서울",
-   "deadline": "2026-12-11",
-   "deadline_text": null,
-   "posted": "2026-11-26",
-   "public": false,
-   "bigco": false,
-   "sector": "BI 엔지니어, PO(프로덕트오너), 솔루션, Python, SI개발",
-   "employment_type": "정규직",
-   "salary": null,
-   "group": null,
-   "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": null
   },
@@ -857,7 +1427,7 @@
    "salary": "면접 후 협의",
    "group": "기후에너지환경부그룹",
    "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": null
   },
@@ -883,7 +1453,7 @@
    "salary": "면접 후 협의",
    "group": "기후에너지환경부그룹",
    "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": null
   },
@@ -909,7 +1479,7 @@
    "salary": "면접 후 협의",
    "group": "기후에너지환경부그룹",
    "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": null
   },
@@ -930,12 +1500,12 @@
    "posted": "2026-11-26",
    "public": false,
    "bigco": true,
-   "sector": "풀스택, AI(인공지능), NLP(자연어처리), NLU(자연어이해), 챗봇",
+   "sector": "AI(인공지능), 기술지원, 솔루션, AI(인공지능), 머신러닝",
    "employment_type": "정규직",
    "salary": null,
    "group": null,
    "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": null
   },
@@ -961,33 +1531,7 @@
    "salary": "면접 후 협의",
    "group": "기후에너지환경부그룹",
    "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
-   "stale": false,
-   "logo": null
-  },
-  {
-   "id": "saramin:55679796",
-   "source": "saramin",
-   "title": "AI Agent 개발 데이터 사이언티스트(Data Scientist) 채용",
-   "company": "주식회사넥스제너",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55679796",
-   "cats": [
-    "ai"
-   ],
-   "level": "senior",
-   "region": "경기 화성시",
-   "region_key": "경기",
-   "deadline": "2027-01-25",
-   "deadline_text": null,
-   "posted": "2026-11-26",
-   "public": false,
-   "bigco": false,
-   "sector": "데이터 사이언티스트, 데이터라벨링, 데이터분석가, 생명공학",
-   "employment_type": "정규직·기간제",
-   "salary": null,
-   "group": null,
-   "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": null
   },
@@ -1013,61 +1557,9 @@
    "salary": "면접 후 협의",
    "group": "기후에너지환경부그룹",
    "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": null
-  },
-  {
-   "id": "saramin:55680008",
-   "source": "saramin",
-   "title": "AI 서비스 개발총괄- F&B기반 공간 브랜딩 전문회사",
-   "company": "(주)모스원",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55680008",
-   "cats": [
-    "ai"
-   ],
-   "level": "senior",
-   "region": "서울 송파구",
-   "region_key": "서울",
-   "deadline": "2026-12-11",
-   "deadline_text": null,
-   "posted": "2026-11-26",
-   "public": false,
-   "bigco": false,
-   "sector": "SE(시스템엔지니어), 백엔드/서버개발, CTO, 개발PM, PMO",
-   "employment_type": "정규직·계약직",
-   "salary": null,
-   "group": null,
-   "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
-   "stale": false,
-   "logo": null
-  },
-  {
-   "id": "saramin:55680087",
-   "source": "saramin",
-   "title": "[채용전환형] 모두닥 Problem Solver (Engineering Focused)",
-   "company": "모두닥(주)",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55680087",
-   "cats": [
-    "product"
-   ],
-   "level": "intern",
-   "region": "서울 강남구",
-   "region_key": "서울",
-   "deadline": "2026-12-31",
-   "deadline_text": null,
-   "posted": "2026-11-26",
-   "public": false,
-   "bigco": false,
-   "sector": "백엔드/서버개발, 풀스택, 프론트엔드, 인터넷건강·의학",
-   "employment_type": "인턴직",
-   "salary": null,
-   "group": null,
-   "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
-   "stale": false,
-   "logo": "logos/570171d6a5c0.png"
   },
   {
    "id": "saramin:55680109",
@@ -1091,33 +1583,7 @@
    "salary": "면접 후 협의",
    "group": "기후에너지환경부그룹",
    "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
-   "stale": false,
-   "logo": null
-  },
-  {
-   "id": "saramin:55680463",
-   "source": "saramin",
-   "title": "[경력 계약직] BI·데이터·AI 컨설턴트/엔지니어(정규직전환형)",
-   "company": "세일링스톤(주)",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55680463",
-   "cats": [
-    "ai"
-   ],
-   "level": "any",
-   "region": "서울 강서구",
-   "region_key": "서울",
-   "deadline": null,
-   "deadline_text": "채용시",
-   "posted": "2026-11-26",
-   "public": false,
-   "bigco": false,
-   "sector": "AI(인공지능), 데이터엔지니어, ETL, SQL, 모델링",
-   "employment_type": "계약직",
-   "salary": null,
-   "group": null,
-   "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": null
   },
@@ -1143,7 +1609,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/03facf5995d5.png"
   },
@@ -1169,7 +1635,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/605eec3c51a9.png"
   },
@@ -1195,7 +1661,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/605eec3c51a9.png"
   },
@@ -1221,7 +1687,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/605eec3c51a9.png"
   },
@@ -1247,7 +1713,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/605eec3c51a9.png"
   },
@@ -1273,7 +1739,7 @@
    "salary": "연봉 3,600~4,000만원",
    "group": null,
    "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/644639c51979.png"
   },
@@ -1299,9 +1765,9 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
-   "logo": null
+   "logo": "logos/44255e7c264f.png"
   },
   {
    "id": "jobkorea:50432388",
@@ -1325,9 +1791,9 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
-   "logo": null
+   "logo": "logos/44255e7c264f.png"
   },
   {
    "id": "jobkorea:50432835",
@@ -1351,7 +1817,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/2b712623e39e.png"
   },
@@ -1377,35 +1843,9 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": null
-  },
-  {
-   "id": "jobkorea:50434007",
-   "source": "jobkorea",
-   "title": "함께 만들어갈 ai 엔지니어 찾습니다",
-   "company": "리버스 솔루션",
-   "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50434007",
-   "cats": [
-    "ai"
-   ],
-   "level": "senior",
-   "region": "서울 송파구",
-   "region_key": "서울",
-   "deadline": null,
-   "deadline_text": null,
-   "posted": "2026-11-26",
-   "public": false,
-   "bigco": false,
-   "sector": "포털·컨텐츠·커뮤니티, 시스템엔지니어",
-   "employment_type": null,
-   "salary": "연봉 4,000~6,000만원",
-   "group": null,
-   "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
-   "stale": false,
-   "logo": "logos/43c21189e6f6.png"
   },
   {
    "id": "jobkorea:50434570",
@@ -1429,137 +1869,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
-   "stale": false,
-   "logo": null
-  },
-  {
-   "id": "jobkorea:50434614",
-   "source": "jobkorea",
-   "title": "[AI Research Div.] Research Engineer - Foundation Models (2년 이상)",
-   "company": "㈜크래프톤",
-   "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50434614",
-   "cats": [
-    "ai"
-   ],
-   "level": "senior",
-   "region": "서울 강남구",
-   "region_key": "서울",
-   "deadline": null,
-   "deadline_text": null,
-   "posted": "2026-11-26",
-   "public": false,
-   "bigco": true,
-   "sector": "게임·애니메이션, AI/ML엔지니어, AI/ML연구원",
-   "employment_type": null,
-   "salary": null,
-   "group": null,
-   "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
-   "stale": false,
-   "logo": null
-  },
-  {
-   "id": "jobkorea:50434744",
-   "source": "jobkorea",
-   "title": "[AI Research Div.] Research Scientist - Foundation Models (2년 이상)",
-   "company": "㈜크래프톤",
-   "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50434744",
-   "cats": [
-    "ai"
-   ],
-   "level": "senior",
-   "region": "서울 강남구",
-   "region_key": "서울",
-   "deadline": null,
-   "deadline_text": null,
-   "posted": "2026-11-26",
-   "public": false,
-   "bigco": true,
-   "sector": "게임·애니메이션, AI/ML엔지니어, AI/ML연구원",
-   "employment_type": null,
-   "salary": null,
-   "group": null,
-   "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
-   "stale": false,
-   "logo": null
-  },
-  {
-   "id": "jobkorea:50435727",
-   "source": "jobkorea",
-   "title": "[채용연계형 인턴] AI Agent 플랫폼 개발자 채용",
-   "company": "유진아이티서비스㈜",
-   "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50435727",
-   "cats": [
-    "ai"
-   ],
-   "level": "intern",
-   "region": "서울 마포구",
-   "region_key": "서울",
-   "deadline": null,
-   "deadline_text": null,
-   "posted": "2026-11-26",
-   "public": true,
-   "bigco": false,
-   "sector": "솔루션·SI·CRM·ERP, 백엔드개발자, 소프트웨어개발자, AI서비스개발자",
-   "employment_type": "인턴",
-   "salary": null,
-   "group": null,
-   "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
-   "stale": false,
-   "logo": "logos/9c257f7673ea.png"
-  },
-  {
-   "id": "jobkorea:50435754",
-   "source": "jobkorea",
-   "title": "[AI Transformation Dept.] Sr. AI DevOps Engineer (7년 이상)",
-   "company": "㈜크래프톤",
-   "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50435754",
-   "cats": [
-    "ai"
-   ],
-   "level": "senior",
-   "region": "서울 강남구",
-   "region_key": "서울",
-   "deadline": null,
-   "deadline_text": null,
-   "posted": "2026-11-26",
-   "public": false,
-   "bigco": true,
-   "sector": "게임·애니메이션, 시스템엔지니어, 클라우드엔지니어",
-   "employment_type": null,
-   "salary": null,
-   "group": null,
-   "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
-   "stale": false,
-   "logo": null
-  },
-  {
-   "id": "jobkorea:50435815",
-   "source": "jobkorea",
-   "title": "[AI Research Div.] '26, '27년 전문연구요원 신규편입 (경력무관)",
-   "company": "㈜크래프톤",
-   "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50435815",
-   "cats": [
-    "ai"
-   ],
-   "level": "any",
-   "region": "서울 강남구",
-   "region_key": "서울",
-   "deadline": null,
-   "deadline_text": null,
-   "posted": "2026-11-26",
-   "public": false,
-   "bigco": true,
-   "sector": "게임·애니메이션, AI/ML엔지니어, AI/ML연구원",
-   "employment_type": null,
-   "salary": null,
-   "group": null,
-   "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": null
   },
@@ -1585,7 +1895,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/4d332e35ca14.png"
   },
@@ -1611,35 +1921,15 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
-   "logo": null
-  },
-  {
-   "id": "jobkorea:50437797",
-   "source": "jobkorea",
-   "title": "DL/ML AI엔지니어 채용",
-   "company": "㈜펀진",
-   "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50437797",
-   "cats": [
-    "ai"
+   "also": [
+    {
+     "source": "jobkorea",
+     "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50440187"
+    }
    ],
-   "level": "any",
-   "region": "서울 성동구",
-   "region_key": "서울",
-   "deadline": null,
-   "deadline_text": null,
-   "posted": "2026-11-26",
-   "public": false,
-   "bigco": false,
-   "sector": "솔루션·SI·CRM·ERP, AI/ML엔지니어, R&D·연구원, AI/ML연구원",
-   "employment_type": null,
-   "salary": null,
-   "group": null,
-   "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
-   "stale": false,
-   "logo": "logos/cf345dd1b212.png"
+   "logo": "logos/6ee7fb15dc0e.png"
   },
   {
    "id": "jobkorea:50438361",
@@ -1663,7 +1953,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/fb2674b46e86.png"
   },
@@ -1689,7 +1979,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": null
   },
@@ -1715,7 +2005,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": null
   },
@@ -1741,7 +2031,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": null
   },
@@ -1767,7 +2057,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": null
   },
@@ -1793,33 +2083,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
-   "stale": false,
-   "logo": null
-  },
-  {
-   "id": "saramin:55672482",
-   "source": "saramin",
-   "title": "로봇 AI, 3D VLA, Physical AI 소프트웨어 엔지니어 모집(구미)",
-   "company": "(주)유엔디로보틱스",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55672482",
-   "cats": [
-    "ai"
-   ],
-   "level": "any",
-   "region": "경북 구미시",
-   "region_key": "경북",
-   "deadline": "2027-01-24",
-   "deadline_text": null,
-   "posted": "2026-11-25",
-   "public": false,
-   "bigco": false,
-   "sector": "S/W, 로봇엔지니어, 머신러닝, 모델링, 알고리즘",
-   "employment_type": "정규직",
-   "salary": null,
-   "group": null,
-   "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": null
   },
@@ -1845,7 +2109,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": null
   },
@@ -1866,12 +2130,12 @@
    "posted": "2026-11-20",
    "public": false,
    "bigco": false,
-   "sector": "유지보수, 백엔드/서버개발, 웹개발, 퍼블리셔, 프론트엔드",
+   "sector": "유지보수, 웹개발, 백엔드/서버개발, 퍼블리셔, 프론트엔드",
    "employment_type": "정규직·계약직",
    "salary": null,
    "group": null,
    "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": null
   },
@@ -1897,7 +2161,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": null
   },
@@ -1923,7 +2187,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": null
   },
@@ -1949,7 +2213,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": null
   },
@@ -1975,7 +2239,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": null
   },
@@ -2001,7 +2265,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": null
   },
@@ -2027,7 +2291,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": null
   },
@@ -2053,7 +2317,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": null
   },
@@ -2079,7 +2343,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": null
   },
@@ -2097,7 +2361,7 @@
    "region_key": "서울",
    "deadline": "2026-12-08",
    "deadline_text": null,
-   "posted": "2026-11-26",
+   "posted": "2026-11-27",
    "public": false,
    "bigco": false,
    "sector": "데이터라벨링, 빅데이터, 데이터마이닝, AI(인공지능), AI(인공지능)",
@@ -2105,7 +2369,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": null
   },
@@ -2131,7 +2395,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/aeef6ae58cfc.png"
   },
@@ -2157,7 +2421,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "also": [
     {
@@ -2189,7 +2453,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": null
   },
@@ -2215,7 +2479,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/c4436f427fc0.png"
   },
@@ -2241,7 +2505,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "also": [
     {
@@ -2274,7 +2538,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "also": [
     {
@@ -2307,7 +2571,7 @@
    "group": null,
    "logo": "logos/b699aa20b204.png",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -2333,7 +2597,7 @@
    "group": null,
    "logo": "logos/8cbf9fb88ad9.png",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -2359,7 +2623,7 @@
    "group": null,
    "logo": "logos/0bc1a679fa5e.png",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -2385,7 +2649,7 @@
    "group": null,
    "logo": "logos/0bc1a679fa5e.png",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -2411,7 +2675,7 @@
    "group": null,
    "logo": null,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -2437,7 +2701,7 @@
    "group": null,
    "logo": "logos/6f2e7d6308f7.png",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -2463,7 +2727,7 @@
    "group": null,
    "logo": "logos/4bd2ed61b659.png",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -2489,7 +2753,7 @@
    "group": null,
    "logo": "logos/0bc1a679fa5e.png",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -2515,7 +2779,7 @@
    "group": null,
    "logo": "logos/d69030889561.png",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -2542,7 +2806,7 @@
    "group": null,
    "logo": "logos/38b4c24714c2.png",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -2568,7 +2832,7 @@
    "group": null,
    "logo": "logos/9a36348f6db9.png",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -2594,7 +2858,7 @@
    "group": null,
    "logo": "logos/d3feaadfb2c8.png",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -2620,7 +2884,7 @@
    "group": null,
    "logo": "logos/83c52795d446.png",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -2646,7 +2910,7 @@
    "group": null,
    "logo": "logos/772ede12a1cb.png",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -2672,7 +2936,7 @@
    "group": null,
    "logo": "logos/19c8f6862024.png",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -2698,7 +2962,7 @@
    "group": null,
    "logo": "logos/0060ec6e77e9.png",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -2724,7 +2988,7 @@
    "group": null,
    "logo": "logos/eda377c04a58.png",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -2750,7 +3014,7 @@
    "group": null,
    "logo": "logos/4b2a31e59b16.png",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -2776,7 +3040,7 @@
    "group": null,
    "logo": "logos/7eb78b45fc84.png",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -2802,7 +3066,7 @@
    "group": null,
    "logo": "logos/e3afff30fb20.png",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -2828,7 +3092,7 @@
    "group": null,
    "logo": "logos/565e20d7ed01.png",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -2854,7 +3118,7 @@
    "group": null,
    "logo": "logos/299981d2cd16.png",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -2880,7 +3144,7 @@
    "group": null,
    "logo": "logos/299981d2cd16.png",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -2906,7 +3170,7 @@
    "group": null,
    "logo": "logos/622c22a06f33.png",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -2932,7 +3196,7 @@
    "group": null,
    "logo": "logos/299981d2cd16.png",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -2958,7 +3222,7 @@
    "group": null,
    "logo": "logos/299981d2cd16.png",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -2984,7 +3248,7 @@
    "group": null,
    "logo": "logos/e0d7b45b7253.png",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -3010,7 +3274,7 @@
    "group": null,
    "logo": "logos/9b4a15df1046.png",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -3036,7 +3300,7 @@
    "group": null,
    "logo": "logos/10baef6d0a1a.png",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -3062,7 +3326,7 @@
    "group": null,
    "logo": "logos/f6bef503b51e.png",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -3087,7 +3351,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/b35c8ce6cb0f.png"
   },
@@ -3113,7 +3377,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/1da8a2ff485b.png"
   },
@@ -3139,7 +3403,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/03d82ddf0366.png"
   },
@@ -3165,7 +3429,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/7db9c8b623a9.png"
   },
@@ -3191,7 +3455,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/9081d9088d9a.png"
   },
@@ -3217,7 +3481,7 @@
    "salary": "연봉 2,800만원~",
    "group": null,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": null
   },
@@ -3243,7 +3507,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/dcc5fc4e3e8d.png"
   },
@@ -3269,7 +3533,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/d7166cb35a55.png"
   },
@@ -3295,7 +3559,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/64c3e7a7d189.png"
   },
@@ -3322,7 +3586,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/fe3ca79e75cd.png"
   },
@@ -3349,7 +3613,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/fe3ca79e75cd.png"
   },
@@ -3375,7 +3639,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/b8eb0c6a5eea.png"
   },
@@ -3401,35 +3665,9 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/77a9711cc2c9.png"
-  },
-  {
-   "id": "jobkorea:50427365",
-   "source": "jobkorea",
-   "title": "경력 3년차 이상, 프로덕트 엔지니어 채용",
-   "company": "㈜업폴",
-   "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50427365",
-   "cats": [
-    "product"
-   ],
-   "level": "senior",
-   "region": "서울 강남구",
-   "region_key": "서울",
-   "deadline": null,
-   "deadline_text": null,
-   "posted": "2026-11-25",
-   "public": false,
-   "bigco": false,
-   "sector": "솔루션·SI·CRM·ERP, 백엔드개발자, 소프트웨어개발자, AI/ML엔지니어",
-   "employment_type": null,
-   "salary": null,
-   "group": null,
-   "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
-   "stale": false,
-   "logo": null
   },
   {
    "id": "jobkorea:50430349",
@@ -3453,7 +3691,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/27560bbb20b3.png"
   },
@@ -3480,7 +3718,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "also": [
     {
@@ -3512,7 +3750,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/d7166cb35a55.png"
   },
@@ -3538,7 +3776,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "also": [
     {
@@ -3570,35 +3808,9 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/7ba0b8ec8d1a.png"
-  },
-  {
-   "id": "saramin:55640752",
-   "source": "saramin",
-   "title": "[스틸리언] iOS 앱 보안 개발자",
-   "company": "(주)스틸리언",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55640752",
-   "cats": [
-    "ios"
-   ],
-   "level": "any",
-   "region": "서울 용산구",
-   "region_key": "서울",
-   "deadline": "2026-12-23",
-   "deadline_text": null,
-   "posted": "2026-11-23",
-   "public": false,
-   "bigco": false,
-   "sector": "iOS, 정보보안",
-   "employment_type": "정규직·계약직",
-   "salary": null,
-   "group": null,
-   "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
-   "stale": false,
-   "logo": null
   },
   {
    "id": "saramin:55645939",
@@ -3622,7 +3834,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": null
   },
@@ -3648,7 +3860,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": null
   },
@@ -3674,7 +3886,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": null
   },
@@ -3700,7 +3912,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": null
   },
@@ -3726,7 +3938,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/6d9e2b78b1c4.png"
   },
@@ -3752,7 +3964,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/17e94c853560.png"
   },
@@ -3778,7 +3990,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/17e94c853560.png"
   },
@@ -3804,7 +4016,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/17e94c853560.png"
   },
@@ -3830,7 +4042,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/17e94c853560.png"
   },
@@ -3856,7 +4068,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/bf5333065a41.png"
   },
@@ -3882,7 +4094,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/bf5333065a41.png"
   },
@@ -3908,7 +4120,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/bf5333065a41.png"
   },
@@ -3934,9 +4146,35 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/055011e89de7.png"
+  },
+  {
+   "id": "saramin:55172608",
+   "source": "saramin",
+   "title": "(주)백산이엔지 AI 바이브코딩 개발자(웹/앱·FDE) 신입/경력",
+   "company": "(주)백산이엔지",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55172608",
+   "cats": [
+    "ai"
+   ],
+   "level": "any",
+   "region": "경기 화성시 동탄구",
+   "region_key": "경기",
+   "deadline": null,
+   "deadline_text": "채용시",
+   "posted": "2026-11-27",
+   "public": false,
+   "bigco": false,
+   "sector": "백엔드/서버개발, 풀스택, PostgreSQL, Python, React",
+   "employment_type": "정규직",
+   "salary": null,
+   "group": null,
+   "first_seen": "2026-11-22",
+   "last_seen": "2026-11-27",
+   "stale": false,
+   "logo": null
   },
   {
    "id": "saramin:55608828",
@@ -3960,7 +4198,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "also": [
     {
@@ -3971,28 +4209,28 @@
    "logo": null
   },
   {
-   "id": "saramin:55552945",
+   "id": "saramin:55620644",
    "source": "saramin",
-   "title": "[대기업 계열사] IT전문회사 / FDE(과장~차장급)",
-   "company": "(주)HR컨설팅그룹",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55552945",
+   "title": "[글로벌스타트AI기업] On-device AI / ML Systems Engineer",
+   "company": "굿커리어",
+   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55620644",
    "cats": [
     "ai"
    ],
    "level": "senior",
-   "region": "경기 과천시",
-   "region_key": "경기",
-   "deadline": "2026-11-26",
+   "region": "서울 서초구",
+   "region_key": "서울",
+   "deadline": "2026-12-19",
    "deadline_text": null,
-   "posted": "2026-11-25",
+   "posted": "2026-11-26",
    "public": false,
    "bigco": false,
-   "sector": "SI개발, SI·시스템통합",
+   "sector": "iOS, Android, 앱개발, Java, 백엔드/서버개발",
    "employment_type": "정규직",
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": null
   },
@@ -4018,7 +4256,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": null
   },
@@ -4044,7 +4282,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/7fd6316a8b8b.png"
   },
@@ -4071,7 +4309,7 @@
    "group": null,
    "logo": "logos/774a4790c87d.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -4097,7 +4335,7 @@
    "group": null,
    "logo": "logos/a391ae5afff6.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -4123,7 +4361,7 @@
    "group": null,
    "logo": "logos/24bb4beeec79.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -4149,7 +4387,7 @@
    "group": null,
    "logo": "logos/6129d85a4030.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -4175,7 +4413,7 @@
    "group": null,
    "logo": "logos/77304bf4d087.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -4201,7 +4439,7 @@
    "group": null,
    "logo": "logos/9669665998c2.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -4228,7 +4466,7 @@
    "group": null,
    "logo": "logos/722e15af40e4.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -4254,7 +4492,7 @@
    "group": null,
    "logo": "logos/157a237abd10.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -4280,7 +4518,7 @@
    "group": null,
    "logo": "logos/bd99e51e4b04.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -4306,7 +4544,7 @@
    "group": null,
    "logo": "logos/622c22a06f33.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -4332,7 +4570,7 @@
    "group": null,
    "logo": "logos/e3943277a593.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -4359,7 +4597,7 @@
    "group": null,
    "logo": "logos/0383697cd5ca.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -4385,7 +4623,7 @@
    "group": null,
    "logo": "logos/570171d6a5c0.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -4411,7 +4649,7 @@
    "group": null,
    "logo": "logos/a64d4d7e5d15.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -4437,7 +4675,7 @@
    "group": null,
    "logo": "logos/f7911ff1aed8.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -4463,7 +4701,7 @@
    "group": null,
    "logo": "logos/f7911ff1aed8.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -4489,7 +4727,7 @@
    "group": null,
    "logo": "logos/157a237abd10.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -4515,7 +4753,7 @@
    "group": null,
    "logo": "logos/2a48211b99e7.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -4541,7 +4779,7 @@
    "group": null,
    "logo": "logos/f01485870b0b.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -4568,7 +4806,7 @@
    "group": null,
    "logo": "logos/a64d4d7e5d15.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -4594,7 +4832,7 @@
    "group": null,
    "logo": "logos/622c22a06f33.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -4620,7 +4858,7 @@
    "group": null,
    "logo": "logos/2dc0cd8dbf92.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -4646,7 +4884,7 @@
    "group": null,
    "logo": "logos/411f40e81038.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -4672,7 +4910,7 @@
    "group": null,
    "logo": "logos/49dc00476c9e.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -4698,7 +4936,7 @@
    "group": null,
    "logo": "logos/bf4a3c0ccdcb.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -4724,7 +4962,7 @@
    "group": null,
    "logo": "logos/7afbf64ac991.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -4751,7 +4989,7 @@
    "group": null,
    "logo": "logos/ae658b6b7db2.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -4777,7 +5015,7 @@
    "group": null,
    "logo": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -4803,7 +5041,7 @@
    "group": null,
    "logo": "logos/252234434274.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -4829,7 +5067,7 @@
    "group": null,
    "logo": "logos/49ffebb97c29.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -4855,7 +5093,7 @@
    "group": null,
    "logo": "logos/de48e4da9fe1.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -4881,7 +5119,7 @@
    "group": null,
    "logo": "logos/157a237abd10.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -4908,7 +5146,7 @@
    "group": null,
    "logo": "logos/74d7de37e753.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -4934,7 +5172,7 @@
    "group": null,
    "logo": "logos/a11aae4a5b54.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -4960,7 +5198,7 @@
    "group": null,
    "logo": "logos/a11aae4a5b54.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -4986,7 +5224,7 @@
    "group": null,
    "logo": "logos/73816cb891a4.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -5012,7 +5250,7 @@
    "group": null,
    "logo": "logos/8fe1c339bd14.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -5038,7 +5276,7 @@
    "group": null,
    "logo": "logos/8fe1c339bd14.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -5064,7 +5302,7 @@
    "group": null,
    "logo": "logos/eda377c04a58.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -5090,7 +5328,7 @@
    "group": null,
    "logo": "logos/eda377c04a58.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -5116,7 +5354,7 @@
    "group": null,
    "logo": "logos/6f44d058936e.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -5142,7 +5380,7 @@
    "group": null,
    "logo": "logos/a0fb143e615b.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -5168,7 +5406,7 @@
    "group": null,
    "logo": "logos/a0fb143e615b.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -5194,7 +5432,7 @@
    "group": null,
    "logo": "logos/33621fc670a4.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -5220,7 +5458,7 @@
    "group": null,
    "logo": "logos/49ffebb97c29.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -5246,7 +5484,7 @@
    "group": null,
    "logo": "logos/ba0dcf0385bb.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -5272,7 +5510,7 @@
    "group": null,
    "logo": "logos/09f19c6a90dd.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -5298,7 +5536,7 @@
    "group": null,
    "logo": "logos/09f19c6a90dd.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -5324,7 +5562,7 @@
    "group": null,
    "logo": "logos/d1d406660548.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -5351,7 +5589,7 @@
    "group": null,
    "logo": "logos/28f755140dfe.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -5377,7 +5615,7 @@
    "group": null,
    "logo": "logos/4b45e2d70e2d.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -5403,7 +5641,7 @@
    "group": null,
    "logo": "logos/ad583fbdba05.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -5429,7 +5667,7 @@
    "group": null,
    "logo": "logos/2d202341a458.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -5455,7 +5693,7 @@
    "group": null,
    "logo": "logos/b2759f366037.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -5481,7 +5719,7 @@
    "group": null,
    "logo": "logos/ae7491b86b57.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -5507,7 +5745,7 @@
    "group": null,
    "logo": "logos/a237bcb37901.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -5533,7 +5771,7 @@
    "group": null,
    "logo": "logos/fea8ceb5e92a.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -5559,7 +5797,7 @@
    "group": null,
    "logo": "logos/a6fba5c348df.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -5585,7 +5823,7 @@
    "group": null,
    "logo": "logos/20eee1625080.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -5611,7 +5849,7 @@
    "group": null,
    "logo": "logos/513989e628ed.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -5637,7 +5875,7 @@
    "group": null,
    "logo": "logos/513989e628ed.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -5663,7 +5901,7 @@
    "group": null,
    "logo": "logos/6da5d655b4e3.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -5689,7 +5927,7 @@
    "group": null,
    "logo": "logos/a5508d691d32.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -5715,7 +5953,7 @@
    "group": null,
    "logo": "logos/df9aa7aa6a7d.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -5741,7 +5979,7 @@
    "group": null,
    "logo": "logos/c4436f427fc0.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -5767,7 +6005,7 @@
    "group": null,
    "logo": "logos/0556f1069b85.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -5793,7 +6031,7 @@
    "group": null,
    "logo": "logos/0556f1069b85.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -5819,7 +6057,7 @@
    "group": null,
    "logo": "logos/0556f1069b85.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -5845,7 +6083,7 @@
    "group": null,
    "logo": "logos/84b1f1b43d53.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -5871,7 +6109,7 @@
    "group": null,
    "logo": "logos/cc1db784785a.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -5897,7 +6135,7 @@
    "group": null,
    "logo": "logos/b41beb6886fe.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -5923,7 +6161,7 @@
    "group": null,
    "logo": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -5949,7 +6187,7 @@
    "group": null,
    "logo": "logos/0fb787f298ac.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -5975,7 +6213,7 @@
    "group": null,
    "logo": "logos/aad70ebe962f.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -6001,7 +6239,7 @@
    "group": null,
    "logo": "logos/795fe343b52a.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -6027,7 +6265,7 @@
    "group": null,
    "logo": "logos/11190039668b.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -6053,7 +6291,7 @@
    "group": null,
    "logo": "logos/a00bdca08b4e.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -6079,7 +6317,7 @@
    "group": null,
    "logo": "logos/994b5ec4d78e.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -6105,7 +6343,7 @@
    "group": null,
    "logo": "logos/4190ef127995.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -6131,7 +6369,7 @@
    "group": null,
    "logo": "logos/69d4fedd8607.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -6157,7 +6395,7 @@
    "group": null,
    "logo": "logos/c02a3b765ad5.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -6183,7 +6421,7 @@
    "group": null,
    "logo": "logos/d4d729562313.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -6209,7 +6447,7 @@
    "group": null,
    "logo": "logos/032495c2eab2.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -6235,7 +6473,7 @@
    "group": null,
    "logo": "logos/73816cb891a4.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -6261,7 +6499,7 @@
    "group": null,
    "logo": "logos/c3d3a59b4f5d.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -6287,7 +6525,7 @@
    "group": null,
    "logo": "logos/d9defc12e659.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -6313,7 +6551,7 @@
    "group": null,
    "logo": "logos/c60eee9e9bcb.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -6339,7 +6577,7 @@
    "group": null,
    "logo": "logos/adbc569e5728.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -6365,7 +6603,7 @@
    "group": null,
    "logo": "logos/73816cb891a4.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -6391,7 +6629,7 @@
    "group": null,
    "logo": "logos/4b45e2d70e2d.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -6417,7 +6655,7 @@
    "group": null,
    "logo": "logos/ec951a44ddc7.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -6443,7 +6681,7 @@
    "group": null,
    "logo": "logos/c60eee9e9bcb.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -6469,7 +6707,7 @@
    "group": null,
    "logo": "logos/6f44d058936e.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -6495,7 +6733,7 @@
    "group": null,
    "logo": "logos/6f44d058936e.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -6522,7 +6760,7 @@
    "group": null,
    "logo": "logos/d6f0fd4ca671.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -6548,7 +6786,7 @@
    "group": null,
    "logo": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -6574,7 +6812,7 @@
    "group": null,
    "logo": "logos/7f7b7da1deb6.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -6600,7 +6838,7 @@
    "group": null,
    "logo": "logos/d4d729562313.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -6626,7 +6864,7 @@
    "group": null,
    "logo": "logos/e68ac34f8626.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -6652,7 +6890,7 @@
    "group": null,
    "logo": "logos/a237bcb37901.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -6678,7 +6916,7 @@
    "group": null,
    "logo": "logos/658027d9d54a.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -6704,7 +6942,7 @@
    "group": null,
    "logo": "logos/77a9711cc2c9.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -6730,7 +6968,7 @@
    "group": null,
    "logo": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -6756,7 +6994,7 @@
    "group": null,
    "logo": "logos/10baef6d0a1a.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -6783,7 +7021,7 @@
    "group": null,
    "logo": "logos/7677e7d32129.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -6809,7 +7047,7 @@
    "group": null,
    "logo": "logos/d709e6093965.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -6835,7 +7073,7 @@
    "group": null,
    "logo": "logos/b69ea8cf0a95.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -6861,7 +7099,7 @@
    "group": null,
    "logo": "logos/b69ea8cf0a95.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -6887,7 +7125,7 @@
    "group": null,
    "logo": "logos/b69ea8cf0a95.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -6913,7 +7151,7 @@
    "group": null,
    "logo": "logos/b69ea8cf0a95.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -6939,7 +7177,7 @@
    "group": null,
    "logo": "logos/fb225d21daf7.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -6965,7 +7203,7 @@
    "group": null,
    "logo": "logos/c7ef02c73a85.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -6991,7 +7229,7 @@
    "group": null,
    "logo": "logos/109eb1e18274.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -7017,7 +7255,7 @@
    "group": null,
    "logo": "logos/10fb048b0a58.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -7043,7 +7281,7 @@
    "group": null,
    "logo": "logos/5fe07ce8890e.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -7069,7 +7307,7 @@
    "group": null,
    "logo": "logos/070e86809aa1.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -7095,7 +7333,7 @@
    "group": null,
    "logo": "logos/83c296ebbfd0.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -7121,7 +7359,7 @@
    "group": null,
    "logo": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -7147,7 +7385,7 @@
    "group": null,
    "logo": "logos/c6210258cdbd.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -7173,7 +7411,7 @@
    "group": null,
    "logo": "logos/e68ac34f8626.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -7199,7 +7437,7 @@
    "group": null,
    "logo": "logos/d76f3e6abeb5.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -7225,7 +7463,7 @@
    "group": null,
    "logo": "logos/a2714c68165e.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -7251,7 +7489,7 @@
    "group": null,
    "logo": "logos/8a8a013af689.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -7277,7 +7515,7 @@
    "group": null,
    "logo": "logos/9d885fd3062b.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -7303,7 +7541,7 @@
    "group": null,
    "logo": "logos/821e79b59410.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -7329,7 +7567,7 @@
    "group": null,
    "logo": "logos/821e79b59410.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -7355,7 +7593,7 @@
    "group": null,
    "logo": "logos/2dc0cd8dbf92.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -7381,7 +7619,7 @@
    "group": null,
    "logo": "logos/c36b62b2274c.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -7407,7 +7645,7 @@
    "group": null,
    "logo": "logos/c98e9f1445fe.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -7433,7 +7671,7 @@
    "group": null,
    "logo": "logos/1d685530b16c.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -7459,7 +7697,7 @@
    "group": null,
    "logo": "logos/76a499f76fe4.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -7485,7 +7723,7 @@
    "group": null,
    "logo": "logos/c98e9f1445fe.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -7511,7 +7749,7 @@
    "group": null,
    "logo": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -7537,7 +7775,7 @@
    "group": null,
    "logo": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -7563,7 +7801,7 @@
    "group": null,
    "logo": "logos/4b3a7726d72e.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -7589,7 +7827,7 @@
    "group": null,
    "logo": "logos/c36b62b2274c.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -7615,7 +7853,7 @@
    "group": null,
    "logo": "logos/eeae799cef13.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -7641,7 +7879,7 @@
    "group": null,
    "logo": "logos/eeae799cef13.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -7667,7 +7905,7 @@
    "group": null,
    "logo": "logos/e7a42ffd600d.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -7693,7 +7931,7 @@
    "group": null,
    "logo": "logos/eeae799cef13.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -7719,7 +7957,7 @@
    "group": null,
    "logo": "logos/eeae799cef13.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -7745,7 +7983,7 @@
    "group": null,
    "logo": "logos/eeae799cef13.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -7771,7 +8009,7 @@
    "group": null,
    "logo": "logos/9cff1a4bf4e9.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -7797,7 +8035,7 @@
    "group": null,
    "logo": "logos/e9e37137c321.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -7823,7 +8061,7 @@
    "group": null,
    "logo": "logos/271b1a6116b2.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -7849,7 +8087,7 @@
    "group": null,
    "logo": "logos/271b1a6116b2.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -7875,7 +8113,7 @@
    "group": null,
    "logo": "logos/74fa237638d9.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -7901,7 +8139,7 @@
    "group": null,
    "logo": "logos/e38a54f633dc.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -7927,7 +8165,7 @@
    "group": null,
    "logo": "logos/ec951a44ddc7.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -7953,7 +8191,7 @@
    "group": null,
    "logo": "logos/727ba70de612.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -7979,7 +8217,7 @@
    "group": null,
    "logo": "logos/727ba70de612.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -8005,7 +8243,7 @@
    "group": null,
    "logo": "logos/727ba70de612.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -8031,7 +8269,7 @@
    "group": null,
    "logo": "logos/28d9ca02bfdc.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -8057,7 +8295,7 @@
    "group": null,
    "logo": "logos/91cfb68f7087.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -8083,7 +8321,7 @@
    "group": null,
    "logo": "logos/73816cb891a4.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -8109,7 +8347,7 @@
    "group": null,
    "logo": "logos/3b171044a01b.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -8135,7 +8373,7 @@
    "group": null,
    "logo": "logos/57e72bbcc5d7.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -8161,7 +8399,7 @@
    "group": null,
    "logo": "logos/c76b963030c2.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -8187,7 +8425,7 @@
    "group": null,
    "logo": "logos/c76b963030c2.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -8213,7 +8451,7 @@
    "group": null,
    "logo": "logos/49343e8cf27c.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -8239,7 +8477,7 @@
    "group": null,
    "logo": "logos/09f19c6a90dd.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -8265,7 +8503,7 @@
    "group": null,
    "logo": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -8291,7 +8529,7 @@
    "group": null,
    "logo": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -8317,7 +8555,7 @@
    "group": null,
    "logo": "logos/f6bef503b51e.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -8343,7 +8581,7 @@
    "group": null,
    "logo": "logos/785d74d0b249.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -8369,7 +8607,7 @@
    "group": null,
    "logo": "logos/e8326d6045ad.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -8395,7 +8633,7 @@
    "group": null,
    "logo": "logos/e8326d6045ad.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -8421,7 +8659,7 @@
    "group": null,
    "logo": "logos/455f4eb66c5c.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -8447,7 +8685,7 @@
    "group": null,
    "logo": "logos/26fb3aad86a6.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -8473,7 +8711,7 @@
    "group": null,
    "logo": "logos/8c969ae87caf.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -8499,7 +8737,7 @@
    "group": null,
    "logo": "logos/bb33733e1f8b.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -8525,7 +8763,7 @@
    "group": null,
    "logo": "logos/baa0893e4f33.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -8551,7 +8789,7 @@
    "group": null,
    "logo": "logos/77a9711cc2c9.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -8577,7 +8815,7 @@
    "group": null,
    "logo": "logos/857bcf56a8c3.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -8603,7 +8841,7 @@
    "group": null,
    "logo": "logos/2fdf09112b48.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -8629,7 +8867,7 @@
    "group": null,
    "logo": "logos/f6bef503b51e.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -8655,7 +8893,7 @@
    "group": null,
    "logo": "logos/c4a4b9e27cff.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -8681,7 +8919,7 @@
    "group": null,
    "logo": "logos/785d74d0b249.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -8707,7 +8945,7 @@
    "group": null,
    "logo": "logos/785d74d0b249.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -8733,7 +8971,7 @@
    "group": null,
    "logo": "logos/785d74d0b249.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -8759,7 +8997,7 @@
    "group": null,
    "logo": "logos/371b72d2053e.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -8785,7 +9023,7 @@
    "group": null,
    "logo": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -8811,7 +9049,7 @@
    "group": null,
    "logo": "logos/8154c146d484.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -8837,7 +9075,7 @@
    "group": null,
    "logo": "logos/4b4420cb48d3.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -8863,7 +9101,7 @@
    "group": null,
    "logo": "logos/d5de7ac2cfcc.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -8889,7 +9127,7 @@
    "group": null,
    "logo": "logos/b2e307184809.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -8915,7 +9153,7 @@
    "group": null,
    "logo": "logos/eb46511b5523.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -8941,7 +9179,7 @@
    "group": null,
    "logo": "logos/1531b5e55b39.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -8967,7 +9205,7 @@
    "group": null,
    "logo": "logos/a967251c629c.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -8993,7 +9231,7 @@
    "group": null,
    "logo": "logos/58ac0f0859b8.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -9019,7 +9257,7 @@
    "group": null,
    "logo": "logos/a31b9ae46bda.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -9045,7 +9283,7 @@
    "group": null,
    "logo": "logos/844be9076455.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -9071,7 +9309,7 @@
    "group": null,
    "logo": "logos/77e868e9a346.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -9097,7 +9335,7 @@
    "group": null,
    "logo": "logos/ffa6804e8b41.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -9123,7 +9361,7 @@
    "group": null,
    "logo": "logos/e27ce1291582.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -9149,7 +9387,7 @@
    "group": null,
    "logo": "logos/740ade4aa36f.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -9176,7 +9414,7 @@
    "group": null,
    "logo": "logos/f1fbcc387d7f.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -9202,7 +9440,7 @@
    "group": null,
    "logo": "logos/e27ce1291582.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -9228,7 +9466,7 @@
    "group": null,
    "logo": "logos/72eab037d0d2.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -9254,7 +9492,7 @@
    "group": null,
    "logo": "logos/d5de7ac2cfcc.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -9280,7 +9518,7 @@
    "group": null,
    "logo": "logos/f9f5fefb6ffd.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -9306,7 +9544,7 @@
    "group": null,
    "logo": "logos/d76e839c0165.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -9332,7 +9570,7 @@
    "group": null,
    "logo": "logos/f6bef503b51e.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -9358,7 +9596,7 @@
    "group": null,
    "logo": "logos/e873bf73adbd.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -9384,7 +9622,7 @@
    "group": null,
    "logo": "logos/3f63181179bf.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -9410,7 +9648,7 @@
    "group": null,
    "logo": "logos/cc1a2f26d55b.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -9436,7 +9674,7 @@
    "group": null,
    "logo": "logos/8154c146d484.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -9462,7 +9700,7 @@
    "group": null,
    "logo": "logos/073955714bbf.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -9488,7 +9726,7 @@
    "group": null,
    "logo": "logos/e3afff30fb20.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -9514,7 +9752,7 @@
    "group": null,
    "logo": "logos/7f7ef1ad206c.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -9540,7 +9778,7 @@
    "group": null,
    "logo": "logos/39ccc378e8b7.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -9566,7 +9804,7 @@
    "group": null,
    "logo": "logos/549960384399.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -9592,7 +9830,7 @@
    "group": null,
    "logo": "logos/073955714bbf.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -9618,7 +9856,7 @@
    "group": null,
    "logo": "logos/892fe428258a.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -9644,7 +9882,7 @@
    "group": null,
    "logo": "logos/480a6306d304.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -9670,7 +9908,7 @@
    "group": null,
    "logo": "logos/d1c4bf92dce3.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -9696,7 +9934,7 @@
    "group": null,
    "logo": "logos/ba0dcf0385bb.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -9722,7 +9960,7 @@
    "group": null,
    "logo": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -9748,7 +9986,7 @@
    "group": null,
    "logo": "logos/3a46bfc3a6cf.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -9774,7 +10012,7 @@
    "group": null,
    "logo": "logos/39ccc378e8b7.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -9801,7 +10039,7 @@
    "group": null,
    "logo": "logos/77e27d0bd689.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -9827,7 +10065,7 @@
    "group": null,
    "logo": "logos/ffa6804e8b41.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -9853,7 +10091,7 @@
    "group": null,
    "logo": "logos/ffa6804e8b41.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -9879,7 +10117,7 @@
    "group": null,
    "logo": "logos/7b89330c4f80.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -9905,7 +10143,7 @@
    "group": null,
    "logo": "logos/2ded3ba88197.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -9931,7 +10169,7 @@
    "group": null,
    "logo": "logos/7b89330c4f80.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -9957,7 +10195,7 @@
    "group": null,
    "logo": "logos/b6f841b78628.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -9983,7 +10221,7 @@
    "group": null,
    "logo": "logos/11190039668b.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -10009,14 +10247,8 @@
    "group": null,
    "logo": "logos/d9defc12e659.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
-   "stale": false,
-   "also": [
-    {
-     "source": "jobkorea",
-     "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50416785"
-    }
-   ]
+   "last_seen": "2026-11-27",
+   "stale": false
   },
   {
    "id": "wanted:398207",
@@ -10041,7 +10273,7 @@
    "group": null,
    "logo": "logos/ab0180be85e7.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -10068,7 +10300,7 @@
    "group": null,
    "logo": "logos/e873bf73adbd.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -10094,7 +10326,7 @@
    "group": null,
    "logo": "logos/4188bbacdf22.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -10120,7 +10352,7 @@
    "group": null,
    "logo": "logos/e68ac34f8626.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -10146,7 +10378,7 @@
    "group": null,
    "logo": "logos/a6b6a960c1bb.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -10172,7 +10404,7 @@
    "group": null,
    "logo": "logos/a6b6a960c1bb.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -10198,7 +10430,7 @@
    "group": null,
    "logo": "logos/73816cb891a4.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -10224,7 +10456,7 @@
    "group": null,
    "logo": "logos/395f4718c27d.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -10250,7 +10482,7 @@
    "group": null,
    "logo": "logos/395f4718c27d.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -10276,7 +10508,7 @@
    "group": null,
    "logo": "logos/7ba0b8ec8d1a.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -10302,7 +10534,7 @@
    "group": null,
    "logo": "logos/d5de7ac2cfcc.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -10328,7 +10560,7 @@
    "group": null,
    "logo": "logos/d5de7ac2cfcc.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -10354,7 +10586,7 @@
    "group": null,
    "logo": "logos/f1fbcc387d7f.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -10380,7 +10612,7 @@
    "group": null,
    "logo": "logos/72eab037d0d2.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -10406,7 +10638,7 @@
    "group": null,
    "logo": "logos/ad127c7c9881.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -10432,7 +10664,7 @@
    "group": null,
    "logo": "logos/b02208dafc13.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -10458,7 +10690,7 @@
    "group": null,
    "logo": "logos/eeae799cef13.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -10484,7 +10716,7 @@
    "group": null,
    "logo": "logos/eeae799cef13.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -10510,7 +10742,7 @@
    "group": null,
    "logo": "logos/095029cc4a70.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -10536,7 +10768,7 @@
    "group": null,
    "logo": "logos/b2e307184809.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -10562,7 +10794,7 @@
    "group": null,
    "logo": "logos/d1d406660548.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -10588,7 +10820,7 @@
    "group": null,
    "logo": "logos/1a8a9aad308f.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -10614,7 +10846,7 @@
    "group": null,
    "logo": "logos/157a237abd10.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -10640,7 +10872,7 @@
    "group": null,
    "logo": "logos/157a237abd10.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -10666,7 +10898,7 @@
    "group": null,
    "logo": "logos/727ba70de612.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -10692,7 +10924,7 @@
    "group": null,
    "logo": "logos/727ba70de612.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -10718,7 +10950,7 @@
    "group": null,
    "logo": "logos/4d88c7f4a5d6.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -10744,7 +10976,7 @@
    "group": null,
    "logo": "logos/4d88c7f4a5d6.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -10770,7 +11002,7 @@
    "group": null,
    "logo": "logos/4d88c7f4a5d6.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -10796,7 +11028,7 @@
    "group": null,
    "logo": "logos/90d49dcf96c5.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "also": [
     {
@@ -10828,7 +11060,7 @@
    "group": null,
    "logo": "logos/e07832587961.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -10854,7 +11086,7 @@
    "group": null,
    "logo": "logos/e07832587961.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -10880,7 +11112,7 @@
    "group": null,
    "logo": "logos/e07832587961.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -10906,7 +11138,7 @@
    "group": null,
    "logo": "logos/f6bef503b51e.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -10932,7 +11164,7 @@
    "group": null,
    "logo": "logos/5b5c6a7af97f.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -10958,7 +11190,7 @@
    "group": null,
    "logo": "logos/27560bbb20b3.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -10984,7 +11216,7 @@
    "group": null,
    "logo": "logos/fdd3a7dd549f.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -11010,7 +11242,7 @@
    "group": null,
    "logo": "logos/fea4f87964ca.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -11036,7 +11268,7 @@
    "group": null,
    "logo": "logos/9dcc70261195.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -11062,7 +11294,7 @@
    "group": null,
    "logo": "logos/8e669721ac53.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -11088,7 +11320,7 @@
    "group": null,
    "logo": "logos/d5de7ac2cfcc.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -11114,7 +11346,7 @@
    "group": null,
    "logo": "logos/a64d4d7e5d15.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -11140,33 +11372,7 @@
    "group": null,
    "logo": "logos/132a83c14ed4.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
-   "stale": false
-  },
-  {
-   "id": "wanted:399323",
-   "source": "wanted",
-   "title": "AI 딥러닝 연구원 (박사/석사 전문연구요원 가능)",
-   "company": "뉴로클",
-   "url": "https://www.wanted.co.kr/wd/399323",
-   "cats": [
-    "ai"
-   ],
-   "level": "any",
-   "region": "서울 강동구",
-   "region_key": "서울",
-   "deadline": "2026-11-26",
-   "deadline_text": null,
-   "posted": "2026-11-22",
-   "public": false,
-   "bigco": false,
-   "sector": null,
-   "employment_type": null,
-   "salary": null,
-   "group": null,
-   "logo": "logos/c81a48d87e3f.png",
-   "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -11192,7 +11398,7 @@
    "group": null,
    "logo": "logos/e7ca07f75fcb.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -11219,7 +11425,7 @@
    "group": null,
    "logo": "logos/6f3691f52916.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -11245,7 +11451,7 @@
    "group": null,
    "logo": "logos/7a7486bd6755.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -11271,7 +11477,7 @@
    "group": null,
    "logo": "logos/cbbd7012cec4.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -11297,7 +11503,7 @@
    "group": null,
    "logo": "logos/6f2e7d6308f7.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -11323,7 +11529,7 @@
    "group": null,
    "logo": "logos/8f41dca99f75.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -11349,7 +11555,7 @@
    "group": null,
    "logo": "logos/de2e446ba552.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -11375,7 +11581,7 @@
    "group": null,
    "logo": "logos/37b147e09390.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -11401,7 +11607,7 @@
    "group": null,
    "logo": "logos/a64d4d7e5d15.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -11427,7 +11633,7 @@
    "group": null,
    "logo": "logos/76cff6efff68.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -11453,7 +11659,7 @@
    "group": null,
    "logo": "logos/d7567d9e8cb3.png",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false
   },
   {
@@ -11478,7 +11684,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/e43f9594c803.png"
   },
@@ -11504,7 +11710,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/aeef6ae58cfc.png"
   },
@@ -11530,7 +11736,7 @@
    "salary": "월급 600~850만원",
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/a2118f6f97ea.png"
   },
@@ -11556,7 +11762,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/6ff39e794193.png"
   },
@@ -11582,35 +11788,9 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/7fd6316a8b8b.png"
-  },
-  {
-   "id": "jobkorea:50362467",
-   "source": "jobkorea",
-   "title": "exemONE Product Engineer (2년 이상)",
-   "company": "㈜엑셈",
-   "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50362467",
-   "cats": [
-    "product"
-   ],
-   "level": "senior",
-   "region": "서울 강서구",
-   "region_key": "서울",
-   "deadline": null,
-   "deadline_text": null,
-   "posted": "2026-11-22",
-   "public": false,
-   "bigco": false,
-   "sector": "솔루션·SI·CRM·ERP, PL·PM·PO, 시스템엔지니어, 클라우드엔지니어",
-   "employment_type": null,
-   "salary": null,
-   "group": null,
-   "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
-   "stale": false,
-   "logo": "logos/af309eb533e9.png"
   },
   {
    "id": "jobkorea:50371136",
@@ -11634,7 +11814,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/3a0a61dd932a.png"
   },
@@ -11660,7 +11840,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/a4438bde4325.png"
   },
@@ -11686,7 +11866,7 @@
    "salary": "연봉 4,200~5,500만원",
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/5b5c6a7af97f.png"
   },
@@ -11712,35 +11892,9 @@
    "salary": "연봉 8,000~9,000만원",
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": null
-  },
-  {
-   "id": "jobkorea:50392879",
-   "source": "jobkorea",
-   "title": "[경력] iOS·Android 앱 개발자 모집  리워드·경유쇼핑 서비스",
-   "company": "㈜수커뮤니케이션",
-   "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50392879",
-   "cats": [
-    "ios"
-   ],
-   "level": "senior",
-   "region": "서울 성동구",
-   "region_key": "서울",
-   "deadline": null,
-   "deadline_text": null,
-   "posted": "2026-11-22",
-   "public": false,
-   "bigco": false,
-   "sector": "솔루션·SI·CRM·ERP, 프론트엔드개발자, 앱개발자, 웹퍼블리셔",
-   "employment_type": null,
-   "salary": "월급 3,000~8,000만원",
-   "group": null,
-   "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
-   "stale": false,
-   "logo": "logos/2a5d0447be89.png"
   },
   {
    "id": "jobkorea:50398174",
@@ -11764,35 +11918,9 @@
    "salary": "월급 450만원~",
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/69f0b01fb401.png"
-  },
-  {
-   "id": "jobkorea:50399595",
-   "source": "jobkorea",
-   "title": "AI 서비스 빌더 · 바이브 코딩 빌더(Vibe Coder) 인턴 (정규직 전환형)",
-   "company": "주식회사 고투엑스코리아",
-   "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50399595",
-   "cats": [
-    "ai"
-   ],
-   "level": "intern",
-   "region": "서울 서초구",
-   "region_key": "서울",
-   "deadline": null,
-   "deadline_text": null,
-   "posted": "2026-11-22",
-   "public": false,
-   "bigco": false,
-   "sector": "웹에이전시, 마케팅기획, AI/ML엔지니어, AI기획자",
-   "employment_type": "정규직",
-   "salary": "월급 210만원~",
-   "group": null,
-   "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
-   "stale": false,
-   "logo": null
   },
   {
    "id": "jobkorea:50400197",
@@ -11816,7 +11944,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/ba043596e7a4.png"
   },
@@ -11842,7 +11970,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": null
   },
@@ -11869,35 +11997,9 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/f83b5fa1b154.png"
-  },
-  {
-   "id": "jobkorea:50405030",
-   "source": "jobkorea",
-   "title": "[정규직] 조립 PC 엔지니어 & AI 딥러닝 서버 빌더 채용 (컴덕 우대)",
-   "company": "㈜양컴",
-   "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50405030",
-   "cats": [
-    "ai"
-   ],
-   "level": "any",
-   "region": "서울 용산구",
-   "region_key": "서울",
-   "deadline": null,
-   "deadline_text": null,
-   "posted": "2026-11-22",
-   "public": false,
-   "bigco": false,
-   "sector": "컴퓨터·하드웨어·장비, 설치·수리기사, 생산직종사자",
-   "employment_type": "정규직",
-   "salary": null,
-   "group": null,
-   "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
-   "stale": false,
-   "logo": "logos/e3dfd384677e.png"
   },
   {
    "id": "jobkorea:50405380",
@@ -11921,7 +12023,7 @@
    "salary": "월급 600~650만원",
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": null
   },
@@ -11947,35 +12049,9 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/7a7486bd6755.png"
-  },
-  {
-   "id": "saramin:55620644",
-   "source": "saramin",
-   "title": "[글로벌스타트AI기업] On-device AI / ML Systems Engineer",
-   "company": "굿커리어",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55620644",
-   "cats": [
-    "ai"
-   ],
-   "level": "senior",
-   "region": "서울 서초구",
-   "region_key": "서울",
-   "deadline": "2026-12-19",
-   "deadline_text": null,
-   "posted": "2026-11-21",
-   "public": false,
-   "bigco": false,
-   "sector": "iOS, Android, 앱개발, Java, 백엔드/서버개발",
-   "employment_type": "정규직",
-   "salary": null,
-   "group": null,
-   "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
-   "stale": false,
-   "logo": null
   },
   {
    "id": "saramin:55631470",
@@ -11999,7 +12075,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": null
   },
@@ -12025,7 +12101,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": null
   },
@@ -12051,7 +12127,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": null
   },
@@ -12077,7 +12153,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": null
   },
@@ -12103,7 +12179,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "also": [
     {
@@ -12135,7 +12211,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/7a7486bd6755.png"
   },
@@ -12161,7 +12237,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": null
   },
@@ -12187,7 +12263,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/b4a77f7adc63.png"
   },
@@ -12213,7 +12289,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/b4a77f7adc63.png"
   },
@@ -12239,7 +12315,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/b4a77f7adc63.png"
   },
@@ -12265,7 +12341,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/d5ec76f1ecf7.png"
   },
@@ -12291,7 +12367,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/d5ec76f1ecf7.png"
   },
@@ -12317,7 +12393,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/d5ec76f1ecf7.png"
   },
@@ -12343,7 +12419,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/3a0a61dd932a.png"
   },
@@ -12369,7 +12445,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": null
   },
@@ -12395,7 +12471,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": null
   },
@@ -12421,7 +12497,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "also": [
     {
@@ -12453,7 +12529,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/3ff4cd37f210.png"
   },
@@ -12479,7 +12555,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/ab8f734a4612.png"
   },
@@ -12505,7 +12581,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/ab8f734a4612.png"
   },
@@ -12531,7 +12607,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": null
   },
@@ -12557,7 +12633,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "also": [
     {
@@ -12565,32 +12641,6 @@
      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50389457"
     }
    ],
-   "logo": null
-  },
-  {
-   "id": "saramin:55608696",
-   "source": "saramin",
-   "title": "IT 개발팀장 (사내 시스템 총괄 + AI 업무 자동화)",
-   "company": "(주)정피엔씨연구소",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55608696",
-   "cats": [
-    "ai"
-   ],
-   "level": "any",
-   "region": "경기 용인시 기흥구",
-   "region_key": "경기",
-   "deadline": "2026-12-18",
-   "deadline_text": null,
-   "posted": "2026-11-18",
-   "public": false,
-   "bigco": true,
-   "sector": "Java, 백엔드/서버개발, 웹개발, MySQL, PHP",
-   "employment_type": "정규직",
-   "salary": null,
-   "group": null,
-   "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
-   "stale": false,
    "logo": null
   },
   {
@@ -12615,7 +12665,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "also": [
     {
@@ -12647,7 +12697,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "also": [
     {
@@ -12679,7 +12729,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/d44be900a0af.png"
   },
@@ -12705,7 +12755,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": null
   },
@@ -12731,7 +12781,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": null
   },
@@ -12757,7 +12807,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/a6e55fea02fd.png"
   },
@@ -12783,85 +12833,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
-   "stale": false,
-   "logo": null
-  },
-  {
-   "id": "saramin:55579238",
-   "source": "saramin",
-   "title": "[화상회의/교육 전문기업] Flutter 앱개발자 채용(Android, iOS)",
-   "company": "(주)새하컴즈",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55579238",
-   "cats": [
-    "ios"
-   ],
-   "level": "senior",
-   "region": "서울 구로구",
-   "region_key": "서울",
-   "deadline": "2026-11-30",
-   "deadline_text": null,
-   "posted": "2026-11-16",
-   "public": false,
-   "bigco": false,
-   "sector": "iOS, Android, Flutter, WEB, 소프트웨어개발",
-   "employment_type": "정규직",
-   "salary": null,
-   "group": null,
-   "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
-   "stale": false,
-   "logo": null
-  },
-  {
-   "id": "saramin:55584384",
-   "source": "saramin",
-   "title": "iOS App 개발 담당자(경력직) 채용",
-   "company": "(주)온넷시스템즈코리아",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55584384",
-   "cats": [
-    "ios"
-   ],
-   "level": "senior",
-   "region": "서울 서초구",
-   "region_key": "서울",
-   "deadline": "2026-12-16",
-   "deadline_text": null,
-   "posted": "2026-11-16",
-   "public": false,
-   "bigco": false,
-   "sector": "iOS, Android, 앱개발, Swift, GCP",
-   "employment_type": "정규직",
-   "salary": null,
-   "group": null,
-   "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
-   "stale": false,
-   "logo": null
-  },
-  {
-   "id": "saramin:55585363",
-   "source": "saramin",
-   "title": "Flutter 프론트엔드 개발자 채용",
-   "company": "서울거래(주)",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55585363",
-   "cats": [
-    "mobile"
-   ],
-   "level": "any",
-   "region": "서울 영등포구",
-   "region_key": "서울",
-   "deadline": "2026-12-15",
-   "deadline_text": null,
-   "posted": "2026-11-16",
-   "public": false,
-   "bigco": false,
-   "sector": "프론트엔드, 소프트웨어개발",
-   "employment_type": "정규직",
-   "salary": null,
-   "group": null,
-   "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": null
   },
@@ -12887,7 +12859,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/d1d406660548.png"
   },
@@ -12913,7 +12885,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/19fbe1fbf651.png"
   },
@@ -12939,35 +12911,9 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/0edf92c19ff9.png"
-  },
-  {
-   "id": "saramin:55172608",
-   "source": "saramin",
-   "title": "(주)백산이엔지 AI 바이브코딩 개발자(웹/앱·FDE) 신입/경력",
-   "company": "(주)백산이엔지",
-   "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55172608",
-   "cats": [
-    "ai"
-   ],
-   "level": "any",
-   "region": "경기 화성시 동탄구",
-   "region_key": "경기",
-   "deadline": null,
-   "deadline_text": "채용시",
-   "posted": "2026-11-13",
-   "public": false,
-   "bigco": false,
-   "sector": "백엔드/서버개발, 풀스택, PostgreSQL, Python, React",
-   "employment_type": "정규직·계약직",
-   "salary": null,
-   "group": null,
-   "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
-   "stale": false,
-   "logo": null
   },
   {
    "id": "jasoseol:107223-434783",
@@ -12991,7 +12937,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/115aa50bc23a.png"
   },
@@ -13017,7 +12963,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/b6b497b961d1.png"
   },
@@ -13043,7 +12989,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/73efe2eaa0a3.png"
   },
@@ -13069,7 +13015,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/73efe2eaa0a3.png"
   },
@@ -13095,7 +13041,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/73efe2eaa0a3.png"
   },
@@ -13121,7 +13067,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/73efe2eaa0a3.png"
   },
@@ -13147,7 +13093,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/73efe2eaa0a3.png"
   },
@@ -13173,7 +13119,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/73efe2eaa0a3.png"
   },
@@ -13199,7 +13145,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/73efe2eaa0a3.png"
   },
@@ -13225,7 +13171,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/3f7ee588656f.png"
   },
@@ -13251,7 +13197,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/3f7ee588656f.png"
   },
@@ -13277,7 +13223,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "also": [
     {
@@ -13309,7 +13255,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "also": [
     {
@@ -13341,35 +13287,9 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": null
-  },
-  {
-   "id": "jasoseol:107203-434733",
-   "source": "jasoseol",
-   "title": "2027년 각 부문 동계인턴 채용공고 · [서울] 전산팀 인턴",
-   "company": "에어퍼스트",
-   "url": "https://jasoseol.com/recruit/107203",
-   "cats": [
-    "dev"
-   ],
-   "level": "intern",
-   "region": null,
-   "region_key": null,
-   "deadline": "2026-11-26",
-   "deadline_text": null,
-   "posted": "2026-11-12",
-   "public": true,
-   "bigco": false,
-   "sector": null,
-   "employment_type": null,
-   "salary": null,
-   "group": null,
-   "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
-   "stale": false,
-   "logo": "logos/9fbfde9c9d0f.png"
   },
   {
    "id": "saramin:55239339",
@@ -13393,7 +13313,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "also": [
     {
@@ -13425,87 +13345,9 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/aeef6ae58cfc.png"
-  },
-  {
-   "id": "jasoseol:107187-434614",
-   "source": "jasoseol",
-   "title": "[2026년 2차] 한국한의학연구원 정규직 채용공고 · (A1) AI 한의학 데이터 센터 구축",
-   "company": "한국한의학연구원",
-   "url": "https://jasoseol.com/recruit/107187",
-   "cats": [
-    "dev"
-   ],
-   "level": "senior",
-   "region": null,
-   "region_key": null,
-   "deadline": "2026-11-26",
-   "deadline_text": null,
-   "posted": "2026-11-11",
-   "public": true,
-   "bigco": false,
-   "sector": null,
-   "employment_type": null,
-   "salary": null,
-   "group": null,
-   "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
-   "stale": false,
-   "logo": "logos/4b3d2f508b27.png"
-  },
-  {
-   "id": "jasoseol:107187-434615",
-   "source": "jasoseol",
-   "title": "[2026년 2차] 한국한의학연구원 정규직 채용공고 · (A2) 한의 AI 응용 연구",
-   "company": "한국한의학연구원",
-   "url": "https://jasoseol.com/recruit/107187",
-   "cats": [
-    "ai"
-   ],
-   "level": "senior",
-   "region": null,
-   "region_key": null,
-   "deadline": "2026-11-26",
-   "deadline_text": null,
-   "posted": "2026-11-11",
-   "public": true,
-   "bigco": false,
-   "sector": null,
-   "employment_type": null,
-   "salary": null,
-   "group": null,
-   "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
-   "stale": false,
-   "logo": "logos/4b3d2f508b27.png"
-  },
-  {
-   "id": "jasoseol:107197-434684",
-   "source": "jasoseol",
-   "title": "2027년 1차 직원(정규직/무기계약직) 채용 · AI 컴퓨팅 인프라 구축·운영 및 연구지원 기술직",
-   "company": "한국해양과학기술원",
-   "url": "https://jasoseol.com/recruit/107197",
-   "cats": [
-    "ai"
-   ],
-   "level": "senior",
-   "region": null,
-   "region_key": null,
-   "deadline": "2026-11-26",
-   "deadline_text": null,
-   "posted": "2026-11-11",
-   "public": true,
-   "bigco": false,
-   "sector": null,
-   "employment_type": null,
-   "salary": null,
-   "group": null,
-   "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
-   "stale": false,
-   "logo": "logos/be2c431f933f.png"
   },
   {
    "id": "jasoseol:107198-434700",
@@ -13529,7 +13371,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/9091194d52e6.png"
   },
@@ -13555,7 +13397,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/9091194d52e6.png"
   },
@@ -13581,7 +13423,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/9091194d52e6.png"
   },
@@ -13607,7 +13449,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/9091194d52e6.png"
   },
@@ -13633,7 +13475,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": null
   },
@@ -13659,7 +13501,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/2c1dac63e9bd.png"
   },
@@ -13685,7 +13527,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/2c1dac63e9bd.png"
   },
@@ -13711,7 +13553,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/43a47e8a4cbe.png"
   },
@@ -13737,7 +13579,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/b4a77f7adc63.png"
   },
@@ -13763,7 +13605,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/b4a77f7adc63.png"
   },
@@ -13789,7 +13631,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/b4a77f7adc63.png"
   },
@@ -13815,7 +13657,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/b4a77f7adc63.png"
   },
@@ -13841,7 +13683,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/b4a77f7adc63.png"
   },
@@ -13867,7 +13709,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/b4a77f7adc63.png"
   },
@@ -13893,7 +13735,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/b4a77f7adc63.png"
   },
@@ -13919,7 +13761,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/b4a77f7adc63.png"
   },
@@ -13945,7 +13787,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/b4a77f7adc63.png"
   },
@@ -13971,7 +13813,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": null
   },
@@ -13997,7 +13839,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": null
   },
@@ -14023,7 +13865,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/0bc1a679fa5e.png"
   },
@@ -14049,7 +13891,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/0bc1a679fa5e.png"
   },
@@ -14075,7 +13917,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": null
   },
@@ -14101,7 +13943,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/b917de4ce041.png"
   },
@@ -14127,7 +13969,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/9b1933dd2ca8.png"
   },
@@ -14153,7 +13995,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/d4d729562313.png"
   },
@@ -14179,7 +14021,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/fea8ceb5e92a.png"
   },
@@ -14205,7 +14047,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/c3fd1330adae.png"
   },
@@ -14231,7 +14073,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/c3fd1330adae.png"
   },
@@ -14257,7 +14099,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/60abee03d9da.png"
   },
@@ -14283,7 +14125,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/60abee03d9da.png"
   },
@@ -14309,7 +14151,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/570171d6a5c0.png"
   },
@@ -14335,7 +14177,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/c3fd1330adae.png"
   },
@@ -14361,7 +14203,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/9b1933dd2ca8.png"
   },
@@ -14387,7 +14229,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/a52d03e57153.png"
   },
@@ -14413,7 +14255,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": null
   },
@@ -14439,7 +14281,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/c1f24c785c7f.png"
   },
@@ -14465,7 +14307,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/c1f24c785c7f.png"
   },
@@ -14491,7 +14333,7 @@
    "salary": null,
    "group": null,
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "stale": false,
    "logo": "logos/c1f24c785c7f.png"
   }
